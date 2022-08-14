@@ -2,18 +2,18 @@
     <div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
         <div class="container-custom">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <!-- Info on Topbar -->
                     <ul class="topbar-left">
-                        <li><i class="icon ion-md-pin"></i>Forusbeen 50, 4035 Stavanger, Norway</li>
-                        <li><i class="icon ion-md-call"></i>+84 0378 260 852</li>
-                        <li><i class="icon ion-md-mail"></i>info.industris@gmail.com</li>
+                        <li><i class="icon ion-md-pin"></i>Bhagyalaxmi Industrial Estate,St. no 2, Bhavnagar Rd, Rajkot</li>
+                        <li><i class="icon ion-md-call"></i>+91 87584 22436</li>
+                        <li><i class="icon ion-md-mail"></i>karanranparia@gmail.com</li>
                     </ul>
                 </div>
                 <!-- Info on topbar close -->
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <ul class="topbar-right pull-right">
-                        <li class="toggle_search topbar-search"><a href="#"><i class="icon ion-md-search"></i></a></li>
+                        {{-- <li class="toggle_search topbar-search"><a href="#"><i class="icon ion-md-search"></i></a></li> --}}
                         <li class="topbar-login"><a href="#"> Login </a></li>
                         <li class="topbar-languages"><a href="#"> English <i class="icon ion-ios-arrow-down"></i></a></li>
                     </ul>
@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo-brand">
-                        <a href="index.html"><img src="images/logo.png" alt="industris"></a>
+                        <a href="index.html"><img src="https://ranpariagroup.in/assets/img/logo/logo.png" alt="industris"></a>
                     </div>
                 </div>
                 <div class="col-md-9">

@@ -19,7 +19,7 @@
     </head>
     <body class="antialiased">
         @include('layouts.partials.navabar')
-
+        @include('layouts.partials.carousel')
         @yield('content')
 
         @include('layouts.partials.footer')

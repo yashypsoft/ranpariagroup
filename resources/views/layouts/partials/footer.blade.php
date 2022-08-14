@@ -6,11 +6,11 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="widget-footer">
                         <div id="media_image-1" class="widget widget_media_image">
-                            <a href="index.html"><img src="images/logo-footer.png" alt=""></a>
+                            <a href="index.html"><img src="https://ranpariagroup.in/assets/img/logo/logo.png" alt=""></a>
                         </div>
                         <div id="custom_html-1" class="widget_text widget widget_custom_html">
                             <div class="textwidget custom-html-widget">
-                                <p>Privacy | Integrity ©2019 Industris Company. <br>All Rights Res</p>
+                                <p>Copyright © 2021 RANPARIA ENGINEERING CO. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
@@ -92,9 +92,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="topbar-left">
-                        <li><i class="icon ion-md-pin"></i>Forusbeen 50, 4035 Stavanger, Norway</li>
-                        <li><i class="icon ion-md-call"></i>+84 0378 260 852</li>
-                        <li><i class="icon ion-md-mail"></i>info.industris@gmail.com</li>
+                        <li><i class="icon ion-md-pin"></i>Bhagyalaxmi Industrial Estate,St. no 2, Bhavnagar Rd, Rajkot</li>
+                        <li><i class="icon ion-md-call"></i>+91 87584 22436</li>
+                        <li><i class="icon ion-md-mail"></i>karanranparia@gmail.com</li>
                     </ul>
                     <a id="back-to-top" href="#" class="btn btn-back-to-top pull-right">Back to top<i class="icon ion-ios-arrow-dropup-circle"></i></a>
                 </div>
