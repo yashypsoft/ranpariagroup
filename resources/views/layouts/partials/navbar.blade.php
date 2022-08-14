@@ -44,6 +44,8 @@
                             </li>
                             <li class="menu-item"><a href="{{ route('quality') }}">Quality</a>
                             </li>
+                            <li class="menu-item"><a href="{{ route('products') }}">E-Catalogue</a>
+                            </li>
                             <li class="menu-item"><a href="{{ route('career') }}">Career</a>
                             </li>
                             <li class="menu-item"><a href="{{ route('contact-us') }}">Contact us</a>
