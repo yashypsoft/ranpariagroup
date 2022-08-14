@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('title','Contact Us')
+@section('title','Our Journey')
 
 @section('content')
   @include('layouts.partials.page-header')
-  Contact Us
+  Our journey
 @endsection

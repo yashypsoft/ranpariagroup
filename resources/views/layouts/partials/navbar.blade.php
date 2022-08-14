@@ -13,8 +13,6 @@
                 <!-- Info on topbar close -->
                 <div class="col-md-3">
                     <ul class="topbar-right pull-right">
-                        {{-- <li class="toggle_search topbar-search"><a href="#"><i class="icon ion-md-search"></i></a></li> --}}
-                        {{-- <li class="topbar-login"><a href="#"> Login </a></li> --}}
                         <li class="topbar-languages"><a href="#"> English <i class="icon ion-ios-arrow-down"></i></a></li>
                     </ul>
                 </div>
@@ -27,31 +25,30 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo-brand">
-                        <a href="{{ url()->to('/') }}"><img src="https://ranpariagroup.in/assets/img/logo/logo.png" alt="industris"></a>
+                        <a href="{{ route('home') }}"><img src="https://ranpariagroup.in/assets/img/logo/logo.png" alt="industris"></a>
                     </div>
                 </div>
                 <div class="col-md-9">
                     <div class="main-navigation">
                         <ul id="primary-menu" class="menu">
-                            <li class="menu-item current-menu-ancestor current-menu-parent"><a href="{{ url()->to('/') }}">Home</a></li>
-                            <li class="menu-item menu-item-has-children"><a href="{{ url()->to('/about-us') }}">About Us</a>
+                            <li class="menu-item current-menu-ancestor current-menu-parent"><a href="{{ route('home') }}">Home</a></li>
+                            <li class="menu-item menu-item-has-children"><a href="{{ route('about-us') }}">About Us</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item"><a href="events.html">Our jornery</a></li>
-                                    <li class="menu-item"><a href="events.html">Company Profile</a></li>
-                                    <li class="menu-item"><a href="faq.html">Mission & Vision</a></li>
-                                    <li class="menu-item"><a href="gallery.html">Corporate Video</a></li>
+                                    <li class="menu-item"><a href="{{ route('our-journey') }}">Our journey</a></li>
+                                    <li class="menu-item"><a href="{{ route('company-profile') }}">Company Profile</a></li>
+                                    <li class="menu-item"><a href="{{ route('mission-and-vission') }}">Mission & Vision</a></li>
+                                    <li class="menu-item"><a href="{{ route('corporate-video') }}">Corporate Video</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item"><a href="{{ url()->to('/products') }}">Products</a>
+                            <li class="menu-item"><a href="{{ route('products') }}">Products</a>
                             </li>
-                            <li class="menu-item"><a href="project.html">Quality</a>
+                            <li class="menu-item"><a href="{{ route('quality') }}">Quality</a>
                             </li>
-                            <li class="menu-item"><a href="news.html">Career</a>
+                            <li class="menu-item"><a href="{{ route('career') }}">Career</a>
                             </li>
-                            <li class="menu-item"><a href="news.html">Contact us</a>
+                            <li class="menu-item"><a href="{{ route('contact-us') }}">Contact us</a>
                             </li>
                         </ul>
-                        {{-- <a href="#" class="btn btn-primary">Get a quote<i class="icon ion-md-paper-plane"></i></a> --}}
                     </div>
                 </div>
             </div>

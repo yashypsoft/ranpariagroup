@@ -40,11 +40,9 @@
                         <div id="custom_html-3" class="widget_text widge widget-footer widget_custom_html padding-left">
                             <div class="textwidget custom-html-widget">
                                 <ul>
-                                    <li><a href="index.html">About us</a></li>
-                                    <li><a href="about.html">Contact us</a></li>
-                                    <li><a href="services.html">The news</a></li>
-                                    <li><a href="services.html">Terms &amp; conditions</a></li>
-                                    <li><a href="blog.html">Case Studies</a></li>
+                                    <li><a href="{{ route('about-us') }}">About us</a></li>
+                                    <li><a href="{{ route('contact-us') }}">Contact us</a></li>
+                                    <li><a href="{{ route('products') }}">Products</a></li>
                                 </ul>
                             </div>
                         </div>
