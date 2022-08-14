@@ -36,40 +36,17 @@
                             <li class="menu-item current-menu-ancestor current-menu-parent"><a href="{{ url()->to('/') }}">Home</a></li>
                             <li class="menu-item menu-item-has-children"><a href="{{ url()->to('/about-us') }}">About Us</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item"><a href="{{ url()->to('/about-us') }}">About Us</a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="events.html">Events</a>
-                                        <ul class="">
-                                            <li class="menu-item"><a href="events.html">Event</a></li>
-                                            <li class="menu-item"><a href="events-detail.html">Event Detail</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item menu-item-has-children"><a href="shop.html">Shop</a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="shop.html">Shop</a></li>
-                                            <li class="menu-item"><a href="shop-detail.html">Shop Detail</a></li>
-                                            <li class="menu-item"><a href="cart.html">Cart</a></li>
-                                            <li class="menu-item"><a href="checkout.html">Checkout</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item"><a href="faq.html">FAQ's</a></li>
-                                    <li class="menu-item"><a href="gallery.html">Gallery</a></li>
-                                    <li class="menu-item"><a href="404-page.html">404 Pages</a></li>
-                                    <li class="menu-item"><a href="comming-soon.html">Comming Soon</a></li>
-                                    <li class="menu-item"><a href="login.html">Login</a></li>
-                                    <li class="menu-item"><a href="typography.html">Typography</a></li>
-                                    <li class="menu-item"><a href="carrer.html">Career Page</a></li>
-                                    <li class="menu-item"><a href="corporate-governance.html">Corporate Governance</a></li>
-                                    <li class="menu-item"><a href="history.html">History</a></li>
-                                    <li class="menu-item"><a href="our-team.html">Our Team</a></li>
-                                    <li class="menu-item"><a href="partner-clients.html">Partner Clients</a></li>
-                                    <li class="menu-item"><a href="contact-us.html">Contact Us</a></li>
+                                    <li class="menu-item"><a href="events.html">Our jornery</a></li>
+                                    <li class="menu-item"><a href="events.html">Company Profile</a></li>
+                                    <li class="menu-item"><a href="faq.html">Mission & Vision</a></li>
+                                    <li class="menu-item"><a href="gallery.html">Corporate Video</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item"><a href="products.html">Products</a>
+                            <li class="menu-item"><a href="{{ url()->to('/products') }}">Products</a>
                             </li>
                             <li class="menu-item"><a href="project.html">Quality</a>
                             </li>
-                            <li class="menu-item"><a href="news.html">Carrier</a>
+                            <li class="menu-item"><a href="news.html">Career</a>
                             </li>
                             <li class="menu-item"><a href="news.html">Contact us</a>
                             </li>

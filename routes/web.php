@@ -18,9 +18,13 @@ Route::get('/', function () {
 });
 
 Route::get('/about-us', function () {
-    return view('aboutus');
+    return view('about-us');
 });
 
 Route::get('/contect-us', function () {
-    return view('contactus');
+    return view('contact-us');
+});
+
+Route::get('/products', function () {
+    return view('products');
 });

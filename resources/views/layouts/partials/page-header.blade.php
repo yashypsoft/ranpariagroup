@@ -3,10 +3,10 @@
         <div class="breadc-box no-line">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="page-title">About Us</h2>
+                    <h2 class="page-title">@yield('title')</h2>
                     <ul id="breadcrumbs" class="breadcrumbs none-style">
                         <li><a href="index.html">Home</a></li>
-                        <li class="active">About Us</li>
+                        <li class="active">@yield('title')</li>
                     </ul>
                 </div>
             </div>

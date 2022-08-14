@@ -18,7 +18,7 @@
         <link rel="shortcut icon" href="favicon.png">
     </head>
     <body class="antialiased">
-        @include('layouts.partials.navabar')
+        @include('layouts.partials.navbar')
         @yield('content')
 
         @include('layouts.partials.footer')
