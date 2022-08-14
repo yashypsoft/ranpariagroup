@@ -14,7 +14,7 @@
                 <div class="col-md-3">
                     <ul class="topbar-right pull-right">
                         {{-- <li class="toggle_search topbar-search"><a href="#"><i class="icon ion-md-search"></i></a></li> --}}
-                        <li class="topbar-login"><a href="#"> Login </a></li>
+                        {{-- <li class="topbar-login"><a href="#"> Login </a></li> --}}
                         <li class="topbar-languages"><a href="#"> English <i class="icon ion-ios-arrow-down"></i></a></li>
                     </ul>
                 </div>
@@ -27,23 +27,16 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo-brand">
-                        <a href="index.html"><img src="https://ranpariagroup.in/assets/img/logo/logo.png" alt="industris"></a>
+                        <a href="{{ url()->to('/') }}"><img src="https://ranpariagroup.in/assets/img/logo/logo.png" alt="industris"></a>
                     </div>
                 </div>
                 <div class="col-md-9">
                     <div class="main-navigation">
                         <ul id="primary-menu" class="menu">
-                            <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent"><a href="index.html">Home</a>
+                            <li class="menu-item current-menu-ancestor current-menu-parent"><a href="{{ url()->to('/') }}">Home</a></li>
+                            <li class="menu-item menu-item-has-children"><a href="{{ url()->to('/about-us') }}">About Us</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item current-menu-item page_item current_page_item"><a href="index.html">Home 1</a></li>
-                                    <li class="menu-item"><a href="index-2.html">Home 2</a></li>
-                                    <li class="menu-item"><a href="index-3.html">Home 3</a></li>
-                                    <li class="menu-item"><a href="index-4.html">Home 4</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-has-children"><a href="about-us.html">About Us</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="about-us.html">About Us</a></li>
+                                    <li class="menu-item"><a href="{{ url()->to('/about-us') }}">About Us</a></li>
                                     <li class="menu-item menu-item-has-children"><a href="events.html">Events</a>
                                         <ul class="">
                                             <li class="menu-item"><a href="events.html">Event</a></li>
@@ -72,29 +65,16 @@
                                     <li class="menu-item"><a href="contact-us.html">Contact Us</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item menu-item-has-children"><a href="services.html">Services</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="services.html">Services</a></li>
-                                    <li class="menu-item"><a href="services-2.html">Services 2</a></li>
-                                    <li class="menu-item"><a href="services-detail.html">Services Detail</a></li>
-                                </ul>
+                            <li class="menu-item"><a href="products.html">Products</a>
                             </li>
-                            <li class="menu-item menu-item-has-children"><a href="project.html">Projects</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="project.html">Project 1</a></li>
-                                    <li class="menu-item"><a href="project-2.html">Project 2</a></li>
-                                    <li class="menu-item"><a href="project-detail.html">Project Detail</a></li>
-                                </ul>
+                            <li class="menu-item"><a href="project.html">Quality</a>
                             </li>
-                            <li class="menu-item menu-item-has-children"><a href="news.html">News</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item current-menu-item page_item current_page_item"><a href="news.html">News 1</a></li>
-                                    <li class="menu-item"><a href="news-2.html">News 2</a></li>
-                                    <li class="menu-item"><a href="post.html">News Detail</a></li>
-                                </ul>
+                            <li class="menu-item"><a href="news.html">Carrier</a>
+                            </li>
+                            <li class="menu-item"><a href="news.html">Contact us</a>
                             </li>
                         </ul>
-                        <a href="#" class="btn btn-primary">Get a quote<i class="icon ion-md-paper-plane"></i></a>
+                        {{-- <a href="#" class="btn btn-primary">Get a quote<i class="icon ion-md-paper-plane"></i></a> --}}
                     </div>
                 </div>
             </div>
