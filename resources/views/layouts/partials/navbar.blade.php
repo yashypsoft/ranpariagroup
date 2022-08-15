@@ -31,8 +31,8 @@
                 <div class="col-md-9">
                     <div class="main-navigation">
                         <ul id="primary-menu" class="menu">
-                            <li class="menu-item current-menu-ancestor current-menu-parent"><a href="{{ route('home') }}">Home</a></li>
-                            <li class="menu-item menu-item-has-children"><a href="{{ route('about-us') }}">About Us</a>
+                            <li class="menu-item {{ request()->is('/') ? 'current-menu-parent' : ''  }}"><a href="{{ route('home') }}">Home</a></li>
+                            <li class="menu-item menu-item-has-children {{ (request()->is('about-us') || request()->is('our-journey') || request()->is('company-profile') || request()->is('mission-and-vission') || request()->is('corporate-video')) ? 'current-menu-parent' : ''  }}"><a href="{{ route('about-us') }}">About Us</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item"><a href="{{ route('our-journey') }}">Our journey</a></li>
                                     <li class="menu-item"><a href="{{ route('company-profile') }}">Company Profile</a></li>
@@ -40,15 +40,15 @@
                                     <li class="menu-item"><a href="{{ route('corporate-video') }}">Corporate Video</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item"><a href="{{ route('products') }}">Products</a>
+                            <li class="menu-item {{ request()->is('products') ? 'current-menu-parent' : ''  }}"><a href="{{ route('products') }}">Products</a>
                             </li>
-                            <li class="menu-item"><a href="{{ route('quality') }}">Quality</a>
+                            <li class="menu-item {{ request()->is('quality') ? 'current-menu-parent' : ''  }}"><a href="{{ route('quality') }}">Quality</a>
                             </li>
                             <li class="menu-item"><a href="{{ url()->to('https://drive.google.com/file/d/1OtHi0nA_jLeQIE9DonsdIo-Q3_yEUMIA/view?usp=sharing') }}">E-Catalogue</a>
                             </li>
-                            <li class="menu-item"><a href="{{ route('career') }}">Career</a>
+                            <li class="menu-item {{ request()->is('career') ? 'current-menu-parent' : ''  }}"><a href="{{ route('career') }}">Career</a>
                             </li>
-                            <li class="menu-item"><a href="{{ route('contact-us') }}">Contact us</a>
+                            <li class="menu-item {{ request()->is('contact-us') ? 'current-menu-parent' : ''  }}"><a href="{{ route('contact-us') }}">Contact us</a>
                             </li>
                         </ul>
                     </div>
