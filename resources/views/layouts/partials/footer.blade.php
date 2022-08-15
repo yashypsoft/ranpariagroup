@@ -10,7 +10,7 @@
                         </div>
                         <div id="custom_html-1" class="widget_text widget widget_custom_html">
                             <div class="textwidget custom-html-widget">
-                                <p>Copyright © 2021 RANPARIA ENGINEERING CO. All Rights Reserved</p>
+                                <p>Copyright © {{now()->year}} RANPARIA ENGINEERING CO. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
