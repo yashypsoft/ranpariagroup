@@ -11,9 +11,9 @@
                 <div class="col-md-6 col-sm-12">
                     <h4 class="text-primary">CONTACT INFO</h4>
                     <div class="contact-info">
-                        <h2>Hotline : <span class="text-primary">+918758422436</span> </h2>
-                        <p><i class="icon ion-md-mail"></i> karanranparia@gmail.com</p>
-                        <p><i class="icon ion-md-pin"></i> Bhagyalaxmi Industrial Estate,St. no 2, Bhavnagar Rd, Rajkot (<a href="#" class="text-primary">View map</a>)</p>
+                        <h2>Hotline : <span class="text-primary" onclick="location.href='tel:+918758422436';">+91 8758422436</span> </h2>
+                        <p onclick="location.href='mailto:karanranparia@gmail.com';"><i class="icon ion-md-mail"></i> karanranparia@gmail.com</p>
+                        <p><i class="icon ion-md-pin"></i> Bhagyalaxmi Industrial Estate,St. no 2, Bhavnagar Rd, Rajkot (<a href="https://g.page/ranparia-engineering-co?share" class="text-primary" target="_blank">View map</a>)</p>
                     </div>
                     <div class="space-industris" style="height: 40px;"></div>
                     <hr>
@@ -36,7 +36,6 @@
                             </div>
                             <div class="col-md-12">
                                 <input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit btn btn-primary">
-                                <input type="submit" value="Subcribe" class="wpcf7-form-control wpcf7-submit btn btn-border">
                             </div>
                         </div>
                     </form>
@@ -51,11 +50,13 @@
                 <div class="col-md-12">
                     <h3>View map:</h3>
                     <div class="map">
-                        <img src="https://via.placeholder.com/1170x500?text=google+map" alt="">
+                        <div class="map-responsive">
+                            <iframe src="https://maps.google.com/maps?q=Ranparia&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn btn-primary btn-m-r">Get derection</a>
-                        <a href="#" class="btn btn-border">Google Map</a>
+                        <a href="https://g.page/ranparia-engineering-co?share" class="btn btn-primary btn-m-r" target="_blank">Get derection</a>
+                        <a href="https://g.page/ranparia-engineering-co?share" class="btn btn-border" target="_blank">Google Map</a>
                     </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="widget-footer">
                         <div id="media_image-1" class="widget widget_media_image">
-                            <a href="index.html"><img src="https://ranpariagroup.in/assets/img/logo/logo.png" alt=""></a>
+                            <a href="{{route('home')}}"><img src="{{asset('logo.png')}}" alt=""></a>
                         </div>
                         <div id="custom_html-1" class="widget_text widget widget_custom_html">
                             <div class="textwidget custom-html-widget">
@@ -23,11 +23,6 @@
                             <div class="textwidget custom-html-widget">
                                 <ul>
                                     <li><a href="service-detail.html">Oil &amp; Gas exploited</a></li>
-                                    <li><a href="service-detail.html">Automotive Manufacturing</a></li>
-                                    <li><a href="service-detail.html">Transportation &amp; Distribution</a></li>
-                                    <li><a href="service-detail.html">Manufacture</a></li>
-                                    <li><a href="service-detail.html">Industrial Construction</a></li>
-                                    <li><a href="service-detail.html">Green Energy</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -90,9 +85,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="topbar-left">
-                        <li><i class="icon ion-md-pin"></i>Bhagyalaxmi Industrial Estate,St. no 2, Bhavnagar Rd, Rajkot</li>
-                        <li><i class="icon ion-md-call"></i>+91 87584 22436</li>
-                        <li><i class="icon ion-md-mail"></i>karanranparia@gmail.com</li>
+                        <li onclick="location.href='https://g.page/ranparia-engineering-co?share';"><i class="icon ion-md-pin"></i>Bhagyalaxmi Industrial Estate,St. no 2, Bhavnagar Rd, Rajkot</li>
+                        <li onclick="location.href='tel:+918758422436';"><i class="icon ion-md-call"></i>+91 87584 22436</li>
+                        <li onclick="location.href='mailto:karanranparia@gmail.com';"><i class="icon ion-md-mail"></i>karanranparia@gmail.com</li>
                     </ul>
                     <a id="back-to-top" href="#" class="btn btn-back-to-top pull-right">Back to top<i class="icon ion-ios-arrow-dropup-circle"></i></a>
                 </div>

@@ -9,16 +9,18 @@
         <div class="row">
             <div class="col-md-7 col-sm-12">
                 <h2>Mission & Vision</h2>
-                <p>Our industries are experiencing basic challenges. From climate change and geopolitics to the energy market, we are facing new reality. Some people consider them a threat. At Industris, we believe our job is to turn them into opportunities.
-                <br>That's why we look for new ways to use our expertise in the energy industry, discover new opportunities and promote innovation around the world. Our ambition is to become the world's most efficient industrial solutions and services provider.</p>
+
+                <p> <strong> Mission: </strong> To be the foremost manufacturer and supplier of various component by maintaining consistency in quality through continuous improvements in process by upgrading technology for offering at competitive price.</p>
                 <br>
-                <p>Our industries are experiencing basic challenges. From climate change and geopolitics to the energy market, we are facing new reality. Some people consider them a threat. At Industris, we believe our job is to turn them into opportunities.
-                    <br>That's why we look for new ways to use our expertise in the energy industry, discover new opportunities and promote innovation around the world. Our ambition is to become the world's most efficient industrial solutions and services provider.</p>
-                    <br>
+                <p> <strong> Vision: </strong> Our aim is to offer the best quality product at competitve price which can stand for times by keeping futuristic vision.
+                <br/>
+                <br/>
+                We aim to create company that is of and for the customers, vendors and employees. and to serve the quality product to the society without harming the enviroment.
+                </p>
             </div>
             <div class="col-md-5 col-sm-12 sm-center">
                 <div class="industris-space-sm"></div>
-                <img src="https://via.placeholder.com/458x478.png" alt="">
+                <img src="http://ranpariagroup.in/assets/img/about/about-02.jpg" alt="">
             </div>
         </div>
     </div>
