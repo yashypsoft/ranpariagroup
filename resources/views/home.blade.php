@@ -165,7 +165,7 @@
         <div class="flex-row">
             <div class="video-section-left" style="background-image:url('https://via.placeholder.com/846x742.png');">
                 <div class="home-video video-player">
-                    <a class="video-play" href="https://www.youtube.com/watch?v=SyRchIzIq9I"><i class="icon ion-md-play"></i></a>
+                    <a class="video-play" href="https://www.youtube.com/watch?v=QI1n0niG5E4"><i class="icon ion-md-play"></i></a>
                 </div>
             </div>
             <div class="video-section-right">
@@ -203,7 +203,7 @@
                 <h2 class="no-margin-bottom">Our Products</h2>
             </div>
             <div class="col-md-6 text-right align-self-end">
-                <a class="industris-lineheight" href="news.html">View all products<i class="icon ion-md-add-circle-outline"></i></a>
+                <a class="industris-lineheight" href="{{ route('products')}}">View all products<i class="icon ion-md-add-circle-outline"></i></a>
             </div>
         </div>
         <div class="industris-space"></div>
