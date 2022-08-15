@@ -12,7 +12,9 @@
 
 
         <title>@yield('title') | Ranparia Engineering Group </title>
+
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+        @yield('addcss')
         <link rel="stylesheet" id="bootstrap-css" href="{{ asset('/css/bootstrap.css') }}" type="text/css" media="all">
         <link rel="stylesheet" id="awesome-font-css" href="{{ asset('css/font-awesome.css') }}" type="text/css" media="all">
         <link rel="stylesheet" id="ionicon-font-css" href="{{ asset('css/ionicon.css') }}" type="text/css" media="all">
@@ -20,7 +22,6 @@
         <link rel="stylesheet" id="slick-theme-css" href="{{ asset('css/slick-theme.css') }}" type="text/css" media="all">
         <link rel="stylesheet" id="magnific-popup-css" href="{{ asset('css/magnific-popup.css') }}" type="text/css" media="all">
         <link rel="stylesheet" id="industris-style-css" href="{{ asset('css/style.css') }}" type="text/css" media="all">
-
         <link rel="shortcut icon" href="{{ asset('favicon.ico')}}">
     </head>
     <body class="antialiased">
@@ -31,6 +32,7 @@
 
 
         <script src='{{ asset('js/jquery.min.js') }}'></script>
+        <script src='{{ asset('js/bootstrap.min.js') }}'></script>
         <script src='{{ asset('js/slick.min.js') }}'></script>
         <script src='{{ asset('js/jquery.sticky.js') }}'></script>
         <script src='{{ asset('js/countto.min.js') }}'></script>

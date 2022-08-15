@@ -1501,7 +1501,7 @@ select.form-control {
 }
 
 .main-navigation ul ul li.menu-item-has-children>a:after {
-    display: inline-block;
+    /* display: inline-block; */
     position: absolute;
     top: 30px;
     right: 25px;
@@ -3042,8 +3042,8 @@ div:last-child>.process .process-icon:after {
     margin-bottom: 30px;
     border: 1px solid #cccccc;
     transition: all .3s linear;
-    - webkit-transition: all .3s linear;
-    - moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
     -o-transition: all .3s linear;
     -ms-transition: all .3s linear;
 }
@@ -5804,4 +5804,11 @@ blockquote {
 
 .topbar-left li{
     cursor: pointer;
+}
+.modal-footer .btn{
+    padding: 8px;
+}
+
+.form-group .input-group{
+    display: flex;
 }

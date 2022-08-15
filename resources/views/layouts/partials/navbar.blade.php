@@ -48,7 +48,7 @@
                             </li>
                             <li class="menu-item {{ request()->is('career') ? 'current-menu-parent' : ''  }}"><a href="{{ route('career') }}">Career</a>
                             </li>
-                            <li class="menu-item {{ request()->is('contact-us') ? 'current-menu-parent' : ''  }}"><a href="{{ route('contact-us') }}">Contact us</a>
+                            <li class="menu-item {{ request()->is('contact-us') ? 'current-menu-parent' : ''  }}"><a href="{{ route('contact-us') }}">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -92,7 +92,7 @@
                             </li>
                             <li class="menu-item"><a href="{{ route('career') }}">Career</a>
                             </li>
-                            <li class="menu-item"><a href="{{ route('contact-us') }}">Contact us</a>
+                            <li class="menu-item"><a href="{{ route('contact-us') }}">Contact Us</a>
                             </li>
                         </ul>
                     </div>

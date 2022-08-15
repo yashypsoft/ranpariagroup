@@ -36,8 +36,8 @@
                         <div id="custom_html-3" class="widget_text widge widget-footer widget_custom_html padding-left">
                             <div class="textwidget custom-html-widget">
                                 <ul>
-                                    <li><a href="{{ route('about-us') }}">About us</a></li>
-                                    <li><a href="{{ route('contact-us') }}">Contact us</a></li>
+                                    <li><a href="{{ route('about-us') }}">About Us</a></li>
+                                    <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                                     <li><a href="{{ route('products') }}">Products</a></li>
                                     <li><a href="{{ route('company-profile') }}">Company Profile</a></li>
                                     <li><a href="{{ route('our-journey') }}">Our Journey</a></li>
@@ -57,7 +57,7 @@
                             </div>
                         </div>
 
-                        <div class="footer-social ot-socials bg-white">
+                        <div class="footer-social ot-socials">
                             follow us:
                             <a target="_blank" href="#" rel="noopener noreferrer"><i class="icon ion-logo-facebook"></i></a>
                             <a target="_blank" href="#" rel="noopener noreferrer"><i class="icon ion-logo-instagram"></i></a>
