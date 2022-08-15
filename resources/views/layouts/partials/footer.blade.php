@@ -19,11 +19,12 @@
 
                 <div class="col-md-3 col-sm-6">
                     <div class="widget-footer">
-                        <div id="custom_html-2" class="widget_text widget widget_custom_html padding-left">
+                        <div id="media_image-1" class="widget widget_media_image">
+                            <a href="index.html"><img src="{{asset('images/iso-ts.png')}}" alt=""></a>
+                        </div>
+                        <div id="custom_html-1" class="widget_text widget widget_custom_html">
                             <div class="textwidget custom-html-widget">
-                                <ul>
-                                    <li><a href="service-detail.html">Oil &amp; Gas exploited</a></li>
-                                </ul>
+                                <p>Being an ISO 9001:2008/TS:16949:2009 certified company, we pay paramount attention to quality throughout the production stages, ensuring that the best and flawless products offered to our customers.</p>
                             </div>
                         </div>
                     </div>
