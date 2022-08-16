@@ -18,7 +18,7 @@
             $('.checkout-login-form').stop(true, true).slideUp();
         }
     });
-    
+
     $('.have-coupon a').on("click", function(){
         $(this).toggleClass( "active" );
         if ($(this).hasClass( "active" )) {
@@ -36,12 +36,12 @@
 			$('.mobile-nav').stop(true, true).slideDown();
 		}else{
 			$('.mobile-nav').stop(true, true).slideUp();
-		}		
+		}
 	});
 
 	$(".mobile-menu li span.arrow").on('click', function() {
         $(this).parent().find("> ul").stop(true, true).slideToggle()
-        $(this).toggleClass( "active" ); 
+        $(this).toggleClass( "active" );
     });
 
 
@@ -80,23 +80,23 @@
     var v_count = '0';
     $(window).on("scroll", function(){
         $('.counter-box .number, .icon-box .number').each(function(){
-            var imagePos = $(this).offset().top;           
+            var imagePos = $(this).offset().top;
             var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow+800 && v_count=='0') {       
+            if (imagePos < topOfWindow+800 && v_count=='0') {
                 $(function ($) {
                     // start all the timers
-                    $('.counter-box .number, .icon-box .number').each(count);                                         
+                    $('.counter-box .number, .icon-box .number').each(count);
                     function count(options) {
                         v_count = '1';
                         var $this = $(this);
                         options = $.extend({}, options || {}, $this.data('countToOptions') || {});
                         $this.countTo(options);
                     }
-                });             
+                });
             }
         });
     });
-    
+
     /* Scroll **/
 
     if ($('.scroll-btn').length) {
@@ -197,7 +197,7 @@
                 }
             ]
         });
-    });    
+    });
 
     //Slider 2
     if ($('.slider-2, .slider-2-nav').length) {
@@ -276,7 +276,7 @@
                 }
             ]
         });
-    });    
+    });
 
     //Testimonial Slider
 
@@ -327,7 +327,7 @@
                 }
             ]
         });
-    });    
+    });
 
 
     $('.testi-slider-2').each( function () {
@@ -377,7 +377,7 @@
                 }
             ]
         });
-    });    
+    });
 
 
     //Images Carousel
@@ -502,7 +502,7 @@
                 }
             ]
         });
-    });    
+    });
 
     //Slick feature project
     if ($('.slick-feature-project, .slick-feature-project-nav').length) {
@@ -580,7 +580,7 @@
                 }
             ]
         });
-    });    
+    });
 
     //Slider product
     if ($('.slider-product, .slider-product-nav').length) {
@@ -616,7 +616,7 @@
 	        $('html,body').animate({
 	            scrollTop: 0
 	        }, 700);
-	    });	
+	    });
     }
 
 
@@ -639,7 +639,7 @@
 
 // Initialize popup as usual
 if ($('.image-link').length) {
-    $('.image-link').magnificPopup({ 
+    $('.image-link').magnificPopup({
       type: 'image',
       mainClass: 'mfp-with-zoom', // this class is for CSS animation below
 
@@ -647,7 +647,7 @@ if ($('.image-link').length) {
         enabled: true, // By default it's false, so don't forget to enable it
 
         duration: 300, // duration of the effect, in milliseconds
-        easing: 'ease-in-out', // CSS transition easing function 
+        easing: 'ease-in-out', // CSS transition easing function
 
         // The "opener" function should return the element from which popup will be zoomed in
         // and to which popup will be scaled down
@@ -657,7 +657,7 @@ if ($('.image-link').length) {
           // you don't need to add "opener" option if this code matches your needs, it's defailt one.
           return openerElement.is('img') ? openerElement : openerElement.find('img');
         }
-        
+
       },
        image: {
         // options for image content type
@@ -667,7 +667,7 @@ if ($('.image-link').length) {
         // options for gallery
         enabled: true
       },
-      
+
 
     });// JavaScript Document
 }

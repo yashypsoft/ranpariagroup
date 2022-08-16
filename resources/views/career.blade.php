@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Career')
+@section('addcss')
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+@endsection
 
 @section('content')
     @include('layouts.partials.page-header')
@@ -33,10 +36,52 @@
                             - Torquent tellus nisl nam ornare a, lacinia metus fames.
                         </p>
                         <div class="industris-space-30"></div>
-                        <a href="#" class="btn btn-primary">Apply Now</a>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#applyModel">Apply Now</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="applyModel" tabindex="-1" aria-labelledby="applyModelLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title h2" id="applyModelLabel">Apply for ABC</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mx-2">
+                  <label for="recipient-name" class="col-form-label">Full name:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mx-2 mt-3">
+                  <label for="message-text" class="col-form-label">Email:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mx-2 mt-3">
+                    <div class="">
+                        <label for="message-text" class="col-form-label">Upload CV:</label>
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" id="inputGroupFile01">
+                          <label class="custom-file-label" for="inputGroupFile01">Attach yout CV (PDF/Doc)</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-2 mt-3">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control " rows="4" cols="50" id="message-text" placeholder="Type your message here..."></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button"  class="btn btn-primary">Apply</button>
+        </div>
+      </div>
+    </div>
+  </div>
 @endsection
