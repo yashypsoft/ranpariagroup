@@ -59,10 +59,10 @@
 
 <section class="no-padding-bottom">
     <div class="container">
-        <div class="row">
+        <div class="row text-center">
             <div class="col-md-12">
                 <h4 class="text-primary">OUR SERVICES</h4>
-                <h2>What we do</h2>
+                <h2>Industries We Serve</h2>
                 <div class="industris-space-30"></div>
 
                 <div class="services-block-left">
@@ -71,17 +71,15 @@
                     </div>
                 </div>
 
-                <div class="services-slider" data-show="3" data-arrow="true">
+                <div class="services-slider" data-show="4" data-arrow="true">
 
                     <div class="services-item">
-                        <div class="services-box">
+                        <div class="services-box text-center">
                             <div class="services-icon">
                                 <img src="https://via.placeholder.com/142x174.png" alt="">
                             </div>
                             <div class="services-content">
-                                <h3><a href="services-detail.html">Transportation & Distribution</a></h3>
-                                <p>By specializing in the transportation of goods in and around the Midwestern United States, we are able to...</p>
-                                <a class="view-detail" href="#">View details<i class="icon ion-md-add-circle-outline"></i></a>
+                                <h4><a href="services-detail.html">Agriculture</a></h4>
                             </div>
                         </div>
                     </div>
@@ -92,10 +90,7 @@
                                 <img src="https://via.placeholder.com/142x174.png" alt="">
                             </div>
                             <div class="services-content">
-                                <h3><a href="services-detail.html">Oil & Gas exploited</a></h3>
-                                <p>We are a leading explorer for new oil and gas fields. We do this not only to replenish the reserves we produce from current fields, but also to meet...</p>
-                                <div class="industris-space-10"></div>
-                                <a class="view-detail" href="#">View details<i class="icon ion-md-add-circle-outline"></i></a>
+                                <h4><a href="services-detail.html">Air Compressor</a></h4>
                             </div>
                         </div>
                     </div>
@@ -106,9 +101,7 @@
                                 <img src="https://via.placeholder.com/142x174.png" alt="">
                             </div>
                             <div class="services-content">
-                                <h3><a href="services-detail.html">Automotive Manufacturing</a></h3>
-                                <p>The automotive industry is now undergoing the greatest upheaval in its history due to the advancement...</p>
-                                <a class="view-detail" href="#">View details<i class="icon ion-md-add-circle-outline"></i></a>
+                                <h4><a href="services-detail.html">Earth Movers</a></h4>
                             </div>
                         </div>
                     </div>
@@ -119,9 +112,7 @@
                                 <img src="https://via.placeholder.com/142x174.png" alt="">
                             </div>
                             <div class="services-content">
-                                <h3><a href="services-detail.html">Industrial Construction</a></h3>
-                                <p>Diam vehicula platea blandit malesua quam hac vehicula id non leo dui et dapibu turpis quis, tempor augue duis ut justo...</p>
-                                <a class="view-detail" href="#">View details<i class="icon ion-md-add-circle-outline"></i></a>
+                                <h4><a href="services-detail.html">Generators</a></h4>
                             </div>
                         </div>
                     </div>
@@ -132,9 +123,7 @@
                                 <img src="https://via.placeholder.com/142x174.png" alt="">
                             </div>
                             <div class="services-content">
-                                <h3><a href="services-detail.html">Manufacture</a></h3>
-                                <p>With IoT business solutions, manufacturers have the power not only to improve and automate production, but expand their value chain...</p>
-                                <a class="view-detail" href="#">View details<i class="icon ion-md-add-circle-outline"></i></a>
+                                <h4><a href="services-detail.html">Goods and Carriage</a></h4>
                             </div>
                         </div>
                     </div>
@@ -145,9 +134,51 @@
                                 <img src="https://via.placeholder.com/142x174.png" alt="">
                             </div>
                             <div class="services-content">
-                                <h3><a href="services-detail.html">Green Energy</a></h3>
-                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart...</p>
-                                <a class="view-detail" href="#">View details<i class="icon ion-md-add-circle-outline"></i></a>
+                                <h4><a href="services-detail.html">Locomotive</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-item">
+                        <div class="services-box">
+                            <div class="services-icon">
+                                <img src="https://via.placeholder.com/142x174.png" alt="">
+                            </div>
+                            <div class="services-content">
+                                <h4><a href="services-detail.html">Marine</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-item">
+                        <div class="services-box">
+                            <div class="services-icon">
+                                <img src="https://via.placeholder.com/142x174.png" alt="">
+                            </div>
+                            <div class="services-content">
+                                <h4><a href="services-detail.html">Oil and Chemical</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-item">
+                        <div class="services-box">
+                            <div class="services-icon">
+                                <img src="https://via.placeholder.com/142x174.png" alt="">
+                            </div>
+                            <div class="services-content">
+                                <h4><a href="services-detail.html">Passenger Vehicle</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-item">
+                        <div class="services-box">
+                            <div class="services-icon">
+                                <img src="https://via.placeholder.com/142x174.png" alt="">
+                            </div>
+                            <div class="services-content">
+                                <h4><a href="services-detail.html">Two Three & Four Wheelers</a></h4>
                             </div>
                         </div>
                     </div>
@@ -198,13 +229,8 @@
 
 <section>
     <div class="container">
-        <div class="row flex-row">
-            <div class="col-md-6">
+        <div class="row text-center">
                 <h2 class="no-margin-bottom">Our Products</h2>
-            </div>
-            <div class="col-md-6 text-right align-self-end">
-                <a class="industris-lineheight" href="{{ route('products')}}">View all products<i class="icon ion-md-add-circle-outline"></i></a>
-            </div>
         </div>
         <div class="industris-space"></div>
         <div class="row">
@@ -313,6 +339,12 @@
                     </div>
 
                 </div>
+            </div>
+        </div>
+        <div class="industris-space-50"></div>
+        <div class="row">
+            <div class="text-right align-self-end">
+                <a class="industris-lineheight" href="{{ route('products')}}">View all products<i class="icon ion-md-add-circle-outline"></i></a>
             </div>
         </div>
     </div>
