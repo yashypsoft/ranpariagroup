@@ -3040,7 +3040,7 @@ div:last-child>.process .process-icon:after {
     padding: 50px 30px;
     background-color: #ffffff;
     margin-bottom: 30px;
-    border: 1px solid #cccccc;
+    /* border: 1px solid #cccccc; */
     transition: all .3s linear;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
@@ -3107,7 +3107,6 @@ div:last-child>.process .process-icon:after {
 .services-box-img .services-content {
     position: absolute;
     bottom: 0;
-    padding: 30px;
     z-index: 2;
 }
 
@@ -3473,8 +3472,9 @@ div:last-child>.process .process-icon:after {
 }
 
 .services-slider .services-box {
-    border: 1px solid #cccccc;
+    /* border: 1px solid #cccccc; */
     transition: 0.3s;
+    padding: 10px;
 }
 
 .services-slider .services-box:hover {
@@ -5811,4 +5811,29 @@ blockquote {
 
 .form-group .input-group{
     display: flex;
+}
+
+
+
+#bussness-inquiry {
+    border: 1px solid #7f7f7f;
+    border-bottom:none;
+    cursor: pointer;
+    width: 170px;
+    height: 34px;
+    overflow: hidden;
+    background: #0c0000;
+    color: #ffffff;
+    padding: 2px 0px 2px 0px;
+    position: fixed;
+    top: 200px;
+    right: -68px;
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    z-index: 9999999;
+    font-size: 18px;
 }

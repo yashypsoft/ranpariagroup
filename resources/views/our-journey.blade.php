@@ -4,6 +4,7 @@
 
 @section('content')
   @include('layouts.partials.page-header')
+  <section>
   <div class="container">
     <ul class="timeline">
         <!-- Timeline item 1 : 1934 -->
@@ -131,4 +132,5 @@
         </li>
     </ul>
 </div>
+</section>
 @endsection

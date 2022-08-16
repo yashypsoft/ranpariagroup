@@ -73,114 +73,35 @@
 
                 <div class="services-slider" data-show="4" data-arrow="true">
 
-                    <div class="services-item">
-                        <div class="services-box text-center">
-                            <div class="services-icon">
-                                <img src="https://via.placeholder.com/142x174.png" alt="">
-                            </div>
-                            <div class="services-content">
-                                <h4><a href="services-detail.html">Agriculture</a></h4>
-                            </div>
+                    <div class="services-box services-box-img">
+                        <div class="services-content">
+                            <h3><a>Transportation &amp; Distribution</a></h3>
                         </div>
+                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
                     </div>
-
-                    <div class="services-item">
-                        <div class="services-box">
-                            <div class="services-icon">
-                                <img src="https://via.placeholder.com/142x174.png" alt="">
-                            </div>
-                            <div class="services-content">
-                                <h4><a href="services-detail.html">Air Compressor</a></h4>
-                            </div>
+                    <div class="services-box services-box-img">
+                        <div class="services-content">
+                            <h3><a>Transportation &amp; Distribution</a></h3>
                         </div>
+                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
                     </div>
-
-                    <div class="services-item">
-                        <div class="services-box">
-                            <div class="services-icon">
-                                <img src="https://via.placeholder.com/142x174.png" alt="">
-                            </div>
-                            <div class="services-content">
-                                <h4><a href="services-detail.html">Earth Movers</a></h4>
-                            </div>
+                    <div class="services-box services-box-img">
+                        <div class="services-content">
+                            <h3><a>Transportation &amp; Distribution</a></h3>
                         </div>
+                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
                     </div>
-
-                    <div class="services-item">
-                        <div class="services-box">
-                            <div class="services-icon">
-                                <img src="https://via.placeholder.com/142x174.png" alt="">
-                            </div>
-                            <div class="services-content">
-                                <h4><a href="services-detail.html">Generators</a></h4>
-                            </div>
+                    <div class="services-box services-box-img">
+                        <div class="services-content">
+                            <h3><a>Transportation &amp; Distribution</a></h3>
                         </div>
+                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
                     </div>
-
-                    <div class="services-item">
-                        <div class="services-box">
-                            <div class="services-icon">
-                                <img src="https://via.placeholder.com/142x174.png" alt="">
-                            </div>
-                            <div class="services-content">
-                                <h4><a href="services-detail.html">Goods and Carriage</a></h4>
-                            </div>
+                    <div class="services-box services-box-img">
+                        <div class="services-content">
+                            <h3><a>Transportation &amp; Distribution</a></h3>
                         </div>
-                    </div>
-
-                    <div class="services-item">
-                        <div class="services-box">
-                            <div class="services-icon">
-                                <img src="https://via.placeholder.com/142x174.png" alt="">
-                            </div>
-                            <div class="services-content">
-                                <h4><a href="services-detail.html">Locomotive</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services-item">
-                        <div class="services-box">
-                            <div class="services-icon">
-                                <img src="https://via.placeholder.com/142x174.png" alt="">
-                            </div>
-                            <div class="services-content">
-                                <h4><a href="services-detail.html">Marine</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services-item">
-                        <div class="services-box">
-                            <div class="services-icon">
-                                <img src="https://via.placeholder.com/142x174.png" alt="">
-                            </div>
-                            <div class="services-content">
-                                <h4><a href="services-detail.html">Oil and Chemical</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services-item">
-                        <div class="services-box">
-                            <div class="services-icon">
-                                <img src="https://via.placeholder.com/142x174.png" alt="">
-                            </div>
-                            <div class="services-content">
-                                <h4><a href="services-detail.html">Passenger Vehicle</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services-item">
-                        <div class="services-box">
-                            <div class="services-icon">
-                                <img src="https://via.placeholder.com/142x174.png" alt="">
-                            </div>
-                            <div class="services-content">
-                                <h4><a href="services-detail.html">Two Three & Four Wheelers</a></h4>
-                            </div>
-                        </div>
+                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
                     </div>
 
                 </div>
@@ -192,38 +113,26 @@
 </section>
 
 <section class="bg-primary no-padding">
+    <div class="industris-space-90"></div>
+    <h3 class="text-center h2">Our Corporate Video</h3>
     <div class="">
-        <div class="flex-row">
-            <div class="video-section-left" style="background-image:url('https://via.placeholder.com/846x742.png');">
-                <div class="home-video video-player">
-                    <a class="video-play" href="https://www.youtube.com/watch?v=QI1n0niG5E4"><i class="icon ion-md-play"></i></a>
-                </div>
-            </div>
-            <div class="video-section-right">
-                <div class="block-right">
-                    <h4>OUR STORY</h4>
-                    <h2>Connecting things, <br> It’s all about people.</h2>
-                    <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed... <a class="text-white" href="#"> Read more</a></p>
-                    <img src="images/sign.png" alt="">
-                    <div class="row">
-                        <div class="col-md-offset-1 col-md-11 no-padding-sm-left">
-                            <div class="about-author">
-                                <div class="about-author-info">
-                                    <h4><strong>Arya Star</strong></h4>
-                                    <p>CEO, Founder</p>
-                                </div>
-                                <div class="about-author-media">
-                                    <a href="#"><i class="icon ion-logo-linkedin"></i></a>
-                                    <a href="#"><i class="icon ion-logo-twitter"></i></a>
-                                    <a href="#"><i class="icon ion-logo-skype"></i></a>
-                                </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <div class="video-container">
+                                <iframe  src="https://www.youtube.com/embed/QI1n0niG5E4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
+                    <div class="col-lg-2">
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="industris-space-90"></div>
+
 </section>
 
 
