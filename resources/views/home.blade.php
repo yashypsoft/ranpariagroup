@@ -65,47 +65,69 @@
                 <h2>Industries We Serve</h2>
                 <div class="industris-space-30"></div>
 
-                <div class="services-block-left">
-                    <div class="services-slider-img-left">
-                        <img src="https://via.placeholder.com/132x132.png" alt="">
-                    </div>
-                </div>
-
                 <div class="services-slider" data-show="4" data-arrow="true">
 
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Transportation &amp; Distribution</a></h3>
+                            <h3><a>Agriculture</a></h3>
                         </div>
                         <img src="https://via.placeholder.com/750x935.png" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Transportation &amp; Distribution</a></h3>
+                            <h3><a>Air Compressor</a></h3>
                         </div>
                         <img src="https://via.placeholder.com/750x935.png" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Transportation &amp; Distribution</a></h3>
+                            <h3><a>Earth Movers</a></h3>
                         </div>
                         <img src="https://via.placeholder.com/750x935.png" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Transportation &amp; Distribution</a></h3>
+                            <h3><a>Generators</a></h3>
                         </div>
                         <img src="https://via.placeholder.com/750x935.png" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Transportation &amp; Distribution</a></h3>
+                            <h3><a>Goods and Carriage</a></h3>
                         </div>
                         <img src="https://via.placeholder.com/750x935.png" alt="services image">
                     </div>
-
+                    <div class="services-box services-box-img">
+                        <div class="services-content">
+                            <h3><a>Locomotive</a></h3>
+                        </div>
+                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                    </div>
+                    <div class="services-box services-box-img">
+                        <div class="services-content">
+                            <h3><a>Marine</a></h3>
+                        </div>
+                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                    </div>
+                    <div class="services-box services-box-img">
+                        <div class="services-content">
+                            <h3><a>Oil and Chemical</a></h3>
+                        </div>
+                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                    </div>
+                    <div class="services-box services-box-img">
+                        <div class="services-content">
+                            <h3><a>Passenger Vehicle</a></h3>
+                        </div>
+                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                    </div>
+                    <div class="services-box services-box-img">
+                        <div class="services-content">
+                            <h3><a>Tow, Three & Four Wheelers</a></h3>
+                        </div>
+                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
