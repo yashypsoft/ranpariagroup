@@ -6,7 +6,7 @@
     @include('layouts.partials.page-header')
     <section class="padding-bottom-medium">
         <div class="container">
-            @for ($i = 1; $i < 16; $i++)
+            @for ($i = 1; $i < 14; $i++)
                 @if ($i%4 == 1)
                 <div class="row text-center">
                     <div class="col-md-12">
@@ -18,7 +18,7 @@
                             title="gallery zoom image Product {{$i}}">
                             <img class="product-image" src="{{asset('images/products/'.$i.'.jpg')}}" >
                         </a>
-                        <strong>Product {{$i }}</strong>
+                        <strong class="product-title">Product {{$i }}</strong>
                     </div>
                 </div>
                 @if ($i%4 == 0)
