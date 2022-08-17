@@ -29,6 +29,5 @@
             @endfor
 
         </div>
-        </div>
     </section>
 @endsection

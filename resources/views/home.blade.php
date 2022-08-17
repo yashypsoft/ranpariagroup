@@ -71,61 +71,61 @@
                         <div class="services-content">
                             <h3><a>Agriculture</a></h3>
                         </div>
-                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                        <img class="indus-image" src="{{asset('images/ServeIndus/Agriculture.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>Air Compressor</a></h3>
                         </div>
-                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                        <img class="indus-image" src="{{asset('images/ServeIndus/Aircompressor.jpg')}}" alt="services image"> 
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>Earth Movers</a></h3>
                         </div>
-                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                        <img class="indus-image" src="{{asset('images/ServeIndus/Earthmovers.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>Generators</a></h3>
                         </div>
-                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                        <img class="indus-image" src="{{asset('images/ServeIndus/Generators.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>Goods and Carriage</a></h3>
                         </div>
-                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                        <img class="indus-image" src="{{asset('images/ServeIndus/Goods.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>Locomotive</a></h3>
                         </div>
-                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                        <img class="indus-image" src="{{asset('images/ServeIndus/Locomotive.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>Marine</a></h3>
                         </div>
-                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                        <img class="indus-image" src="{{asset('images/ServeIndus/Marine.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>Oil and Chemical</a></h3>
                         </div>
-                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                        <img class="indus-image" src="{{asset('images/ServeIndus/Oil.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>Passenger Vehicle</a></h3>
                         </div>
-                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                        <img class="indus-image" src="{{asset('images/ServeIndus/Passanger.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>Tow, Three & Four Wheelers</a></h3>
                         </div>
-                        <img src="https://via.placeholder.com/750x935.png" alt="services image">
+                        <img class="indus-image" src="{{asset('images/ServeIndus/Bikecar.jpg')}}" alt="services image">
                     </div>
                 </div>
             </div>

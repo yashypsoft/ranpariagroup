@@ -5848,3 +5848,8 @@ blockquote {
     height: 280px;
     padding: 5px;
 }
+
+img.indus-image{
+    height: 300px;
+    object-fit: cover;
+}
