@@ -169,105 +169,17 @@
 
                 <div class="partner-slider image-carousel text-center" data-show="5" data-arrow="false">
 
+                    @for ($i = 1; $i < 9; $i++)
                     <div>
                         <div class="partner-item text-center clearfix">
                             <div class="inner">
                                 <div class="thumb">
-                                    <img src="https://via.placeholder.com/200x90.png" alt="">
+                                    <img class="product-image-home" src="{{asset('images/products/'.$i.'.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div>
-                        <div class="partner-item text-center clearfix">
-                            <div class="inner">
-                                <div class="thumb">
-                                    <img src="https://via.placeholder.com/200x90.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="partner-item text-center clearfix">
-                            <div class="inner">
-                                <div class="thumb">
-                                    <img src="https://via.placeholder.com/200x90.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="partner-item text-center clearfix">
-                            <div class="inner">
-                                <div class="thumb">
-                                    <img src="https://via.placeholder.com/200x90.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="partner-item text-center clearfix">
-                            <div class="inner">
-                                <div class="thumb">
-                                    <img src="https://via.placeholder.com/200x90.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="partner-item text-center clearfix">
-                            <div class="inner">
-                                <div class="thumb">
-                                    <img src="https://via.placeholder.com/200x90.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="partner-item text-center clearfix">
-                            <div class="inner">
-                                <div class="thumb">
-                                    <img src="https://via.placeholder.com/200x90.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="partner-item text-center clearfix">
-                            <div class="inner">
-                                <div class="thumb">
-                                    <img src="https://via.placeholder.com/200x90.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="partner-item text-center clearfix">
-                            <div class="inner">
-                                <div class="thumb">
-                                    <img src="https://via.placeholder.com/200x90.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="partner-item text-center clearfix">
-                            <div class="inner">
-                                <div class="thumb">
-                                    <img src="https://via.placeholder.com/200x90.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endfor
 
                 </div>
             </div>

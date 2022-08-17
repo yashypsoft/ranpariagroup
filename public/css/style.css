@@ -3108,6 +3108,8 @@ div:last-child>.process .process-icon:after {
     position: absolute;
     bottom: 0;
     z-index: 2;
+    left: 8%;
+    right: 8%;
 }
 
 .services-box-img a {
@@ -5840,4 +5842,9 @@ blockquote {
 
 .inner img.product-image{
     height: 280px;
+}
+
+.inner img.product-image-home{
+    height: 280px;
+    padding: 5px;
 }
