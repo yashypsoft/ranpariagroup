@@ -13,7 +13,7 @@
                         <div id="projects" class="project-grid gallery row ">
                 @endif
                 <div class="project-item events col-lg-3 col-sm-6">
-                    <div class="inner">
+                    <div class="inner product-block">
                         <a href="{{asset('images/products/'.$i.'.jpg')}}" class="image-link imghvr-shutter-out-vert"
                             title="gallery zoom image Product {{$i}}">
                             <img class="product-image" src="{{asset('images/products/'.$i.'.jpg')}}" >
