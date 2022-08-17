@@ -1,4 +1,4 @@
-<div class="page-header" style="background: url('https://via.placeholder.com/1920x450.png') no-repeat center center;">
+<div class="page-header" style="background: url('{{asset('images/banner/page-header.jpg')}}') no-repeat center center;">
     <div class="container">
         <div class="breadc-box no-line">
             <div class="row">
