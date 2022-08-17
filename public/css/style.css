@@ -435,7 +435,7 @@ h6 {
     font-weight: 500;
     line-height: 1.2;
     margin: 0 0 20px;
-    color: #03132b;
+    color: #001940;
 }
 
 h1 {
@@ -548,7 +548,7 @@ ins {
 }
 
 .bg-default {
-    background-color: #03132b;
+    background-color: #001940;
 }
 
 .text-primary {
@@ -960,12 +960,12 @@ td {
 
 .btn-default {
     background-color: #f2f4f6;
-    color: #03132b;
+    color: #001940;
 }
 
 .btn-default:hover {
     background-color: #0095cb;
-    color: #03132b;
+    color: #001940;
 }
 
 .btn-dark {
@@ -985,7 +985,7 @@ td {
 
 .btn-dark:hover,
 .btn-dark:focus {
-    background: #03132b;
+    background: #001940;
     color: #fff;
 }
 
@@ -999,7 +999,7 @@ td {
 .btn.btn-border:focus {
     background: #0095cb;
     border-color: #0095cb;
-    color: #03132b;
+    color: #001940;
 }
 
 .btn-border-white {
@@ -1129,7 +1129,7 @@ a {
     -moz-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     -ms-transition: all 0.3s linear;
-    color: #03132b;
+    color: #001940;
     text-decoration: none;
 }
 
@@ -1239,7 +1239,7 @@ select.form-control {
 }
 
 .header-topbar {
-    background-color: #03132b;
+    background-color: #001940;
     color: #b7b7b7;
     font-size: 14px;
     line-height: 26px;
@@ -1590,7 +1590,7 @@ select.form-control {
     padding: 0;
     border: none;
     margin: 0;
-    background-color: #03132b;
+    background-color: #001940;
 }
 
 .page-header-default .overlay {
@@ -1653,7 +1653,7 @@ select.form-control {
 ## Footer
 --------------------------------------------------------------*/
 .site-footer {
-    background-color: #03132b;
+    background-color: #001940;
     color: #b7b7b7;
 }
 
@@ -1704,7 +1704,7 @@ select.form-control {
 }
 
 .main-footer-2 ul li a {
-    color: #03132b;
+    color: #001940;
 }
 
 .main-footer ul li a:hover,
@@ -1775,7 +1775,7 @@ select.form-control {
 }
 
 .footer-bottom {
-    background-color: #03132b;
+    background-color: #001940;
     color: #b7b7b7;
 }
 
@@ -1793,7 +1793,7 @@ select.form-control {
 }
 
 .main-footer-2 input::placeholder {
-    color: #03132b;
+    color: #001940;
 }
 
 .main-footer-2 .footer-social a {
@@ -1805,13 +1805,13 @@ select.form-control {
 }
 
 .main-footer-2 .btn-subcribe {
-    background-color: #03132b;
+    background-color: #001940;
     color: #0095cb;
 }
 
 .main-footer-2 .btn-subcribe:hover {
     background-color: #0095cb;
-    color: #03132b;
+    color: #001940;
 }
 
 .site-footer-2 .btn.btn-back-to-top {
@@ -2054,7 +2054,7 @@ input::placeholder {
 }
 
 .widget-title {
-    color: #03132b;
+    color: #001940;
     font-size: 16px;
     padding: 25px 30px;
     border-left: 2px solid #0095cb;
@@ -2073,7 +2073,7 @@ input::placeholder {
 
 .primary-sidebar .widget_categories ul li a:hover {
     background-color: #0095cb;
-    color: #03132b;
+    color: #001940;
     text-decoration: none;
 }
 
@@ -2325,7 +2325,7 @@ blockquote .author-name {
 .comment-author {
     display: inline-block;
     font-size: 16px;
-    color: #03132b;
+    color: #001940;
     margin-bottom: 10px;
 }
 
@@ -2898,7 +2898,7 @@ div:last-child>.process:after {
 
 .process .process-icon {
     font-size: 40px;
-    color: #03132b;
+    color: #001940;
     display: block;
     margin-bottom: 46px;
 }
@@ -3142,14 +3142,14 @@ div:last-child>.process .process-icon:after {
 }
 
 .widget-nav-menu a:hover {
-    color: #03132b;
+    color: #001940;
     background-color: #0095cb;
     text-decoration: none;
 }
 
 .widget-nav-menu .current-menu-item a,
 .primary-sidebar .widget_categories .current-menu-item a {
-    color: #03132b;
+    color: #001940;
     background-color: #0095cb;
 }
 
@@ -3380,7 +3380,7 @@ div:last-child>.process .process-icon:after {
 
 .project-detail-box span {
     float: right;
-    color: #03132b;
+    color: #001940;
 }
 
 .project-share {
@@ -3933,7 +3933,7 @@ div:last-child>.process .process-icon:after {
 }
 
 .form-control.active::placeholder {
-    color: #03132b;
+    color: #001940;
 }
 
 .services-box-hover a,
@@ -4273,7 +4273,7 @@ input[type=checkbox]:checked:after {
 }
 
 .product-head .view-detail:hover {
-    background-color: #03132b;
+    background-color: #001940;
 }
 
 .product-price {
@@ -4343,12 +4343,12 @@ input[type=checkbox]:checked:after {
 
 .btn-filter:hover {
     color: #fff;
-    background-color: #03132b;
+    background-color: #001940;
 }
 
 .filter-price span {
     float: right;
-    color: #03132b;
+    color: #001940;
     font-weight: 500;
     padding-top: 5px;
 }
@@ -4392,7 +4392,7 @@ input[type=checkbox]:checked:after {
 }
 
 .quantity-choose {
-    color: #03132b;
+    color: #001940;
 }
 
 .quantity-choose input {
@@ -4480,7 +4480,7 @@ table tr a {
 
 table th a:hover,
 table tr a:hover {
-    color: #03132b;
+    color: #001940;
 }
 
 .shop_table thead {
@@ -4586,7 +4586,7 @@ table .cart-subtotal {
 
 .return-customer,
 .coupon-noti {
-    color: #03132b;
+    color: #001940;
     background-color: #f2f4f6;
     font-size: 16px;
     line-height: 24px;
@@ -4867,7 +4867,7 @@ table .cart-subtotal {
         left: 0;
         top: 50%;
         margin: -2px 0 0;
-        background: #03132b;
+        background: #001940;
         height: 4px;
         padding: 0;
         border: none;
@@ -4888,7 +4888,7 @@ table .cart-subtotal {
         top: -8px;
         width: 26px;
         height: 4px;
-        background: #03132b;
+        background: #001940;
         -webkit-transform-origin: 1.5px center;
         transform-origin: 1.5px center;
         transition: all 0.3s ease;
@@ -4906,7 +4906,7 @@ table .cart-subtotal {
         bottom: -8px;
         width: 26px;
         height: 4px;
-        background: #03132b;
+        background: #001940;
         -webkit-transform-origin: 1.5px center;
         transform-origin: 1.5px center;
         transition: all 0.3s ease;
@@ -5842,10 +5842,12 @@ blockquote {
 
 .inner img.product-image{
     height: 280px;
+    object-fit: contain;
 }
 
 .inner img.product-image-home{
     height: 280px;
+    width: 350px;
     padding: 5px;
 }
 
