@@ -13,7 +13,7 @@
                     <div class="col-md-9">
                         <div class="slider-content">
                             <h4>{{__('Welcome TO INDUSTRIS...!')}}</h4>
-                            <h1>The leading provider  of Industrial </h1>
+                            <h1>The leading provider  of Industrial</h1>
                             <a class="btn btn-primary" href="#">Explore now</a>
                         </div>
                     </div>
@@ -61,69 +61,69 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12">
-                <h4 class="text-primary">OUR SERVICES</h4>
-                <h2>Industries We Serve</h2>
+                <h4 class="text-primary">{{__('OUR SERVICES')}}</h4>
+                <h2>{{__('Industries We Serve')}}</h2>
                 <div class="industris-space-30"></div>
 
                 <div class="services-slider" data-show="4" data-arrow="true">
 
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Agriculture</a></h3>
+                            <h3><a>{{__('Agriculture')}}</a></h3>
                         </div>
                         <img class="indus-image" src="{{asset('images/ServeIndus/Agriculture.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Air Compressor</a></h3>
+                            <h3><a>{{__('Air Compressor')}}</a></h3>
                         </div>
                         <img class="indus-image" src="{{asset('images/ServeIndus/Aircompressor.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Earth Movers</a></h3>
+                            <h3><a>{{__('Earth Movers')}}</a></h3>
                         </div>
                         <img class="indus-image" src="{{asset('images/ServeIndus/Earthmovers.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Generators</a></h3>
+                            <h3><a>{{__('Generators')}}</a></h3>
                         </div>
                         <img class="indus-image" src="{{asset('images/ServeIndus/Generators.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Goods and Carriage</a></h3>
+                            <h3><a>{{__('Goods and Carriage')}}</a></h3>
                         </div>
                         <img class="indus-image" src="{{asset('images/ServeIndus/Goods.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Locomotive</a></h3>
+                            <h3><a>{{__('Locomotive')}}</a></h3>
                         </div>
                         <img class="indus-image" src="{{asset('images/ServeIndus/Locomotive.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Marine</a></h3>
+                            <h3><a>{{__('Marine')}}</a></h3>
                         </div>
                         <img class="indus-image" src="{{asset('images/ServeIndus/Marine.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Oil and Chemical</a></h3>
+                            <h3><a>{{__('Oil and Chemical')}}</a></h3>
                         </div>
                         <img class="indus-image" src="{{asset('images/ServeIndus/Oil.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Passenger Vehicle</a></h3>
+                            <h3><a>{{__('Passenger Vehicle')}}</a></h3>
                         </div>
                         <img class="indus-image" src="{{asset('images/ServeIndus/Passanger.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
-                            <h3><a>Tow, Three & Four Wheelers</a></h3>
+                            <h3><a>{{__('Tow, Three & Four Wheelers')}}</a></h3>
                         </div>
                         <img class="indus-image" src="{{asset('images/ServeIndus/Bikecar.jpg')}}" alt="services image">
                     </div>
@@ -136,7 +136,7 @@
 
 <section class="bg-primary no-padding">
     <div class="industris-space-90"></div>
-    <h3 class="text-center h2">Our Corporate Video</h3>
+    <h3 class="text-center h2">{{__('Our Corporate Video')}}</h3>
     <div class="">
         <div class="container">
             <div class="row">
@@ -161,7 +161,7 @@
 <section>
     <div class="container">
         <div class="row text-center">
-                <h2 class="no-margin-bottom">Our Products</h2>
+                <h2 class="no-margin-bottom">{{__('Our Products')}}</h2>
         </div>
         <div class="industris-space"></div>
         <div class="row">
@@ -187,7 +187,7 @@
         <div class="industris-space-50"></div>
         <div class="row">
             <div class="text-right align-self-end">
-                <a class="industris-lineheight" href="{{ route('products',['lang'=>app()->getLocale()])}}">View all products<i class="icon ion-md-add-circle-outline"></i></a>
+                <a class="industris-lineheight" href="{{ route('products',['lang'=>app()->getLocale()])}}">{{__('View all products')}}<i class="icon ion-md-add-circle-outline"></i></a>
             </div>
         </div>
     </div>
