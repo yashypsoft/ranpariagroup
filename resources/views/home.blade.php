@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-md-9">
                         <div class="slider-content">
-                            <h4>WELCOME TO INDUSTRIS...!</h4>
+                            <h4>{{__('Welcome TO INDUSTRIS...!')}}</h4>
                             <h1>The leading provider  of Industrial </h1>
                             <a class="btn btn-primary" href="#">Explore now</a>
                         </div>
@@ -77,7 +77,7 @@
                         <div class="services-content">
                             <h3><a>Air Compressor</a></h3>
                         </div>
-                        <img class="indus-image" src="{{asset('images/ServeIndus/Aircompressor.jpg')}}" alt="services image"> 
+                        <img class="indus-image" src="{{asset('images/ServeIndus/Aircompressor.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
@@ -187,7 +187,7 @@
         <div class="industris-space-50"></div>
         <div class="row">
             <div class="text-right align-self-end">
-                <a class="industris-lineheight" href="{{ route('products')}}">View all products<i class="icon ion-md-add-circle-outline"></i></a>
+                <a class="industris-lineheight" href="{{ route('products',['lang'=>app()->getLocale()])}}">View all products<i class="icon ion-md-add-circle-outline"></i></a>
             </div>
         </div>
     </div>

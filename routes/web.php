@@ -13,43 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
 
-Route::get('/about-us', function () {
-    return view('about-us');
-})->name('about-us');
-
-Route::get('/contact-us', function () {
-    return view('contact-us');
-})->name('contact-us');
-
-Route::get('/products', function () {
-    return view('products');
-})->name('products');
-
-Route::get('/our-journey', function () {
-    return view('our-journey');
-})->name('our-journey');
-
-Route::get('/company-profile', function () {
-    return view('company-profile');
-})->name('company-profile');
-
-Route::get('/mission-and-vission', function () {
-    return view('mission-and-vission');
-})->name('mission-and-vission');
-
-Route::get('/corporate-video', function () {
-    return view('corporate-video');
-})->name('corporate-video');
-
-Route::get('/quality', function () {
-    return view('quality');
-})->name('quality');
-
-Route::get('/career', function () {
-    return view('career');
-})->name('career');
+Route::get('/', 'Frontend\IndexController@home')->name('home');
+Route::get('/about-us', 'Frontend\IndexController@aboutUs')->name('about-us');
+Route::get('/contact-us', 'Frontend\IndexController@contactUs')->name('contact-us');
+Route::get('/products', 'Frontend\IndexController@products')->name('products');
+Route::get('/our-journey', 'Frontend\IndexController@ourJourney')->name('our-journey');
+Route::get('/company-profile', 'Frontend\IndexController@companyProfile')->name('company-profile');
+Route::get('/mission-and-vission', 'Frontend\IndexController@missionAndvission')->name('mission-and-vission');
+Route::get('/corporate-video', 'Frontend\IndexController@corporateVideo')->name('corporate-video');
+Route::get('/quality', 'Frontend\IndexController@quality')->name('quality');
+Route::get('/career', 'Frontend\IndexController@career')->name('career');
 
