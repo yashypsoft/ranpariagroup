@@ -31,24 +31,24 @@
                 <div class="col-md-9">
                     <div class="main-navigation">
                         <ul id="primary-menu" class="menu">
-                            <li class="menu-item {{ request()->is('/') ? 'current-menu-parent' : ''  }}"><a href="{{ route('home') }}">Home</a></li>
-                            <li class="menu-item menu-item-has-children {{ (request()->is('about-us') || request()->is('our-journey') || request()->is('company-profile') || request()->is('mission-and-vission') || request()->is('corporate-video')) ? 'current-menu-parent' : ''  }}"><a href="{{ route('about-us') }}">About Us</a>
+                            <li class="menu-item {{ request()->is('/') ? 'current-menu-parent' : ''  }}"><a href="{{ route('home') }}">{{__('Home')}}</a></li>
+                            <li class="menu-item menu-item-has-children {{ (request()->is('about-us') || request()->is('our-journey') || request()->is('company-profile') || request()->is('mission-and-vission') || request()->is('corporate-video')) ? 'current-menu-parent' : ''  }}"><a href="{{ route('about-us') }}">{{__('About Us')}}</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item"><a href="{{ route('our-journey') }}">Our journey</a></li>
-                                    <li class="menu-item"><a href="{{ route('company-profile') }}">Company Profile</a></li>
-                                    <li class="menu-item"><a href="{{ route('mission-and-vission') }}">Mission & Vision</a></li>
-                                    <li class="menu-item"><a href="{{ route('corporate-video') }}">Corporate Video</a></li>
+                                    <li class="menu-item"><a href="{{ route('our-journey') }}">{{__('Our journey')}}</a></li>
+                                    <li class="menu-item"><a href="{{ route('company-profile') }}">{{__('Company Profile')}}</a></li>
+                                    <li class="menu-item"><a href="{{ route('mission-and-vission') }}">{{__('Mission & Vision')}}</a></li>
+                                    <li class="menu-item"><a href="{{ route('corporate-video') }}">{{__('Corporate Video')}}</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item {{ request()->is('products') ? 'current-menu-parent' : ''  }}"><a href="{{ route('products') }}">Products</a>
+                            <li class="menu-item {{ request()->is('products') ? 'current-menu-parent' : ''  }}"><a href="{{ route('products') }}">{{('Products')}}</a>
                             </li>
-                            <li class="menu-item {{ request()->is('quality') ? 'current-menu-parent' : ''  }}"><a href="{{ route('quality') }}">Quality</a>
+                            <li class="menu-item {{ request()->is('quality') ? 'current-menu-parent' : ''  }}"><a href="{{ route('quality') }}">{{('Quality')}}</a>
                             </li>
-                            <li class="menu-item"><a href="{{ url()->to('https://drive.google.com/file/d/1OtHi0nA_jLeQIE9DonsdIo-Q3_yEUMIA/view?usp=sharing') }}">E-Catalogue</a>
+                            <li class="menu-item"><a href="{{ url()->to('https://drive.google.com/file/d/1OtHi0nA_jLeQIE9DonsdIo-Q3_yEUMIA/view?usp=sharing') }}">{{__('E-Catalogue')}}</a>
                             </li>
-                            <li class="menu-item {{ request()->is('career') ? 'current-menu-parent' : ''  }}"><a href="{{ route('career') }}">Career</a>
+                            <li class="menu-item {{ request()->is('career') ? 'current-menu-parent' : ''  }}"><a href="{{ route('career') }}">{{__('Career')}}</a>
                             </li>
-                            <li class="menu-item {{ request()->is('contact-us') ? 'current-menu-parent' : ''  }}"><a href="{{ route('contact-us') }}">Contact Us</a>
+                            <li class="menu-item {{ request()->is('contact-us') ? 'current-menu-parent' : ''  }}"><a href="{{ route('contact-us') }}">{{__('Contact Us')}}</a>
                             </li>
                         </ul>
                     </div>
@@ -75,24 +75,24 @@
                 <div class="col-xs-12">
                     <div class="mobile-nav">
                         <ul id="primary-menu-mobile" class="mobile-menu">
-                            <li class="menu-item current-menu-ancestor current-menu-parent"><a href="{{ route('home') }}">Home</a></li>
-                            <li class="menu-item menu-item-has-children"><a href="{{ route('about-us') }}">About Us</a>
+                            <li class="menu-item current-menu-ancestor current-menu-parent"><a href="{{ route('home') }}">{{__('Home')}}</a></li>
+                            <li class="menu-item menu-item-has-children"><a href="{{ route('about-us') }}">{{__('About Us')}}</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item"><a href="{{ route('our-journey') }}">Our journey</a></li>
-                                    <li class="menu-item"><a href="{{ route('company-profile') }}">Company Profile</a></li>
-                                    <li class="menu-item"><a href="{{ route('mission-and-vission') }}">Mission & Vision</a></li>
-                                    <li class="menu-item"><a href="{{ route('corporate-video') }}">Corporate Video</a></li>
+                                    <li class="menu-item"><a href="{{ route('our-journey') }}">{{__('Our journey')}}</a></li>
+                                    <li class="menu-item"><a href="{{ route('company-profile') }}">{{__('Company Profile')}}</a></li>
+                                    <li class="menu-item"><a href="{{ route('mission-and-vission') }}">{{__('Mission & Vision')}}</a></li>
+                                    <li class="menu-item"><a href="{{ route('corporate-video') }}">{{__('Corporate Video<')}}/a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item"><a href="{{ route('products') }}">Products</a>
+                            <li class="menu-item"><a href="{{ route('products') }}">{{__('Products')}}</a>
                             </li>
-                            <li class="menu-item"><a href="{{ route('quality') }}">Quality</a>
+                            <li class="menu-item"><a href="{{ route('quality') }}">{{__('Quality')}}</a>
                             </li>
-                            <li class="menu-item"><a href="{{ url()->to('https://drive.google.com/file/d/1OtHi0nA_jLeQIE9DonsdIo-Q3_yEUMIA/view?usp=sharing') }}">E-Catalogue</a>
+                            <li class="menu-item"><a href="{{ url()->to('https://drive.google.com/file/d/1OtHi0nA_jLeQIE9DonsdIo-Q3_yEUMIA/view?usp=sharing') }}">{{__('E-Catalogue')}}</a>
                             </li>
-                            <li class="menu-item"><a href="{{ route('career') }}">Career</a>
+                            <li class="menu-item"><a href="{{ route('career') }}">{{__('Career')}}</a>
                             </li>
-                            <li class="menu-item"><a href="{{ route('contact-us') }}">Contact Us</a>
+                            <li class="menu-item"><a href="{{ route('contact-us') }}">{{__('Contact Us')}}</a>
                             </li>
                         </ul>
                     </div>
