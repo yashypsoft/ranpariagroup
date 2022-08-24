@@ -8,9 +8,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-sm-12">
-          <h2>Company Profile</h2>
-          <p>Ranparia engineering co. is an iso certified company located in rajkot (gujarat-india) and spread over 15000 square-metres of area with highly innovative and upgraded technologies. It was established in the year 2007 and is a subsidiary company of ranparia brothers which is engaged in the feild of manufacturing of flexible hose assemblies, high pressure and low pressure pipes, metal tube assemblies, injection pipe assemblies and many more since 1967.
-          <br>Ranparia engineering co. is involved in manufacturing of various automotive, locomotive, earthmovers, agri-auto, marine, tractors, two-wheeler, three-wheelers, and passenger vehicles components.</p>
+          <h2>{{__('Company Profile')}}</h2>
+          <p>{{__('Ranparia engineering co. is an iso certified company located in rajkot (gujarat-india) and spread over 15000 square-metres of area with highly innovative and upgraded technologies. It was established in the year 2007 and is a subsidiary company of ranparia brothers which is engaged in the feild of manufacturing of flexible hose assemblies, high pressure and low pressure pipes, metal tube assemblies, injection pipe assemblies and many more since 1967.')}}
+          <br>{{__('Ranparia engineering co. is involved in manufacturing of various automotive, locomotive, earthmovers, agri-auto, marine, tractors, two-wheeler, three-wheelers, and passenger vehicles components.')}}</p>
         </div>
         <div class="col-md-3 col-sm-12 sm-center">
           <div class="industris-space-sm"></div>
@@ -28,8 +28,8 @@
     <div class="container">
       <div class="row">
           <h2>Infrastructure</h2>
-          <p>Our industries are experiencing basic challenges. From climate change and geopolitics to the energy market, we are facing new reality. Some people consider them a threat. At Industris, we believe our job is to turn them into opportunities.
-          <br>That's why we look for new ways to use our expertise in the energy industry, discover new opportunities and promote innovation around the world. Our ambition is to become the world's most efficient industrial solutions and services provider.</p>
+          <p>{{__("Our industries are experiencing basic challenges. From climate change and geopolitics to the energy market, we are facing new reality. Some people consider them a threat. At Industris, we believe our job is to turn them into opportunities.")}}
+          <br>{{__("That's why we look for new ways to use our expertise in the energy industry, discover new opportunities and promote innovation around the world. Our ambition is to become the world's most efficient industrial solutions and services provider.")}}</p>
       </div>
     </div>
     <div class="container">
@@ -121,11 +121,11 @@
             <img src="https://via.placeholder.com/458x478.png" alt="">
           </div>
           <div class="col-md-9 col-sm-12">
-            <h3>Casting</h3>
+        <h3>{{__('Casting')}}</h3>
             <ul>
-              <li>Graded Cast Iron and Alloy CI casting</li>
-              <li>SG Iron Casting and Ductile Cast Iron</li>
-              <li>Investment Casting with different material grade</li>
+              <li>{{__('Graded Cast Iron and Alloy CI casting')}}</li>
+              <li>{{__('SG Iron Casting and Ductile Cast Iron')}}</li>
+              <li>{{__('Investment Casting with different material grade')}}</li>
             </ul>
           </div>
       </div>
@@ -136,10 +136,10 @@
           <img src="https://via.placeholder.com/458x478.png" alt="">
         </div>
         <div class="col-md-9 col-sm-12">
-          <h3>Forging</h3>
+          <h3>{{__('Forging')}}</h3>
           <ul>
-            <li>Hot Forging</li>
-            <li>Cold Forging</li>
+            <li>{{__('Hot Forging')}}</li>
+            <li>{{__('Cold Forging')}}</li>
           </ul>
         </div>
       </div>
@@ -150,12 +150,12 @@
           <img src="https://via.placeholder.com/458x478.png" alt="">
         </div>
         <div class="col-md-9 col-sm-12">
-          <h3>Machining</h3>
+          <h3>{{__('Machining')}}</h3>
           <ul>
-            <li>CNC Machine</li>
-            <li>VMC Machine</li>
-            <li>VTL Machine</li>
-            <li>Various SPM and Convetional Machine</li>
+            <li>{{__('CNC Machine')}}</li>
+            <li>{{__('VMC Machine')}}</li>
+            <li>{{__('VTL Machine')}}</li>
+            <li>{{__('Various SPM and Convetional Machine')}}</li>
           </ul>
         </div>
       </div>
@@ -166,15 +166,15 @@
           <img src="https://via.placeholder.com/458x478.png" alt="">
         </div>
         <div class="col-md-9 col-sm-12">
-          <h3>Laboratory</h3>
+          <h3>{{__('Laboratory')}}</h3>
           <ul>
-            <li>Ravalue Tester, Hardness Tester and Tensile Tester</li>
-            <li>Vision Measuring Machine</li>
-            <li>Profile Projector</li>
-            <li>Digital Height Guage, Vernier And Micro-metre</li>
-            <li>Surface Plate</li>
-            <li>Different Type Of Guages</li>
-            <li>Sources of third party spectro as well as cmm testing facilities (govt approved)</li>
+            <li>{{__('Ravalue Tester, Hardness Tester and Tensile Tester')}}</li>
+            <li>{{__('Vision Measuring Machine')}}</li>
+            <li>{{__('Profile Projector')}}</li>
+            <li>{{__('Digital Height Guage, Vernier And Micro-metre')}}</li>
+            <li>{{__('Surface Plate')}}</li>
+            <li>{{__('Different Type Of Guages')}}</li>
+            <li>{{__('Sources of third party spectro as well as cmm testing facilities (govt approved)')}}</li>
           </ul>
         </div>
       </div>
