@@ -22,6 +22,7 @@
         <link rel="stylesheet" id="slick-theme-css" href="{{ asset('css/slick-theme.css') }}" type="text/css" media="all">
         <link rel="stylesheet" id="magnific-popup-css" href="{{ asset('css/magnific-popup.css') }}" type="text/css" media="all">
         <link rel="stylesheet" id="industris-style-css" href="{{ asset('css/style.css') }}" type="text/css" media="all">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" />
         <link rel="shortcut icon" href="{{ asset('favicon.ico')}}">
     </head>
     <body class="antialiased">
@@ -33,6 +34,7 @@
 
 
         <script src='{{ asset('js/jquery.min.js') }}'></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
         <script src='{{ asset('js/bootstrap.min.js') }}'></script>
         <script src='{{ asset('js/slick.min.js') }}'></script>
         <script src='{{ asset('js/jquery.sticky.js') }}'></script>
