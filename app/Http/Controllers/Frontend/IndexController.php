@@ -10,7 +10,7 @@ class IndexController extends Controller
 {
     public function __construct()
     {
-        App::setlocale('ru');
+        // App::setlocale('en');
     }
 
     public function home()

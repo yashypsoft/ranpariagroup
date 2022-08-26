@@ -1,8 +1,12 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.css" rel="stylesheet" />
 <header id="site-header" class="site-header mobile-header-blue header-style-1">
     <div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
         <div class="container-custom">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-10">
                     <!-- Info on Topbar -->
                     <ul class="topbar-left">
                         <li onclick="location.href='https://g.page/ranparia-engineering-co?share';"><i
@@ -15,15 +19,23 @@
                     </ul>
                 </div>
                 <!-- Info on topbar close -->
-                <div class="col-md-3">
+                <div class="col-md-2">
 
                     <ul class="topbar-right pull-right">
                         <li class="topbar-languages">
-                            <div class="dropdown">
-                                <button class="dropdown-toggle" type="button"
-                                    data-toggle="dropdown">English<span class="caret"></span></button>
+                            <select class="selectpicker">
+                                <option data-content="<span class='flag-icon flag-icon-us'></span>     English"></option>
+                                <option data-content="<span class='flag-icon flag-icon-de'></span>     German"></option>
+                                <option data-content="<span class='flag-icon flag-icon-es'></span>     Spanish"></option>
+                                <option data-content="<span class='flag-icon flag-icon-ru'></span>     Russian"></option>
+                                <option data-content="<span class='flag-icon flag-icon-fr'></span>     French"></option>
+                                <option data-content="<span class='flag-icon flag-icon-it'></span>     Italian"></option>
+                                <option data-content="<span class='flag-icon flag-icon-nl'></span>     Dutch"></option>
+                            </select>
+                            {{-- <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="flag-icon flag-icon-us" style="margin-right: 10px"></span>English<span class="caret" style="margin-left: 10px"></span></button>
                                 <ul class="dropdown-menu">
-                                    <li class="language-option" data-lcode="en"><span class="flag-icon flag-icon-us"></span>  English</li>
+                                    <li class="language-option" data-lcode="en"><span class="flag-icon flag-icon-us"></span>English</li>
                                     <li class="language-option" data-lcode="ru"><span class="flag-icon flag-icon-ru">Russian</li>
                                     <li class="language-option" data-lcode="de"><span class="flag-icon flag-icon-de">German</li>
                                     <li class="language-option" data-lcode="fr"><span class="flag-icon flag-icon-fr">French</li>
@@ -31,7 +43,7 @@
                                     <li class="language-option" data-lcode="it"><span class="flag-icon flag-icon-it">Italian</li>
                                     <li class="language-option" data-lcode="nl"><span class="flag-icon flag-icon-nl">Dutch</li>
                                 </ul>
-                            </div>
+                            </div> --}}
                         </li>
                     </ul>
                 </div>
