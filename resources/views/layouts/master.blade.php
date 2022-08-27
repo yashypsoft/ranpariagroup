@@ -7,6 +7,7 @@
         <meta name="keywords" content="Ranparia,Engineering,Group,Rajkot" />
         <meta name="description" content="Ranparia Engineering Co has a highly qualified staff which includes technicians, engineers, quality inspectors, admin staff, skilled and semi skilled workers around 120 people in strength. our team is having profound knowledge in the feild of casting, forging and machining." />
         <meta name="robots" content="index, follow">
+        <meta name="csrf-token" content="{{ csrf_token() }}" />
 
         <link rel="canonical" href="http://ranpariagroup.in" />
 
@@ -42,5 +43,6 @@
         <script src='{{ asset('js/jquery.magnific-popup.min.js') }}'></script>
         <script src='{{ asset('js/jquery.isotope.min.js') }}'></script>
         <script src='{{ asset('js/scripts.js') }}'></script>
+        @yield('addScript')
     </body>
 </html>

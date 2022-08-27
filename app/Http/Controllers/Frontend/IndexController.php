@@ -5,14 +5,10 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App;
+use Session;
 
 class IndexController extends Controller
 {
-    public function __construct()
-    {
-        // App::setlocale('en');
-    }
-
     public function home()
     {
         return view('home');
@@ -61,5 +57,12 @@ class IndexController extends Controller
     public function career()
     {
         return view('career');
+    }
+
+    public function changeLang(Request $request)
+    {
+        App::setLocale($request->lang_code);
+        Session::put('locale', $request->lang_code);
+        return redirect()->back();
     }
 }

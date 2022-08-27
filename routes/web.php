@@ -25,3 +25,5 @@ Route::get('/corporate-video', 'Frontend\IndexController@corporateVideo')->name(
 Route::get('/quality', 'Frontend\IndexController@quality')->name('quality');
 Route::get('/career', 'Frontend\IndexController@career')->name('career');
 
+Route::get('/changeLang', 'Frontend\IndexController@changeLang')->name('changeChange');
+

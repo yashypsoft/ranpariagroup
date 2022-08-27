@@ -1871,7 +1871,7 @@ select.form-control {
 
 [class^='imghvr-shutter-out-']:before,
 [class*=' imghvr-shutter-out-']:before {
-    background: rgba(255, 209, 0, .4);
+    background:rgba(78, 175, 218,0.4);
     position: absolute;
     content: '';
     -webkit-transition-delay: 0.105s;
@@ -5843,7 +5843,7 @@ blockquote {
 .inner img.product-image{
     height: 280px;
     width: 410px;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .inner img.product-image-home{

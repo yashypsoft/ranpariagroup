@@ -1,7 +1,3 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.js"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.css" rel="stylesheet" />
 <header id="site-header" class="site-header mobile-header-blue header-style-1">
     <div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
         <div class="container-custom">
@@ -23,27 +19,15 @@
 
                     <ul class="topbar-right pull-right">
                         <li class="topbar-languages">
-                            <select class="selectpicker">
-                                <option data-content="<span class='flag-icon flag-icon-us'></span>     English"></option>
-                                <option data-content="<span class='flag-icon flag-icon-de'></span>     German"></option>
-                                <option data-content="<span class='flag-icon flag-icon-es'></span>     Spanish"></option>
-                                <option data-content="<span class='flag-icon flag-icon-ru'></span>     Russian"></option>
-                                <option data-content="<span class='flag-icon flag-icon-fr'></span>     French"></option>
-                                <option data-content="<span class='flag-icon flag-icon-it'></span>     Italian"></option>
-                                <option data-content="<span class='flag-icon flag-icon-nl'></span>     Dutch"></option>
+                            <select onchange="changeLangauge(this)" class="form-select">
+                                <option value="en" {{session()->get('locale') == 'en'?"selected":''}}  data-content="<span class='flag-icon flag-icon-us'></span>     English">🇺🇸&nbsp;English</option>
+                                <option value="de" {{session()->get('locale') == 'de'?"selected":''}} data-content="<span class='flag-icon flag-icon-de'></span>     German">🇩🇪&nbsp;German</option>
+                                <option value="es" {{session()->get('locale') == 'es'?"selected":''}} data-content="<span class='flag-icon flag-icon-es'></span>     Spanish">🇪🇸&nbsp;Spanish</option>
+                                <option value="ru" {{session()->get('locale') == 'ru'?"selected":''}} data-content="<span class='flag-icon flag-icon-ru'></span>     Russian">🇷🇺&nbsp;Russian</option>
+                                <option value="fr" {{session()->get('locale') == 'fr'?"selected":''}} data-content="<span class='flag-icon flag-icon-fr'></span>     French">🇫🇷&nbsp;French</option>
+                                <option value="it" {{session()->get('locale') == 'it'?"selected":''}} data-content="<span class='flag-icon flag-icon-it'></span>     Italian">🇮🇹&nbsp;Italian</option>
+                                <option value="nl" {{session()->get('locale') == 'nl'?"selected":''}} data-content="<span class='flag-icon flag-icon-nl'></span>     Dutch">🇷🇺&nbsp;Dutch</option>
                             </select>
-                            {{-- <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span class="flag-icon flag-icon-us" style="margin-right: 10px"></span>English<span class="caret" style="margin-left: 10px"></span></button>
-                                <ul class="dropdown-menu">
-                                    <li class="language-option" data-lcode="en"><span class="flag-icon flag-icon-us"></span>English</li>
-                                    <li class="language-option" data-lcode="ru"><span class="flag-icon flag-icon-ru">Russian</li>
-                                    <li class="language-option" data-lcode="de"><span class="flag-icon flag-icon-de">German</li>
-                                    <li class="language-option" data-lcode="fr"><span class="flag-icon flag-icon-fr">French</li>
-                                    <li class="language-option" data-lcode="es"><span class="flag-icon flag-icon-es">Spenish</li>
-                                    <li class="language-option" data-lcode="it"><span class="flag-icon flag-icon-it">Italian</li>
-                                    <li class="language-option" data-lcode="nl"><span class="flag-icon flag-icon-nl">Dutch</li>
-                                </ul>
-                            </div> --}}
                         </li>
                     </ul>
                 </div>
@@ -132,7 +116,7 @@
                                             href="{{ route('mission-and-vission') }}">{{ __('Mission & Vision') }}</a>
                                     </li>
                                     <li class="menu-item"><a
-                                            href="{{ route('corporate-video') }}">{{ __('Corporate Video<') }}/a>
+                                            href="{{ route('corporate-video') }}">{{ __('Corporate Video<') }}</a>
                                     </li>
                                 </ul>
                             </li>
@@ -154,3 +138,14 @@
         </div>
     </div>
 </header>
+
+
+@section('addScript')
+<script>
+function changeLangauge(self){
+    landCode = jQuery(self).find(':selected').val();
+    var url = '{{route('changeChange')}}'+'?lang_code='+landCode;
+    window.location.href = url;
+}
+</script>
+@endsection

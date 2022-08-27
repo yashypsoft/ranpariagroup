@@ -55,7 +55,7 @@
             <div class="row text-center">
               <div class="col-md-12">
                 <div id="projects" class="project-grid gallery row ">
-                  <div class="project-item events col-lg-3 col-sm-6">
+                  <div class="project-item events col-lg-4 col-sm-12 col-sm-offset-1">
                     <div class="inner">
                         <img src="{{asset('images/about/co-founder.jpg')}}" class="circle-img">
                       <strong>Jignesh Ranparia</strong>
@@ -63,7 +63,7 @@
                       <span>{{__('Co-Founder')}}</span>
                     </div>
                   </div>
-                  <div class="project-item events col-lg-3 col-sm-6">
+                  <div class="project-item events col-lg-4 col-sm-12 col-sm-offset-2">
                     <div class="inner">
                         <img src="{{asset('images/about/ceo.jpg')}}" class="circle-img">
                       <strong>Jaydeep Ranparia</strong>
@@ -72,22 +72,30 @@
                     </div>
                     <span></span>
                   </div>
-                  <div class="project-item events col-lg-3 col-sm-6">
-                    <div class="inner">
-                        <img src="{{asset('images/about/manager.jpg')}}" class="circle-img">
-                      <strong>Karan Ranparia</strong>
-                      <br>
-                      <span>{{__('Manager')}}</span>
-                    </div>
                   </div>
-                  <div class="project-item events col-lg-3 col-sm-6">
-                    <div class="inner">
-                        <img src="{{asset('images/about/accountant.jpg')}}" class="circle-img">
-                      <strong>Rishi Ranparia</strong>
-                      <br>
-                      <span>{{__('Accountant')}}</span>
-                    </div>
-                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <div id="projects" class="project-grid gallery row ">
+                    <div class="project-item events col-lg-4 col-sm-12 col-sm-offset-1">
+                        <div class="inner">
+                            <img src="{{asset('images/about/manager.jpg')}}" class="circle-img">
+                          <strong>Karan Ranparia</strong>
+                          <br>
+                          <span>{{__('Manager')}}</span>
+                        </div>
+                      </div>
+                      <div class="project-item events col-lg-4 col-sm-12 col-sm-offset-2">
+                        <div class="inner">
+                            <img src="{{asset('images/about/accountant.jpg')}}" class="circle-img">
+                          <strong>Rishi Ranparia</strong>
+                          <br>
+                          <span>{{__('Accountant')}}</span>
+                        </div>
                 </div>
               </div>
             </div>
