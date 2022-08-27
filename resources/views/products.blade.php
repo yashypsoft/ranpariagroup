@@ -14,9 +14,9 @@
                 @endif
                 <div class="project-item events col-lg-3 col-sm-6">
                     <div class="inner product-block">
-                        <a href="{{asset('images/products/'.$i.'.jpg')}}" class="image-link imghvr-shutter-out-vert"
+                        <a href="{{asset('images/wproducts/'.$i.'.jpg')}}" class="image-link imghvr-shutter-out-vert"
                             title="gallery zoom image Product {{$i}}">
-                            <img class="product-image" src="{{asset('images/products/'.$i.'.jpg')}}" >
+                            <img class="product-image" src="{{asset('images/wproducts/'.$i.'.jpg')}}" >
                         </a>
                         <strong class="product-title">Product {{$i }}</strong>
                     </div>

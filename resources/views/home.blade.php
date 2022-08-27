@@ -158,7 +158,7 @@
 </section>
 
 
-<section>
+{{-- <section>
     <div class="container">
         <div class="row text-center">
                 <h2 class="no-margin-bottom">{{__('Our Products')}}</h2>
@@ -197,7 +197,7 @@
         <hr>
         <div class="industris-space"></div>
     </div>
-</section>
+</section> --}}
 
 
 @endsection
