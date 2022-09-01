@@ -47,17 +47,21 @@
                                     </li>
                                 </ul>
                                 <div>
-                                    <p>Language:
-                                    <select onchange="changeLangauge(this)" class="form-select">
-                                        <option value="en" {{session()->get('locale') == 'en'?"selected":''}}  data-content="<span class='flag-icon flag-icon-us'></span>     English">🇺🇸&nbsp;English</option>
-                                        <option value="de" {{session()->get('locale') == 'de'?"selected":''}} data-content="<span class='flag-icon flag-icon-de'></span>     German">🇩🇪&nbsp;German</option>
-                                        <option value="es" {{session()->get('locale') == 'es'?"selected":''}} data-content="<span class='flag-icon flag-icon-es'></span>     Spanish">🇪🇸&nbsp;Spanish</option>
-                                        <option value="ru" {{session()->get('locale') == 'ru'?"selected":''}} data-content="<span class='flag-icon flag-icon-ru'></span>     Russian">🇷🇺&nbsp;Russian</option>
-                                        <option value="fr" {{session()->get('locale') == 'fr'?"selected":''}} data-content="<span class='flag-icon flag-icon-fr'></span>     French">🇫🇷&nbsp;French</option>
-                                        <option value="it" {{session()->get('locale') == 'it'?"selected":''}} data-content="<span class='flag-icon flag-icon-it'></span>     Italian">🇮🇹&nbsp;Italian</option>
-                                        <option value="nl" {{session()->get('locale') == 'nl'?"selected":''}} data-content="<span class='flag-icon flag-icon-nl'></span>     Dutch">🇷🇺&nbsp;Dutch</option>
-                                    </select>
-                                    </p>
+                                    <a class="btn btn-default btn-select">
+                                        <input type="hidden" class="btn-select-input" id="" name="" value=""  />
+                                        <span class="btn-select-value">
+                                            <span value="us" class="flag-icon flag-icon-us"></span>English</span>
+                                        <span class='btn-select-arrow'><i class="fa fa-chevron-down"></i></span>
+                                        <ul>
+                                            <li value="en" class="{{session()->get('locale') == 'en'?"selected":''}}"><span  class='flag-icon flag-icon-us'></span>English</li>
+                                            <li value="de" class="{{session()->get('locale') == 'de'?"selected":''}}"><span class='flag-icon flag-icon-de'></span>German</li>
+                                            <li value="es" class="{{session()->get('locale') == 'es'?"selected":''}}"><span class='flag-icon flag-icon-es'></span>Spanish</li>
+                                            <li value="ru" class="{{session()->get('locale') == 'ru'?"selected":''}}"><span class='flag-icon flag-icon-ru'></span>Russian</li>
+                                            <li value="fr" class="{{session()->get('locale') == 'fr'?"selected":''}}"><span class='flag-icon flag-icon-fr'></span>French</li>
+                                            <li value="it" class="{{session()->get('locale') == 'it'?"selected":''}}"><span class='flag-icon flag-icon-it'></span>Italian</li>
+                                            <li value="nl" class="{{session()->get('locale') == 'nl'?"selected":''}}"><span class='flag-icon flag-icon-nl'></span>Dutch</li>
+                                        </ul>
+                                    </a>
                                 </div>
                             </div>
                         </div>

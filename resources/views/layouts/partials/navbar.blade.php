@@ -21,18 +21,18 @@
                         <li class="topbar-languages">
 
                             <a class="btn btn-default btn-select">
-                                <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                                <input type="hidden" class="btn-select-input" id="" name="" value=""  />
                                 <span class="btn-select-value">
                                     <span value="us" class="flag-icon flag-icon-us"></span>English</span>
                                 <span class='btn-select-arrow'><i class="fa fa-chevron-down"></i></span>
                                 <ul>
-                                    <li><span value="en"  class='flag-icon flag-icon-us'></span>English</li>
-                                    <li><span value="de" class='flag-icon flag-icon-de'></span>German</li>
-                                    <li><span value="es" class='flag-icon flag-icon-es'></span>Spanish</li>
-                                    <li><span value="ru" class='flag-icon flag-icon-ru'></span>Russian</li>
-                                    <li><span value="fr" class='flag-icon flag-icon-fr'></span>French</li>
-                                    <li><span value="it" class='flag-icon flag-icon-it'></span>Italian</li>
-                                    <li><span value="nl" class='flag-icon flag-icon-nl'></span>Dutch</li>
+                                    <li value="en" class="{{session()->get('locale') == 'en'?"selected":''}}"><span  class='flag-icon flag-icon-us'></span>English</li>
+                                    <li value="de" class="{{session()->get('locale') == 'de'?"selected":''}}"><span class='flag-icon flag-icon-de'></span>German</li>
+                                    <li value="es" class="{{session()->get('locale') == 'es'?"selected":''}}"><span class='flag-icon flag-icon-es'></span>Spanish</li>
+                                    <li value="ru" class="{{session()->get('locale') == 'ru'?"selected":''}}"><span class='flag-icon flag-icon-ru'></span>Russian</li>
+                                    <li value="fr" class="{{session()->get('locale') == 'fr'?"selected":''}}"><span class='flag-icon flag-icon-fr'></span>French</li>
+                                    <li value="it" class="{{session()->get('locale') == 'it'?"selected":''}}"><span class='flag-icon flag-icon-it'></span>Italian</li>
+                                    <li value="nl" class="{{session()->get('locale') == 'nl'?"selected":''}}"><span class='flag-icon flag-icon-nl'></span>Dutch</li>
                                 </ul>
                             </a>
 
@@ -160,7 +160,7 @@
 @section('addScript')
 <script>
 function changeLangauge(self){
-    landCode = jQuery(self).find(':selected').val();
+    landCode = jQuery(self).attr('value');
     var url = '{{route('changeChange')}}'+'?lang_code='+landCode;
     window.location.href = url;
 }

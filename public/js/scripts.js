@@ -691,6 +691,7 @@ jQuery(document).on('click', '.btn-select', function (e) {
             var target = jQuery(e.target);
             target.addClass("selected").siblings().removeClass("selected");
             var value = target.html();
+            changeLangauge(target);
             jQuery(this).find(".btn-select-input").val(value);
             jQuery(this).find(".btn-select-value").html(value);
         }
