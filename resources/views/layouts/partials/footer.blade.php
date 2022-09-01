@@ -42,7 +42,23 @@
                                     <li><a href="{{ route('company-profile') }}">{{__('Company Profile')}}</a></li>
                                     <li><a href="{{ route('our-journey') }}">{{__('Our Journey')}}</a></li>
                                     <li><a href="{{ route('mission-and-vission') }}">{{__('Mission & Vission')}}</a></li>
+                                    <li>
+
+                                    </li>
                                 </ul>
+                                <div>
+                                    <p>Language:
+                                    <select onchange="changeLangauge(this)" class="form-select">
+                                        <option value="en" {{session()->get('locale') == 'en'?"selected":''}}  data-content="<span class='flag-icon flag-icon-us'></span>     English">🇺🇸&nbsp;English</option>
+                                        <option value="de" {{session()->get('locale') == 'de'?"selected":''}} data-content="<span class='flag-icon flag-icon-de'></span>     German">🇩🇪&nbsp;German</option>
+                                        <option value="es" {{session()->get('locale') == 'es'?"selected":''}} data-content="<span class='flag-icon flag-icon-es'></span>     Spanish">🇪🇸&nbsp;Spanish</option>
+                                        <option value="ru" {{session()->get('locale') == 'ru'?"selected":''}} data-content="<span class='flag-icon flag-icon-ru'></span>     Russian">🇷🇺&nbsp;Russian</option>
+                                        <option value="fr" {{session()->get('locale') == 'fr'?"selected":''}} data-content="<span class='flag-icon flag-icon-fr'></span>     French">🇫🇷&nbsp;French</option>
+                                        <option value="it" {{session()->get('locale') == 'it'?"selected":''}} data-content="<span class='flag-icon flag-icon-it'></span>     Italian">🇮🇹&nbsp;Italian</option>
+                                        <option value="nl" {{session()->get('locale') == 'nl'?"selected":''}} data-content="<span class='flag-icon flag-icon-nl'></span>     Dutch">🇷🇺&nbsp;Dutch</option>
+                                    </select>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
