@@ -57,6 +57,7 @@
                 </div>
                 <div class="col-sm"></div>
             </div>
+            <div class="industris-space-30"></div>
             <div class="row text-center">
                 <div class="col col-md-12">
                     <div class="row">
@@ -82,6 +83,7 @@
                     </div>
                 </div>
             </div>
+            <div class="industris-space-30"></div>
             <div class="row text-center">
                 <div class="col col-md-12">
                     <div class="row">
