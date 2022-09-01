@@ -157,48 +157,5 @@
 
 </section>
 
-
-{{-- <section>
-    <div class="container">
-        <div class="row text-center">
-                <h2 class="no-margin-bottom">{{__('Our Products')}}</h2>
-        </div>
-        <div class="industris-space"></div>
-        <div class="row">
-            <div class="col-md-12">
-
-                <div class="partner-slider image-carousel text-center" data-show="5" data-arrow="false">
-
-                    @for ($i = 1; $i < 9; $i++)
-                    <div>
-                        <div class="partner-item text-center clearfix">
-                            <div class="inner">
-                                <div class="thumb">
-                                    <img class="product-image-home" src="{{asset('images/products/'.$i.'.jpg')}}" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    @endfor
-
-                </div>
-            </div>
-        </div>
-        <div class="industris-space-50"></div>
-        <div class="row">
-            <div class="text-right align-self-end">
-                <a class="industris-lineheight" href="{{ route('products',['lang'=>app()->getLocale()])}}">{{__('View all products')}}<i class="icon ion-md-add-circle-outline"></i></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="industris-space"></div>
-        <hr>
-        <div class="industris-space"></div>
-    </div>
-</section> --}}
-
-
 @endsection
 

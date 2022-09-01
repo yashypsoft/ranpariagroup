@@ -60,7 +60,7 @@
                   <input type="text" class="form-control" id="recipient-name">
                 </div>
                 <div class="mx-2 mt-3">
-                  <label for="message-text" class="col-form-label">((__('Email:')))</label>
+                  <label for="message-text" class="col-form-label">{{__('Email:')}}</label>
                   <input type="text" class="form-control" id="recipient-name">
                 </div>
                 <div class="mx-2 mt-3">
