@@ -6064,3 +6064,21 @@ img.indus-image{
 .flag-icon {
   margin-right: 10px;
 }
+
+.product-title{
+    display: none;
+    position: absolute;
+    bottom: 12px;
+    z-index: 2;
+    left: 8%;
+    right: 8%;
+}
+.product-block:hover .product-title{
+    display: block;
+    position: absolute;
+    bottom: 12px;
+    z-index: 2;
+    left: 8%;
+    right: 8%;
+    color: white;
+}
