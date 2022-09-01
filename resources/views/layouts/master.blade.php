@@ -24,6 +24,8 @@
         <link rel="stylesheet" id="magnific-popup-css" href="{{ asset('css/magnific-popup.css') }}" type="text/css" media="all">
         <link rel="stylesheet" id="industris-style-css" href="{{ asset('css/style.css') }}" type="text/css" media="all">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
         <link rel="shortcut icon" href="{{ asset('favicon.ico')}}">
     </head>
     <body class="antialiased">

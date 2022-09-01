@@ -672,3 +672,44 @@ if ($('.image-link').length) {
     });// JavaScript Document
 }
 } )( jQuery );
+
+jQuery(document).ready(function () {
+    jQuery(".btn-select").each(function (e) {
+        var value = jQuery(this).find("ul li.selected").html();
+        if (value != undefined) {
+            jQuery(this).find(".btn-select-input").val(value);
+            jQuery(this).find(".btn-select-value").html(value);
+        }
+    });
+});
+
+jQuery(document).on('click', '.btn-select', function (e) {
+    e.preventDefault();
+    var ul = jQuery(this).find("ul");
+    if (jQuery(this).hasClass("active")) {
+        if (ul.find("li").is(e.target)) {
+            var target = jQuery(e.target);
+            target.addClass("selected").siblings().removeClass("selected");
+            var value = target.html();
+            jQuery(this).find(".btn-select-input").val(value);
+            jQuery(this).find(".btn-select-value").html(value);
+        }
+        ul.hide();
+        jQuery(this).removeClass("active");
+    }
+    else {
+        jQuery('.btn-select').not(this).each(function () {
+            jQuery(this).removeClass("active").find("ul").hide();
+        });
+        ul.slideDown(300).css('display','grid');
+        jQuery(this).addClass("active");
+    }
+});
+
+jQuery(document).on('click', function (e) {
+    var target = jQuery(e.target).closest(".btn-select");
+    if (!target.length) {
+        jQuery(".btn-select").removeClass("active").find("ul").hide();
+    }
+});
+
