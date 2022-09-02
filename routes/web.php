@@ -27,3 +27,6 @@ Route::get('/career', 'Frontend\IndexController@career')->name('career');
 
 Route::get('/changeLang', 'Frontend\IndexController@changeLang')->name('changeChange');
 
+
+Route::post('contact-us', 'Frontend\IndexController@sendContactUsMail')->name('contact.us.store');
+Route::post('carrier', 'Frontend\IndexController@sendCarrierMail')->name('carrier.store');

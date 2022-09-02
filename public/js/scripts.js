@@ -714,3 +714,16 @@ jQuery(document).on('click', function (e) {
     }
 });
 
+
+window.setTimeout(function() {
+    jQuery(".alert-message").fadeTo(500, 0).slideUp(500, function(){
+        jQuery(this).remove();
+    });
+}, 5000);
+
+if(jQuery('.alert-message').length){
+    jQuery('html, body').animate({
+        scrollTop: jQuery(".alert-message").offset().top
+    }, 2000);
+}
+
