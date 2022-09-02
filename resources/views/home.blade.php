@@ -57,6 +57,29 @@
     </div>
 </div>
 
+<section class="bg-primary no-padding">
+    <div class="industris-space-90"></div>
+    <h3 class="text-center h2">{{__('Our Corporate Video')}}</h3>
+    <div class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            <div class="video-container">
+                                {{-- <iframe  src="https://www.youtube.com/embed/QI1n0niG5E4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
+                            </div>
+                        </div>
+                    <div class="col-lg-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="industris-space-90"></div>
+
+</section>
+
 <section class="no-padding-bottom">
     <div class="container">
         <div class="row text-center">
@@ -132,29 +155,6 @@
         </div>
     </div>
     <div class="industris-space-90"></div>
-</section>
-
-<section class="bg-primary no-padding">
-    <div class="industris-space-90"></div>
-    <h3 class="text-center h2">{{__('Our Corporate Video')}}</h3>
-    <div class="">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="col-lg-2"></div>
-                        <div class="col-lg-8">
-                            <div class="video-container">
-                                {{-- <iframe  src="https://www.youtube.com/embed/QI1n0niG5E4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --}}
-                            </div>
-                        </div>
-                    <div class="col-lg-2">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="industris-space-90"></div>
-
 </section>
 
 @endsection
