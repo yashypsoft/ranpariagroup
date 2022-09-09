@@ -102,7 +102,7 @@
                                 <br>
                                 <strong>Rishi Ranparia</strong>
                                 <br>
-                                <span>{{ __('Accountant') }}</span>
+                                <span>{{ __('Manager') }}</span>
                             </div>
                         </div>
                     </div>

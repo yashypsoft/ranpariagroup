@@ -8,10 +8,10 @@
                         <li onclick="location.href='https://g.page/ranparia-engineering-co?share';"><i
                                 class="icon ion-md-pin"></i>Bhagyalaxmi Industrial Estate,St. no 2, Bhavnagar Rd, Rajkot
                         </li>
-                        <li onclick="location.href='tel:+918758422436';"><i class="icon ion-md-call"></i>+91 87584 22436
+                        <li onclick="location.href='tel:+919723918607';"><i class="icon ion-md-call"></i>+91 97239 18607
                         </li>
-                        <li onclick="location.href='mailto:karanranparia@gmail.com';"><i
-                                class="icon ion-md-mail"></i>karanranparia@gmail.com</li>
+                        <li onclick="location.href='mailto:info@ranpariagroup.in';"><i
+                                class="icon ion-md-mail"></i>info@ranpariagroup.in</li>
                     </ul>
                 </div>
                 <!-- Info on topbar close -->
@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo-brand">
-                        <a href="{{ route('home') }}"><img src="{{ asset('logo.png') }}" alt="industris"></a>
+                        <a href="{{ route('home') }}"><img src="{{ asset('Logo/logowithtext.png') }}" alt="industris"></a>
                     </div>
                 </div>
                 <div class="col-md-9">
@@ -87,7 +87,7 @@
                                     href="{{ route('quality') }}">{{ __('Quality') }}</a>
                             </li>
                             <li class="menu-item"><a
-                                    href="{{ url()->to('https://drive.google.com/file/d/1OtHi0nA_jLeQIE9DonsdIo-Q3_yEUMIA/view?usp=sharing') }}">{{ __('E-Catalogue') }}</a>
+                                    href="{{ asset('E-catalog/e-catalog.pdf') }}" target="_blank">{{ __('E-Catalogue') }}</a>
                             </li>
                             <li class="menu-item {{ request()->is('career') ? 'current-menu-parent' : '' }}"><a
                                     href="{{ route('career') }}">{{ __('Career') }}</a>
@@ -109,7 +109,7 @@
             <div class="row">
                 <div class="col-xs-6">
                     <div class="logo-brand-mobile">
-                        <a href="{{ route('home') }}"><img src="{{ asset('logo.png') }}" alt="industris"></a>
+                        <a href="{{ route('home') }}"><img src="{{ asset('Logo/logowithtext.png') }}" alt="industris"></a>
                     </div>
                 </div>
                 <div class="col-xs-6">

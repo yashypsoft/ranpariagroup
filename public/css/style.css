@@ -1610,7 +1610,7 @@ select.form-control {
     -webkit-box-align: center !important;
     -ms-flex-align: center !important;
     align-items: center !important;
-    min-height: 450px;
+    min-height: 225px;
 }
 
 .page-title {
@@ -5863,7 +5863,7 @@ img.indus-image{
     min-width: 236px;
     width: 100%;
     border-radius: 0;
-    margin-bottom: 20px;
+    margin-bottom: -8px;
 }
 
 .btn-select .btn-select-value {
@@ -6102,4 +6102,13 @@ img.indus-image{
     margin-bottom: 1rem;
     border: 1px solid transparent;
     border-radius: 0.25rem;
+}
+
+
+.topbar-languages{
+    padding-top: 7px !important;
+}
+
+.logo-brand{
+    max-width: 85%;
 }

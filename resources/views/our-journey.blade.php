@@ -102,7 +102,7 @@
               {{-- <h4 class="timeline-title">Death</h4> --}}
             </div>
             <div class="timeline-body">
-              <p>{{__('Incorporated “ranparia engineering pvt. ltd.” and started supplying auto components to the auto sector, and got certified by iso 9001:2000 tuv sud, eventually became tier 1 and tier 2 supplier.')}}</p>
+              <p>{{__('Incorporated “ranparia engineering pvt. ltd.” and started supplying auto components to the auto sector, and got certified by ISO 9001:2000 tuv sud, eventually became tier 1 and tier 2 supplier.')}}</p>
             </div>
           </div>
         </li>
