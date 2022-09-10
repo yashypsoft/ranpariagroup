@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
 Route::get('/', 'Frontend\IndexController@home')->name('home');
 Route::get('/about-us', 'Frontend\IndexController@aboutUs')->name('about-us');
@@ -24,9 +31,8 @@ Route::get('/mission-and-vission', 'Frontend\IndexController@missionAndvission')
 Route::get('/corporate-video', 'Frontend\IndexController@corporateVideo')->name('corporate-video');
 Route::get('/quality', 'Frontend\IndexController@quality')->name('quality');
 Route::get('/career', 'Frontend\IndexController@career')->name('career');
-
 Route::get('/changeLang', 'Frontend\IndexController@changeLang')->name('changeChange');
-
-
 Route::post('contact-us', 'Frontend\IndexController@sendContactUsMail')->name('contact.us.store');
 Route::post('carrier', 'Frontend\IndexController@sendCarrierMail')->name('carrier.store');
+
+require __DIR__.'/auth.php';

@@ -51,8 +51,7 @@
                             - {{ __('Proficient in written and spoken English - Excellent communication skills') }}
                         </p>
                         <div class="industris-space-30"></div>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#applyModel">Apply
-                            Now</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#applyModel">{{__('Apply Now')}}</button>
                     </div>
                 </div>
                 <div class="col-md-12">
@@ -75,8 +74,7 @@
                             - {{ __('Proficient in written and spoken English - Excellent communication skills') }}
                         </p>
                         <div class="industris-space-30"></div>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#applyModel">Apply
-                            Now</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#applyModel">{{__('Apply Now')}}</button>
                     </div>
                 </div>
             </div>
@@ -88,7 +86,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title h2" id="applyModelLabel">{{ __('Apply for ') }} Job</h5>
+                    <h5 class="modal-title h2" id="applyModelLabel">{{ __('Apply for ') }} {{__('Job')}}</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
