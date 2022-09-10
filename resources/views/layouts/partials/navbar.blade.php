@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo-brand">
-                        <a href="{{ route('home') }}"><img src="{{ asset('Logo/logowithtext.png') }}" alt="industris"></a>
+                        <a href="{{ route('home') }}"><img src="{{ asset('images/logo/logowithtext.png') }}" alt="industris"></a>
                     </div>
                 </div>
                 <div class="col-md-9">
@@ -99,7 +99,7 @@
             <div class="row">
                 <div class="col-xs-6">
                     <div class="logo-brand-mobile">
-                        <a href="{{ route('home') }}"><img src="{{ asset('Logo/logowithtext.png') }}" alt="industris"></a>
+                        <a href="{{ route('home') }}"><img src="{{ asset('images/logo/logowithtext.png') }}" alt="industris"></a>
                     </div>
                 </div>
                 <div class="col-xs-6">

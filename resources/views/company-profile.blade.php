@@ -36,8 +36,8 @@
             @for($i = 1; $i<=4;$i++)
             <div class="project-item events col-lg-3 col-sm-6">
               <div class="inner">
-                <a href="{{asset('infra/I'.$i.'.jpg')}}" class="image-link imghvr-shutter-out-vert" title="gallery zoom image">
-                  <img src="{{asset('infra/I'.$i.'.jpg')}}" alt="">
+                <a href="{{asset('images/infra/I'.$i.'.jpg')}}" class="image-link imghvr-shutter-out-vert" title="gallery zoom image">
+                  <img src="{{asset('images/infra/I'.$i.'.jpg')}}" alt="">
                 </a>
               </div>
             </div>
@@ -57,12 +57,12 @@
               <div class="slider" data-show="1" data-arrow="true">
                 <div>
                     <div class="slider-item">
-                      <img src="{{asset('Unit/U1.jpg')}}" alt="">
+                      <img src="{{asset('images/unit/U1.jpg')}}" alt="">
                     </div>
-                </div>         
+                </div>
                 <div>
                     <div class="slider-item">
-                      <img src="{{asset('Unit/U2.jpg')}}" alt="">
+                      <img src="{{asset('images/unit/U2.jpg')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -83,12 +83,12 @@
             <div class="slider" data-show="1" data-arrow="true">
               <div>
                   <div class="slider-item">
-                    <img src="{{asset('Unit/U1.jpg')}}" alt="">
+                    <img src="{{asset('images/unit/U1.jpg')}}" alt="">
                   </div>
-              </div>         
+              </div>
               <div>
                   <div class="slider-item">
-                    <img src="{{asset('Unit/U2.jpg')}}" alt="">
+                    <img src="{{asset('images/unit/U2.jpg')}}" alt="">
                   </div>
               </div>
           </div>
@@ -108,12 +108,12 @@
             <div class="slider" data-show="1" data-arrow="true">
               <div>
                   <div class="slider-item">
-                    <img src="{{asset('Unit/U1.jpg')}}" alt="">
+                    <img src="{{asset('images/unit/U1.jpg')}}" alt="">
                   </div>
-              </div>         
+              </div>
               <div>
                   <div class="slider-item">
-                    <img src="{{asset('Unit/U2.jpg')}}" alt="">
+                    <img src="{{asset('images/unit/U2.jpg')}}" alt="">
                   </div>
               </div>
           </div>
@@ -134,12 +134,12 @@
             <div class="slider" data-show="1" data-arrow="true">
               <div>
                   <div class="slider-item">
-                    <img src="{{asset('Unit/U1.jpg')}}" alt="">
+                    <img src="{{asset('images/unit/U1.jpg')}}" alt="">
                   </div>
-              </div>         
+              </div>
               <div>
                   <div class="slider-item">
-                    <img src="{{asset('Unit/U2.jpg')}}" alt="">
+                    <img src="{{asset('images/unit/U2.jpg')}}" alt="">
                   </div>
               </div>
           </div>

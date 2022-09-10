@@ -6,7 +6,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div class="widget-footer">
                         <div id="media_image-1" class="widget widget_media_image">
-                            <a href="{{route('home')}}"><img src="{{asset('Logo/logowithtext.png')}}" alt=""></a>
+                            <a href="{{route('home')}}"><img src="{{asset('images/logo/logowithtext.png')}}" alt=""></a>
                         </div>
                         <div id="custom_html-1" class="widget_text widget widget_custom_html">
                             <div class="textwidget custom-html-widget">
