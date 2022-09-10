@@ -1,63 +1,63 @@
-(function($) {
-  "use strict";
+(function ($) {
+    "use strict";
 
-	$('.toggle_search a').on("click", function(){
-		$(this).toggleClass( "active" );
-		if ($(this).hasClass( "active" )) {
-			$('.searchbar').stop(true, true).slideDown();
-		}else{
-			$('.searchbar').stop(true, true).slideUp();
-		}
+    $('.toggle_search a').on("click", function () {
+        $(this).toggleClass("active");
+        if ($(this).hasClass("active")) {
+            $('.searchbar').stop(true, true).slideDown();
+        } else {
+            $('.searchbar').stop(true, true).slideUp();
+        }
     });
 
-    $('.return-customer a').on("click", function(){
-        $(this).toggleClass( "active" );
-        if ($(this).hasClass( "active" )) {
+    $('.return-customer a').on("click", function () {
+        $(this).toggleClass("active");
+        if ($(this).hasClass("active")) {
             $('.checkout-login-form').stop(true, true).slideDown();
-        }else{
+        } else {
             $('.checkout-login-form').stop(true, true).slideUp();
         }
     });
 
-    $('.have-coupon a').on("click", function(){
-        $(this).toggleClass( "active" );
-        if ($(this).hasClass( "active" )) {
+    $('.have-coupon a').on("click", function () {
+        $(this).toggleClass("active");
+        if ($(this).hasClass("active")) {
             $('.woocommerce-form-coupon').stop(true, true).slideDown();
-        }else{
+        } else {
             $('.woocommerce-form-coupon').stop(true, true).slideUp();
         }
     });
 
-	$('.mobile-menu li:has(ul)').prepend('<span class="arrow"><i class="fa fa-plus"></i></span>');
-	$( "#mmenu_toggle" ).on('click', function() {
-		$(this).toggleClass( "active" );
+    $('.mobile-menu li:has(ul)').prepend('<span class="arrow"><i class="fa fa-plus"></i></span>');
+    $("#mmenu_toggle").on('click', function () {
+        $(this).toggleClass("active");
 
-		if ($(this).hasClass( "active" )) {
-			$('.mobile-nav').stop(true, true).slideDown();
-		}else{
-			$('.mobile-nav').stop(true, true).slideUp();
-		}
-	});
+        if ($(this).hasClass("active")) {
+            $('.mobile-nav').stop(true, true).slideDown();
+        } else {
+            $('.mobile-nav').stop(true, true).slideUp();
+        }
+    });
 
-	$(".mobile-menu li span.arrow").on('click', function() {
+    $(".mobile-menu li span.arrow").on('click', function () {
         $(this).parent().find("> ul").stop(true, true).slideToggle()
-        $(this).toggleClass( "active" );
+        $(this).toggleClass("active");
     });
 
 
     //Project Filter
-    $(window).on("load", function(){
+    $(window).on("load", function () {
         var $container = $('#projects');
-        if ($container.length > 0 ) {
-        $container.isotope({
-            itemSelector: '.project-item',
-            filter: '*',
-            masonry: {
-                columnWidth: 1
-            }
-        });
+        if ($container.length > 0) {
+            $container.isotope({
+                itemSelector: '.project-item',
+                filter: '*',
+                masonry: {
+                    columnWidth: 1
+                }
+            });
         }
-        $('#filters a').on("click", function() {
+        $('#filters a').on("click", function () {
             var $this = $(this);
             if ($this.hasClass('selected')) {
                 return false;
@@ -66,10 +66,10 @@
             $optionSet.find('.selected').removeClass('selected');
             $this.addClass('selected');
             var selector = $(this).attr('data-filter');
-            if ($container.length > 0 ) {
-            $container.isotope({
-                filter: selector
-            });
+            if ($container.length > 0) {
+                $container.isotope({
+                    filter: selector
+                });
             }
             return false;
         });
@@ -78,11 +78,11 @@
 
     //Counter
     var v_count = '0';
-    $(window).on("scroll", function(){
-        $('.counter-box .number, .icon-box .number').each(function(){
+    $(window).on("scroll", function () {
+        $('.counter-box .number, .icon-box .number').each(function () {
             var imagePos = $(this).offset().top;
             var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow+800 && v_count=='0') {
+            if (imagePos < topOfWindow + 800 && v_count == '0') {
                 $(function ($) {
                     // start all the timers
                     $('.counter-box .number, .icon-box .number').each(count);
@@ -104,7 +104,7 @@
         $('.scroll-btn')
             // Remove links that don't actually link to anything
 
-            .click(function(event) {
+            .click(function (event) {
                 // On-page links
                 if (
                     location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
@@ -119,7 +119,7 @@
                         event.preventDefault();
                         $('html, body').animate({
                             scrollTop: target.offset().top - 90
-                        }, 1000, function() {
+                        }, 1000, function () {
                             // Callback after animation
                             // Must change focus!
                             var $target = $(target);
@@ -140,7 +140,7 @@
     }
 
     // Sticky
-    $(document).on('ready', function() {
+    $(document).on('ready', function () {
         "use strict";
         if ($(window).width() >= "768") {
             $(".navigation-2").sticky({ topSpacing: 0 });
@@ -151,12 +151,12 @@
 
     // Slider
 
-    $('.slider').each( function () {
-        var $show   = $(this).data('show');
-        var $arr    = $(this).data('arrow');
-        var $dots   = !$arr;
+    $('.slider').each(function () {
+        var $show = $(this).data('show');
+        var $arr = $(this).data('arrow');
+        var $dots = !$arr;
         var $m_show = $show;
-        if( $show == 3 ) $m_show = $show - 1;
+        if ($show == 3) $m_show = $show - 1;
         $(this).slick({
             slidesToShow: $show,
             slidesToScroll: 1,
@@ -230,12 +230,12 @@
 
     //Services Slider
 
-    $('.services-slider').each( function () {
-        var $show   = $(this).data('show');
-        var $arr    = $(this).data('arrow');
-        var $dots   = !$arr;
+    $('.services-slider').each(function () {
+        var $show = $(this).data('show');
+        var $arr = $(this).data('arrow');
+        var $dots = !$arr;
         var $m_show = $show;
-        if( $show == 3 ) $m_show = $show - 1;
+        if ($show == 3) $m_show = $show - 1;
         $(this).slick({
             slidesToShow: $show,
             slidesToScroll: 1,
@@ -280,12 +280,12 @@
 
     //Testimonial Slider
 
-    $('.testi-slider').each( function () {
-        var $show   = $(this).data('show');
-        var $arr    = $(this).data('arrow');
-        var $dots   = $(this).data('dots');
+    $('.testi-slider').each(function () {
+        var $show = $(this).data('show');
+        var $arr = $(this).data('arrow');
+        var $dots = $(this).data('dots');
         var $m_show = $show;
-        if( $show == 3 ) $m_show = $show - 1;
+        if ($show == 3) $m_show = $show - 1;
         $(this).slick({
             slidesToShow: $show,
             slidesToScroll: 1,
@@ -330,12 +330,12 @@
     });
 
 
-    $('.testi-slider-2').each( function () {
-        var $show   = $(this).data('show');
-        var $arr    = $(this).data('arrow');
-        var $dots   = $(this).data('dots');
+    $('.testi-slider-2').each(function () {
+        var $show = $(this).data('show');
+        var $arr = $(this).data('arrow');
+        var $dots = $(this).data('dots');
         var $m_show = $show;
-        if( $show == 3 ) $m_show = $show - 1;
+        if ($show == 3) $m_show = $show - 1;
         $(this).slick({
             slidesToShow: $show,
             slidesToScroll: 1,
@@ -381,16 +381,16 @@
 
 
     //Images Carousel
-    $('.image-carousel').each( function () {
+    $('.image-carousel').each(function () {
         var $s1, $s2, $s3;
-        var $show   = $s1 = $s2 = $(this).data('show');
-        var $arr    = $(this).data('arrow');
-        var $dots   = !$arr;
-        if($(this).hasClass('partner-slider')){
-            $dots    = false;
+        var $show = $s1 = $s2 = $(this).data('show');
+        var $arr = $(this).data('arrow');
+        var $dots = !$arr;
+        if ($(this).hasClass('partner-slider')) {
+            $dots = false;
         }
-        if( 4 > $show > 2 ) { $s1 = $s2 = $show - 1; }
-        if( $show > 3 ) { $s1 = $show - 1; $s2 = $show - 2; $s3 = $show - 3; }
+        if (4 > $show > 2) { $s1 = $s2 = $show - 1; }
+        if ($show > 3) { $s1 = $show - 1; $s2 = $show - 2; $s3 = $show - 3; }
 
         $(this).slick({
             infinite: true,
@@ -456,12 +456,12 @@
 
     //Project Feature Slider
 
-    $('.project-feature-slider').each( function () {
-        var $show   = $(this).data('show');
-        var $arr    = $(this).data('arrow');
-        var $dots   = !$arr;
+    $('.project-feature-slider').each(function () {
+        var $show = $(this).data('show');
+        var $arr = $(this).data('arrow');
+        var $dots = !$arr;
         var $m_show = $show;
-        if( $show == 3 ) $m_show = $show - 1;
+        if ($show == 3) $m_show = $show - 1;
         $(this).slick({
             slidesToShow: $show,
             slidesToScroll: 1,
@@ -534,12 +534,12 @@
 
     //Project Slider
 
-    $('.project-slider').each( function () {
-        var $show   = $(this).data('show');
-        var $arr    = $(this).data('arrow');
-        var $dots   = !$arr;
+    $('.project-slider').each(function () {
+        var $show = $(this).data('show');
+        var $arr = $(this).data('arrow');
+        var $dots = !$arr;
         var $m_show = $show;
-        if( $show == 3 ) $m_show = $show - 1;
+        if ($show == 3) $m_show = $show - 1;
         $(this).slick({
             slidesToShow: $show,
             slidesToScroll: 1,
@@ -611,25 +611,25 @@
 
 
     if ($('#back-to-top').length) {
-	    $('#back-to-top').on('click', function (e) {
-	        e.preventDefault();
-	        $('html,body').animate({
-	            scrollTop: 0
-	        }, 700);
-	    });
+        $('#back-to-top').on('click', function (e) {
+            e.preventDefault();
+            $('html,body').animate({
+                scrollTop: 0
+            }, 700);
+        });
     }
 
 
     //Popup Video
     var $video_play = $('.video-player a');
-    if ($video_play.length > 0 ) {
+    if ($video_play.length > 0) {
         $video_play.magnificPopup({
             type: 'iframe',
             removalDelay: 160,
             preloader: true,
             fixedContentPos: false,
             callbacks: {
-            beforeOpen: function() {
+                beforeOpen: function () {
                     this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
                     this.st.mainClass = this.st.el.attr('data-effect');
                 }
@@ -637,41 +637,44 @@
         });
     }
 
-// Initialize popup as usual
-if ($('.image-link').length) {
-    $('.image-link').magnificPopup({
-      type: 'image',
-      mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+    // Initialize popup as usual
+    if ($('.image-link').length) {
+        $('.gallery-images').each(function () {
+            $(this).find('.image-link').magnificPopup({
+                type: 'image',
+                mainClass: 'mfp-with-zoom', // this class is for CSS animation below
 
-      zoom: {
-        enabled: true, // By default it's false, so don't forget to enable it
+                zoom: {
+                    enabled: true, // By default it's false, so don't forget to enable it
 
-        duration: 300, // duration of the effect, in milliseconds
-        easing: 'ease-in-out', // CSS transition easing function
+                    duration: 300, // duration of the effect, in milliseconds
+                    easing: 'ease-in-out', // CSS transition easing function
 
-        // The "opener" function should return the element from which popup will be zoomed in
-        // and to which popup will be scaled down
-        // By defailt it looks for an image tag:
-        opener: function(openerElement) {
-          // openerElement is the element on which popup was initialized, in this case its <a> tag
-          // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-          return openerElement.is('img') ? openerElement : openerElement.find('img');
+                    // The "opener" function should return the element from which popup will be zoomed in
+                    // and to which popup will be scaled down
+                    // By defailt it looks for an image tag:
+                    opener: function (openerElement) {
+                        // openerElement is the element on which popup was initialized, in this case its <a> tag
+                        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+                        return openerElement.is('img') ? openerElement : openerElement.find('img');
+                    }
+
+                },
+                image: {
+                    // options for image content type
+                    titleSrc: 'title'
+                },
+                gallery: {
+                    // options for gallery
+                    enabled: true
+                },
+
+
+            });// JavaScript Document
         }
-
-      },
-       image: {
-        // options for image content type
-        titleSrc: 'title'
-      },
-      gallery: {
-        // options for gallery
-        enabled: true
-      },
-
-
-    });// JavaScript Document
-}
-} )( jQuery );
+        )
+    }
+})(jQuery);
 
 jQuery(document).ready(function () {
     jQuery(".btn-select").each(function (e) {
@@ -702,7 +705,7 @@ jQuery(document).on('click', '.btn-select', function (e) {
         jQuery('.btn-select').not(this).each(function () {
             jQuery(this).removeClass("active").find("ul").hide();
         });
-        ul.slideDown(300).css('display','grid');
+        ul.slideDown(300).css('display', 'grid');
         jQuery(this).addClass("active");
     }
 });
@@ -715,13 +718,13 @@ jQuery(document).on('click', function (e) {
 });
 
 
-window.setTimeout(function() {
-    jQuery(".alert-message").fadeTo(500, 0).slideUp(500, function(){
+window.setTimeout(function () {
+    jQuery(".alert-message").fadeTo(500, 0).slideUp(500, function () {
         jQuery(this).remove();
     });
 }, 5000);
 
-if(jQuery('.alert-message').length){
+if (jQuery('.alert-message').length) {
     jQuery('html, body').animate({
         scrollTop: jQuery(".alert-message").offset().top
     }, 2000);
