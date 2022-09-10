@@ -10,7 +10,7 @@
                 <div class="col-md-6 col-sm-12">
                     <h4 class="text-primary">{{ __('OUR STORY') }}</h4>
                     <h2>Ranparia Engineering co.</h2>
-                    <p>{{ __('Ranparia Engineering Co has a highly qualified staff which includes technicians, engineers, quality inspectors, admin staff, skilled and semi skilled workers around 120 people in strength. our team is having profound knowledge in the feild of casting, forging and machining.') }}
+                    <p><b>Ranparia Engineering Co </b>{{ __('has a highly qualified staff which includes technicians, engineers, quality inspectors, admin staff, skilled and semi skilled workers around 120 people in strength. our team is having profound knowledge in the feild of casting, forging and machining.') }}
                     </p>
                     <br>
                     <p>{{ __('This has become possible because of our business ethics, helpfull and co-operative nature, infrastructure, quality, research & development, and commitment to timely delivery.') }}
