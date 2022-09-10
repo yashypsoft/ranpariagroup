@@ -2,7 +2,7 @@
     "Welcome" : "Welcome",
 
     "Quality Assurance" : "Quality Assurance",
-    "Superior and consistent quality product range is the primary concern of" : "Superior and consistent quality product range is the primary concern of", 
+    "Superior and consistent quality product range is the primary concern of" : "Superior and consistent quality product range is the primary concern of",
     "the fame and recognition incurred over the years speaks volumes of our efficiency in maintaining a total quality management policy. Being an ISO 9001:2015 certified company; we pay paramount attention to quality throughout the production stages, ensuring that the best and flawless products offered to our customer." : "the fame and recognition incurred over the years speaks volumes of our efficiency in maintaining a total quality management policy. Being an ISO 9001:2015 certified company; we pay paramount attention to quality throughout the production stages, ensuring that the best and flawless products offered to our customer.",
     "Our diligent quality inspectors regularly conduct quality checks in our well equipped in house inspection, in order to ensure flawless production" : "Our diligent quality inspectors regularly conduct quality checks in our well equipped in house inspection, in order to ensure flawless production",
 
@@ -112,5 +112,25 @@
     "Products":"Products",
     "Quality":"Quality",
     "E-Catalogue":"E-Catalogue",
-    "Career":"Career"
+    "Career":"Career",
+
+    "Business Development Manager":"Business Development Manager",
+    "Responsibility:":"Responsibility:",
+    "Act as a representative of the company for business development and client servicing":"Act as a representative of the company for business development and client servicing",
+    "Generation of prospects data from various sources":"Generation of prospects data from various sources",
+    "Emailing, personal meeting with the prospects":"Emailing, personal meeting with the prospects",
+    "Prepare and deliver presentations before the prospect/client/stakeholder explaining services offered by the company along with portfolio and strengths":"Prepare and deliver presentations before the prospect/client/stakeholder explaining services offered by the company along with portfolio and strengths",
+    "Prepare quotations (if required, in consultation with the head) and send it to the prospect/client":"Prepare quotations (if required, in consultation with the head) and send it to the prospect/client",
+    "Manage project costs, budgets and client expectations":"Manage project costs, budgets and client expectations",
+    "Skills:":"Skills:",
+    "Thorough understanding of Sales and Marketing":"Thorough understanding of Sales and Marketing",
+    "Understanding of various services in the advertising, branding and event areas":"Understanding of various services in the advertising, branding and event areas",
+    "Excellent negotiation skills":"Excellent negotiation skills",
+    "Proficiency in presentations: Preparation and delivery of presentations":"Proficiency in presentations: Preparation and delivery of presentations",
+    "Proficient in written and spoken English - Excellent communication skills":"Proficient in written and spoken English - Excellent communication skills",
+    "Apply Now":"Apply Now",
+    "Post Production Manager":"Post Production Manager"
+
+
+
 }
