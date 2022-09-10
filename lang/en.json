@@ -2,7 +2,8 @@
     "Welcome" : "Welcome",
 
     "Quality Assurance" : "Quality Assurance",
-    "Superior and consistent quality product range is the primary concern of ranparia engineering co. the fame and recognition incurred over the years speaks volumes of our efficiency in maintaining a total quality management policy. Being an ISO 9001:2015 certified company; we pay paramount attention to quality throughout the production stages, ensuring that the best and flawless products offered to our customer." : "Superior and consistent quality product range is the primary concern of ranparia engineering co. the fame and recognition incurred over the years speaks volumes of our efficiency in maintaining a total quality management policy. Being an ISO 9001:2015 certified company; we pay paramount attention to quality throughout the production stages, ensuring that the best and flawless products offered to our customer.",
+    "Superior and consistent quality product range is the primary concern of" : "Superior and consistent quality product range is the primary concern of", 
+    "the fame and recognition incurred over the years speaks volumes of our efficiency in maintaining a total quality management policy. Being an ISO 9001:2015 certified company; we pay paramount attention to quality throughout the production stages, ensuring that the best and flawless products offered to our customer." : "the fame and recognition incurred over the years speaks volumes of our efficiency in maintaining a total quality management policy. Being an ISO 9001:2015 certified company; we pay paramount attention to quality throughout the production stages, ensuring that the best and flawless products offered to our customer.",
     "Our diligent quality inspectors regularly conduct quality checks in our well equipped in house inspection, in order to ensure flawless production" : "Our diligent quality inspectors regularly conduct quality checks in our well equipped in house inspection, in order to ensure flawless production",
 
     "Our Journey" : "Our Journey",
@@ -15,7 +16,8 @@
     "Installed induction based and upset based hot forging line with necessary machinery. and also installed SPMs (Special Purpose Machine" : "Installed induction based and upset based hot forging line with necessary machinery. and also installed SPMs (Special Purpose Machine",
     "Incorporated “ranparia engineering pvt. ltd.” and started supplying auto components to the auto sector, and got certified by ISO 9001:2000 tuv sud, eventually became tier 1 and tier 2 supplier." : "Incorporated “ranparia engineering pvt. ltd.” and started supplying auto components to the auto sector, and got certified by ISO 9001:2000 tuv sud, eventually became tier 1 and tier 2 supplier.",
     "Started cast iron unit in joint venture for manufacturing graded casting products and installed numerous cnc machines and spm drills." : "Started cast iron unit in joint venture for manufacturing graded casting products and installed numerous cnc machines and spm drills.",
-    "Incorporated “RANPARIA ENGINEERING CO.” and merged with “RAJESH BRASS PARTS” and “RANPARIA ENGINEERING PVT LTD”." : "Incorporated “RANPARIA ENGINEERING CO.” and merged with “RAJESH BRASS PARTS” and “RANPARIA ENGINEERING PVT LTD”.",
+    "Incorporated" : "Incorporated ",
+    "and merged with “RAJESH BRASS PARTS” and “RANPARIA ENGINEERING PVT LTD”." : "and merged with “RAJESH BRASS PARTS” and “RANPARIA ENGINEERING PVT LTD”.",
 
     "Mission:" : "Mission:",
     "To be the foremost manufacturer and supplier of various component by maintaining consistency in quality through continuous improvements in process by upgrading technology for offering at competitive price." : "To be the foremost manufacturer and supplier of various component by maintaining consistency in quality through continuous improvements in process by upgrading technology for offering at competitive price.",
@@ -76,8 +78,8 @@
     "Type your message here...":"Type your message here...",
     "Apply":"Apply",
 
-    "Ranparia engineering co. is an ISO certified company located in rajkot (gujarat-india) and spread over 15000 square-metres of area with highly innovative and upgraded technologies. It was established in the year 2007 and is a subsidiary company of ranparia brothers which is engaged in the feild of manufacturing of flexible hose assemblies, high pressure and low pressure pipes, metal tube assemblies, injection pipe assemblies and many more since 1967.":"Ranparia engineering co. is an ISO certified company located in rajkot (gujarat-india) and spread over 15000 square-metres of area with highly innovative and upgraded technologies. It was established in the year 2007 and is a subsidiary company of ranparia brothers which is engaged in the feild of manufacturing of flexible hose assemblies, high pressure and low pressure pipes, metal tube assemblies, injection pipe assemblies and many more since 1967.",
-    "Ranparia engineering co. is involved in manufacturing of various automotive, locomotive, earthmovers, agri-auto, marine, tractors, two-wheeler, three-wheelers, and passenger vehicles components.":"Ranparia engineering co. is involved in manufacturing of various automotive, locomotive, earthmovers, agri-auto, marine, tractors, two-wheeler, three-wheelers, and passenger vehicles components.",
+    "is an ISO certified company located in rajkot (gujarat-india) and spread over 15000 square-metres of area with highly innovative and upgraded technologies. It was established in the year 2007 and is a subsidiary company of ranparia brothers which is engaged in the feild of manufacturing of flexible hose assemblies, high pressure and low pressure pipes, metal tube assemblies, injection pipe assemblies and many more since 1967.":"is an ISO certified company located in rajkot (gujarat-india) and spread over 15000 square-metres of area with highly innovative and upgraded technologies. It was established in the year 2007 and is a subsidiary company of ranparia brothers which is engaged in the feild of manufacturing of flexible hose assemblies, high pressure and low pressure pipes, metal tube assemblies, injection pipe assemblies and many more since 1967.",
+    "is involved in manufacturing of various automotive, locomotive, earthmovers, agri-auto, marine, tractors, two-wheeler, three-wheelers, and passenger vehicles components.":"is involved in manufacturing of various automotive, locomotive, earthmovers, agri-auto, marine, tractors, two-wheeler, three-wheelers, and passenger vehicles components.",
     "Our industries are experiencing basic challenges. From climate change and geopolitics to the energy market, we are facing new reality. Some people consider them a threat. At Industris, we believe our job is to turn them into opportunities.":"Our industries are experiencing basic challenges. From climate change and geopolitics to the energy market, we are facing new reality. Some people consider them a threat. At Industris, we believe our job is to turn them into opportunities.",
     "That's why we look for new ways to use our expertise in the energy industry, discover new opportunities and promote innovation around the world. Our ambition is to become the world's most efficient industrial solutions and services provider.":"That's why we look for new ways to use our expertise in the energy industry, discover new opportunities and promote innovation around the world. Our ambition is to become the world's most efficient industrial solutions and services provider.",
     "Casting":"Casting",
@@ -90,7 +92,7 @@
     "Machining":"Machining",
     "CNC Machine":"CNC Machine",
     "VMC Machine":"VMC Machine",
-    "VTL Machine":"VTL Machine",
+    "Drilling Machine":"Drilling Machine",
     "Various SPM and Convetional Machine":"Various SPM and Convetional Machine",
     "Laboratory":"Laboratory",
     "Ravalue Tester, Hardness Tester and Tensile Tester":"Ravalue Tester, Hardness Tester and Tensile Tester",
@@ -99,7 +101,7 @@
     "Digital Height Guage, Vernier And Micro-metre":"Digital Height Guage, Vernier And Micro-metre",
     "Surface Plate":"Surface Plate",
     "Different Type Of Guages":"Different Type Of Guages",
-    "Sources of third party spectro as well as cmm testing facilities (govt approved)":"Sources of third party spectro as well as cmm testing facilities (govt approved)",
+    "Spectrometer":"Spectrometer",
     "Home":"Home",
     "About Us":"About Us",
     "Business Enquiry":"Business Enquiry",

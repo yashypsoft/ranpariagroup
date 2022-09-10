@@ -1,5 +1,5 @@
 <header id="site-header" class="site-header mobile-header-blue header-style-1">
-    <div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
+    {{-- <div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
         <div class="container-custom">
             <div class="row">
                 <div class="col-md-10">
@@ -35,22 +35,12 @@
                                     <li value="nl" class="{{session()->get('locale') == 'nl'?"selected":''}}"><span class='flag-icon flag-icon-nl'></span>Dutch</li>
                                 </ul>
                             </a>
-
-                            {{-- <select onchange="changeLangauge(this)" class="form-select">
-                                <li><span value="en" {{session()->get('locale') == 'en'?"selected":''}}  class='flag-icon flag-icon-us'>English</span></li>
-                                <li><span value="de" {{session()->get('locale') == 'de'?"selected":''}} class='flag-icon flag-icon-de'>German</span></li>
-                                <li><span value="es" {{session()->get('locale') == 'es'?"selected":''}} class='flag-icon flag-icon-es'>Spanish</span></li>
-                                <li><span value="ru" {{session()->get('locale') == 'ru'?"selected":''}} class='flag-icon flag-icon-ru'>Russian</span></li>
-                                <li><span value="fr" {{session()->get('locale') == 'fr'?"selected":''}} class='flag-icon flag-icon-fr'>French</span></li>
-                                <li><span value="it" {{session()->get('locale') == 'it'?"selected":''}} class='flag-icon flag-icon-it'>Italian</span></li>
-                                <li><span value="nl" {{session()->get('locale') == 'nl'?"selected":''}} class='flag-icon flag-icon-nl'>Dutch</span></li>
-                            </select> --}}
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Top bar close -->
     <div class="main-header md-hidden sm-hidden">
         <div class="container-custom">
