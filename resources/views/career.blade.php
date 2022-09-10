@@ -34,18 +34,45 @@
                 <div class="col-md-12">
                     <div class="industris-space-50"></div>
                     <div class="career-box">
-                        <h3>{{ __('Geophysics And Petrophysics Leader') }}</h3>
-                        <h4>{{ __('Descriptions:') }}</h4>
-                        <p>{{ __('Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
-                                                    rhoncus.<br>
-                                                    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing
-                                                    sem neque sed ipsum.') }}
-                        </p>
-                        <h4>{{ __('Descriptions:') }}</h4>
+                        <h3>{{ __('Business Development Manager') }}</h3>
+                        <h4>{{ __('Responsibility:') }}</h4>
+                        <p> - {{ __('Act as a representative of the company for business development and client servicing') }}<br>
+                             - {{ __('Generation of prospects data from various sources') }}<br>
+                             - {{ __('Emailing, personal meeting with the prospects') }}<br>
+                             - {{ __('Prepare and deliver presentations before the prospect/client/stakeholder explaining services offered by the company along with portfolio and strengths') }}<br>
+                             - {{ __('Prepare quotations (if required, in consultation with the head) and send it to the prospect/client') }}<br>
+                             - {{ __('Manage project costs, budgets and client expectations') }}</p>
+                        <h4>{{ __('Skills:') }}</h4>
                         <p>
-                            - {{ __('Sagittis eu faucibus integer, habitasse parturient.') }}<br>
-                            - {{ __('Pharetra massa pretium cras quam, id nulla habitasse.') }}<br>
-                            - {{ __('Torquent tellus nisl nam ornare a, lacinia metus fames.') }}
+                            - {{ __('Thorough understanding of Sales and Marketing') }}<br>
+                            - {{ __('Understanding of various services in the advertising, branding and event areas') }}<br>
+                            - {{ __('Excellent negotiation skills') }}
+                            - {{ __('Proficiency in presentations: Preparation and delivery of presentations') }}
+                            - {{ __('Proficient in written and spoken English - Excellent communication skills') }}
+                        </p>
+                        <div class="industris-space-30"></div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#applyModel">Apply
+                            Now</button>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="industris-space-50"></div>
+                    <div class="career-box">
+                        <h3>{{ __('Post Production Manager') }}</h3>
+                        <h4>{{ __('Responsibility:') }}</h4>
+                        <p> - {{ __('Act as a representative of the company for business development and client servicing') }}<br>
+                             - {{ __('Generation of prospects data from various sources') }}<br>
+                             - {{ __('Emailing, personal meeting with the prospects') }}<br>
+                             - {{ __('Prepare and deliver presentations before the prospect/client/stakeholder explaining services offered by the company along with portfolio and strengths') }}<br>
+                             - {{ __('Prepare quotations (if required, in consultation with the head) and send it to the prospect/client') }}<br>
+                             - {{ __('Manage project costs, budgets and client expectations') }}</p>
+                        <h4>{{ __('Skills:') }}</h4>
+                        <p>
+                            - {{ __('Thorough understanding of Sales and Marketing') }}<br>
+                            - {{ __('Understanding of various services in the advertising, branding and event areas') }}<br>
+                            - {{ __('Excellent negotiation skills') }}
+                            - {{ __('Proficiency in presentations: Preparation and delivery of presentations') }}
+                            - {{ __('Proficient in written and spoken English - Excellent communication skills') }}
                         </p>
                         <div class="industris-space-30"></div>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#applyModel">Apply

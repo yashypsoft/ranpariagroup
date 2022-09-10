@@ -5849,7 +5849,7 @@ blockquote {
 img.unit-image{
     height: 300px;
     width: 570px;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .inner img.product-image-home{

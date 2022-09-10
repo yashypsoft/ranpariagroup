@@ -94,61 +94,61 @@
                         <div class="services-content">
                             <h3><a>{{__('Agriculture')}}</a></h3>
                         </div>
-                        <img class="indus-image" src="{{asset('images/ServeIndus/Agriculture.jpg')}}" alt="services image">
+                        <img class="indus-image" src="{{asset('images/serveindustry/Agriculture.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>{{__('Air Compressor')}}</a></h3>
                         </div>
-                        <img class="indus-image" src="{{asset('images/ServeIndus/Aircompressor.jpg')}}" alt="services image">
+                        <img class="indus-image" src="{{asset('images/serveindustry/Aircompressor.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>{{__('Earth Movers')}}</a></h3>
                         </div>
-                        <img class="indus-image" src="{{asset('images/ServeIndus/Earthmovers.jpg')}}" alt="services image">
+                        <img class="indus-image" src="{{asset('images/serveindustry/Earthmovers.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>{{__('Generators')}}</a></h3>
                         </div>
-                        <img class="indus-image" src="{{asset('images/ServeIndus/Generators.jpg')}}" alt="services image">
+                        <img class="indus-image" src="{{asset('images/serveindustry/Generators.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>{{__('Goods and Carriage')}}</a></h3>
                         </div>
-                        <img class="indus-image" src="{{asset('images/ServeIndus/Goods.jpg')}}" alt="services image">
+                        <img class="indus-image" src="{{asset('images/serveindustry/Goods.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>{{__('Locomotive')}}</a></h3>
                         </div>
-                        <img class="indus-image" src="{{asset('images/ServeIndus/Locomotive.jpg')}}" alt="services image">
+                        <img class="indus-image" src="{{asset('images/serveindustry/Locomotive.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>{{__('Marine')}}</a></h3>
                         </div>
-                        <img class="indus-image" src="{{asset('images/ServeIndus/Marine.jpg')}}" alt="services image">
+                        <img class="indus-image" src="{{asset('images/serveindustry/Marine.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>{{__('Oil and Chemical')}}</a></h3>
                         </div>
-                        <img class="indus-image" src="{{asset('images/ServeIndus/Oil.jpg')}}" alt="services image">
+                        <img class="indus-image" src="{{asset('images/serveindustry/Oil.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>{{__('Passenger Vehicle')}}</a></h3>
                         </div>
-                        <img class="indus-image" src="{{asset('images/ServeIndus/Passanger.jpg')}}" alt="services image">
+                        <img class="indus-image" src="{{asset('images/serveindustry/Passanger.jpg')}}" alt="services image">
                     </div>
                     <div class="services-box services-box-img">
                         <div class="services-content">
                             <h3><a>{{__('Tow, Three & Four Wheelers')}}</a></h3>
                         </div>
-                        <img class="indus-image" src="{{asset('images/ServeIndus/Bikecar.jpg')}}" alt="services image">
+                        <img class="indus-image" src="{{asset('images/serveindustry/Bikecar.jpg')}}" alt="services image">
                     </div>
                 </div>
             </div>
