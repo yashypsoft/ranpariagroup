@@ -5854,7 +5854,7 @@ img.unit-image{
 
 img.slider-image{
     height: 719px;
-    width: 1350px;
+    width: 100%;
     object-fit: fill;
 }
 

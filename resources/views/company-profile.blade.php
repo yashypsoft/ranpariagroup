@@ -36,7 +36,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div id="projects" class="project-grid gallery row ">
+          <div id="projects" class="project-grid gallery row gallery-images">
             @for($i = 1; $i<=4;$i++)
             <div class="project-item events col-lg-3 col-sm-6">
               <div class="inner">
