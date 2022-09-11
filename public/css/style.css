@@ -5853,9 +5853,10 @@ img.unit-image{
 }
 
 img.slider-image{
-    height: 719px;
+    height: 100%;
     width: 100%;
     object-fit: fill;
+    max-height: 720px;
 }
 
 .inner img.product-image-home{
