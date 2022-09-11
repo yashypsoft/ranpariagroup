@@ -5857,6 +5857,7 @@ img.slider-image{
     width: 100%;
     object-fit: fill;
     max-height: 720px;
+    max-width: 1425px;
 }
 
 .inner img.product-image-home{
