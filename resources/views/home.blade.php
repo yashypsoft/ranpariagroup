@@ -7,14 +7,12 @@
 
     <div>
         <div class="slider-item">
-            <img src="https://via.placeholder.com/1920x850.png" alt="" class="">
+            <img class="slider-image" src="{{asset('images/banner/Slider1.png')}}" alt="" class="">
             <div class="container">
                 <div class="row">
                     <div class="col-md-9">
                         <div class="slider-content">
-                            <h4>{{__('Welcome TO INDUSTRIS...!')}}</h4>
                             <h1>The leading provider  of Industrial</h1>
-                            <a class="btn btn-primary" href="#">Explore now</a>
                         </div>
                     </div>
                 </div>
@@ -24,35 +22,13 @@
 
     <div>
         <div class="slider-item">
-            <img src="https://via.placeholder.com/1920x850.png" alt="" class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="slider-content">
-                            <h4>WELCOME TO INDUSTRIS...!</h4>
-                            <h1>Leader in power Automation </h1>
-                            <a class="btn btn-primary" href="#">Explore now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <img class="slider-image" src="{{asset('images/banner/Slider.jpg')}}" alt="" class="">
         </div>
     </div>
 
     <div>
         <div class="slider-item">
-            <img src="https://via.placeholder.com/1920x850.png" alt="" class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="slider-content">
-                            <h4>WELCOME TO INDUSTRIS...!</h4>
-                            <h1>Best solution for Industrial &amp; Factories </h1>
-                            <a class="btn btn-primary" href="#">Explore now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <img class="slider-image" src="{{asset('images/banner/Slider2.jpg')}}" alt="" class="">
         </div>
     </div>
 </div>

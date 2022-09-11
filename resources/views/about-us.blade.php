@@ -20,13 +20,13 @@
                 </div>
                 <div class="col-md-offset-1 col-md-5 col-sm-12 sm-center">
                     <div class="about-img-right">
-                        <img src="https://via.placeholder.com/750x864.png" alt="">
+                        <img src="{{asset('images/About/about.jpg')}}" alt="">
                         <div class="about-img-small">
-                            <div class="overlay"><img src="https://via.placeholder.com/211x211.png" class="circle-img"
-                                    alt=""></div>
+                            <div class="overlay"><img src="{{asset('images/About/grey.jpg')}}" class="circle-img"
+                                    alt="" style="height: 211px;width: 211px"></div>
                             <div class="about-content">
                                 <h2 class="text-primary">{{ now()->year - 1967 }}+</h2>
-                                <p class="text-white">{{ __('Years of Experience') }}</p>
+                                <span class="text-primary">{{ __('Years of Experience') }}</span>
                             </div>
                         </div>
                     </div>

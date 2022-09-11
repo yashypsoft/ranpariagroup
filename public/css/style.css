@@ -5852,6 +5852,12 @@ img.unit-image{
     object-fit: fill;
 }
 
+img.slider-image{
+    height: 719px;
+    width: 1350px;
+    object-fit: fill;
+}
+
 .inner img.product-image-home{
     height: 280px;
     width: 350px;

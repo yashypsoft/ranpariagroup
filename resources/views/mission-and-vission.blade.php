@@ -20,7 +20,7 @@
             </div>
             <div class="col-md-5 col-sm-12 sm-center">
                 <div class="industris-space-sm"></div>
-                <img src="http://ranpariagroup.in/assets/img/about/about-02.jpg" alt="">
+                <img src="{{asset('images/About/mnv.jpg')}}" alt="">
             </div>
         </div>
     </div>

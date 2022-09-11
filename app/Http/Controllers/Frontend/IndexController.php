@@ -61,6 +61,11 @@ class IndexController extends Controller
         return view('career');
     }
 
+    public function subsidiaries()
+    {
+        return view('subsidiaries');
+    }
+
     public function changeLang(Request $request)
     {
         App::setLocale($request->lang_code);

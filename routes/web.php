@@ -24,6 +24,7 @@ Route::get('/mission-and-vission', 'Frontend\IndexController@missionAndvission')
 Route::get('/corporate-video', 'Frontend\IndexController@corporateVideo')->name('corporate-video');
 Route::get('/quality', 'Frontend\IndexController@quality')->name('quality');
 Route::get('/career', 'Frontend\IndexController@career')->name('career');
+Route::get('/subsidiaries', 'Frontend\IndexController@subsidiaries')->name('subsidiaries');
 
 Route::get('/changeLang', 'Frontend\IndexController@changeLang')->name('changeChange');
 
