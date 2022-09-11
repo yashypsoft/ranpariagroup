@@ -129,7 +129,7 @@
                                         href="{{ route('subsidiaries') }}">{{ __('Subsidiaries/Other Ventures') }}</a>
                                     </li>
                                     <li class="menu-item"><a
-                                            href="{{ route('corporate-video') }}">{{ __('Corporate Video<') }}</a>
+                                            href="{{ route('corporate-video') }}">{{ __('Corporate Video') }}</a>
                                     </li>
                                 </ul>
                             </li>
