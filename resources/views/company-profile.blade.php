@@ -35,19 +35,20 @@
     <div class="industris-space-90"></div>
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <div id="projects" class="project-grid gallery row ">
-            @for($i = 1; $i<=4;$i++)
-            <div class="project-item events col-lg-3 col-sm-6">
-              <div class="inner">
-                <a href="{{asset('images/infra/I'.$i.'.jpg')}}" class="image-link imghvr-shutter-out-vert" title="gallery zoom image">
-                  <img src="{{asset('images/infra/I'.$i.'.jpg')}}" alt="">
-                </a>
-              </div>
-            </div>
-            @endfor
+        <div class="col-md-2 col-sm-12 sm-center"></div>
+        <div class="col-md-8 col-sm-12 sm-center">
+          <div class="industris-space-sm"></div>
+            <div class="slider" data-show="1" data-arrow="true">
+              @for($i=1;$i<=3;$i++)
+                <div>
+                    <div class="slider-item">
+                      <img src="{{asset('images/infra/I'.$i.'.jpg')}}" alt="">
+                    </div>
+                </div>
+              @endfor
           </div>
         </div>
+        <div class="col-md-2 col-sm-12 sm-center"></div>
       </div>
     </div>
     <br>
