@@ -11,11 +11,11 @@
             <br><br>
             <div class="col-md-6 col-sm-12 sm-center">
                 <div class="industris-space-sm"></div>
-                <img src="{{asset('images/About/mnv.jpg')}}" alt="">
+                <img src="{{asset('images/subsidiaries/1.jpg')}}" alt="">
             </div>
             <div class="col-md-6 col-sm-12 sm-center">
                 <div class="industris-space-sm"></div>
-                <img src="{{asset('images/About/mnv.jpg')}}" alt="">
+                <img src="{{asset('images/subsidiaries/2.jpg')}}" alt="">
             </div>
         </div>
     </div>
