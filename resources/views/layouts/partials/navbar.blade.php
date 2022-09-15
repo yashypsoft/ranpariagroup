@@ -30,7 +30,7 @@
                                 <a href="{{ route('about-us') }}">{{ __('About Us') }}</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item"><a
-                                            href="{{ route('our-journey') }}">{{ __('Our journey') }}</a></li>
+                                            href="{{ route('our-journey') }}">{{ __('Our Journey') }}</a></li>
                                     <li class="menu-item"><a
                                             href="{{ route('company-profile') }}">{{ __('Company Profile') }}</a></li>
                                     <li class="menu-item"><a
@@ -89,7 +89,7 @@
                                     href="{{ route('about-us') }}">{{ __('About Us') }}</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item"><a
-                                            href="{{ route('our-journey') }}">{{ __('Our journey') }}</a></li>
+                                            href="{{ route('our-journey') }}">{{ __('Our Journey') }}</a></li>
                                     <li class="menu-item"><a
                                             href="{{ route('company-profile') }}">{{ __('Company Profile') }}</a></li>
                                     <li class="menu-item"><a

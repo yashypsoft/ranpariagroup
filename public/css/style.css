@@ -4626,6 +4626,7 @@ table .cart-subtotal {
 
 .order-review {
     padding: 0 30px;
+
     border: 1px solid transparent;
     transition: all 0.3s linear;
     -webkit-transition: all 0.3s linear;
@@ -5857,8 +5858,6 @@ img.slider-image{
     height: 100%;
     width: 100%;
     object-fit: fill;
-    max-height: 720px;
-    max-width: 1425px;
 }
 
 .inner img.product-image-home{

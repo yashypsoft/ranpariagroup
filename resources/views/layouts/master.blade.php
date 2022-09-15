@@ -17,6 +17,8 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
         @yield('addcss')
         <link rel="stylesheet" id="bootstrap-css" href="{{ asset('/css/bootstrap.css') }}" type="text/css" media="all">
+        {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> --}}
+
         <link rel="stylesheet" id="awesome-font-css" href="{{ asset('css/font-awesome.css') }}" type="text/css" media="all">
         <link rel="stylesheet" id="ionicon-font-css" href="{{ asset('css/ionicon.css') }}" type="text/css" media="all">
         <link rel="stylesheet" id="slick-slider-css" href="{{ asset('css/slick.css') }}" type="text/css" media="all">

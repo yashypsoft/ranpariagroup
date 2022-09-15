@@ -57,7 +57,7 @@
 </section>
 
 <section class="no-padding-bottom">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row text-center">
             <div class="col-md-12">
                 <h4 class="text-primary">{{__('OUR SERVICES')}}</h4>
