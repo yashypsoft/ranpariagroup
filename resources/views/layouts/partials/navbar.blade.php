@@ -1,46 +1,16 @@
 <header id="site-header" class="site-header mobile-header-blue header-style-1">
-    {{-- <div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
+    <div id="header_topbar" class="header-topbar md-hidden sm-hidden clearfix">
         <div class="container-custom">
             <div class="row">
                 <div class="col-md-10">
                     <!-- Info on Topbar -->
                     <ul class="topbar-left">
-                        <li onclick="location.href='https://g.page/ranparia-engineering-co?share';"><i
-                                class="icon ion-md-pin"></i>Bhagyalaxmi Industrial Estate,St. no 2, Bhavnagar Rd, Rajkot
-                        </li>
-                        <li onclick="location.href='tel:+919723918607';"><i class="icon ion-md-call"></i>+91 97239 18607
-                        </li>
-                        <li onclick="location.href='mailto:info@ranpariagroup.in';"><i
-                                class="icon ion-md-mail"></i>info@ranpariagroup.in</li>
                     </ul>
                 </div>
                 <!-- Info on topbar close -->
-                <div class="col-md-2">
-
-                    <ul class="topbar-right pull-right">
-                        <li class="topbar-languages">
-
-                            <a class="btn btn-default btn-select">
-                                <input type="hidden" class="btn-select-input" id="" name="" value=""  />
-                                <span class="btn-select-value">
-                                    <span value="us" class="flag-icon flag-icon-us"></span>English</span>
-                                <span class='btn-select-arrow'><i class="fa fa-chevron-down"></i></span>
-                                <ul>
-                                    <li value="en" class="{{session()->get('locale') == 'en'?"selected":''}}"><span  class='flag-icon flag-icon-us'></span>English</li>
-                                    <li value="de" class="{{session()->get('locale') == 'de'?"selected":''}}"><span class='flag-icon flag-icon-de'></span>German</li>
-                                    <li value="es" class="{{session()->get('locale') == 'es'?"selected":''}}"><span class='flag-icon flag-icon-es'></span>Spanish</li>
-                                    <li value="ru" class="{{session()->get('locale') == 'ru'?"selected":''}}"><span class='flag-icon flag-icon-ru'></span>Russian</li>
-                                    <li value="fr" class="{{session()->get('locale') == 'fr'?"selected":''}}"><span class='flag-icon flag-icon-fr'></span>French</li>
-                                    <li value="it" class="{{session()->get('locale') == 'it'?"selected":''}}"><span class='flag-icon flag-icon-it'></span>Italian</li>
-                                    <li value="nl" class="{{session()->get('locale') == 'nl'?"selected":''}}"><span class='flag-icon flag-icon-nl'></span>Dutch</li>
-                                </ul>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
-    </div> --}}
+    </div>
     <!-- Top bar close -->
     <div class="main-header md-hidden sm-hidden">
         <div class="container-custom">

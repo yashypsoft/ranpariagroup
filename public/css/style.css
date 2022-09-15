@@ -1591,6 +1591,7 @@ select.form-control {
     border: none;
     margin: 0;
     background-color: #001940;
+    background-size: cover !important;
 }
 
 .page-header-default .overlay {
@@ -1610,7 +1611,7 @@ select.form-control {
     -webkit-box-align: center !important;
     -ms-flex-align: center !important;
     align-items: center !important;
-    min-height: 225px;
+    min-height: 375px;
 }
 
 .page-title {

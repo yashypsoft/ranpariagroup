@@ -38,7 +38,7 @@ class IndexController extends Controller
 
     public function companyProfile()
     {
-        return view('company-profile');
+        return view('company-profile',['image'=>asset('images/banner/cp2.png')]);
     }
 
     public function missionAndvission()
