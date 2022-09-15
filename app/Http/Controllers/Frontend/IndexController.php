@@ -18,12 +18,12 @@ class IndexController extends Controller
 
     public function aboutUs()
     {
-        return view('about-us');
+        return view('about-us',['image'=>asset('images/banner/about.jpg')]);
     }
 
     public function contactUs()
     {
-        return view('contact-us');
+        return view('contact-us',['image'=>asset('images/banner/cu.jpeg')]);
     }
 
     public function products()
@@ -33,7 +33,7 @@ class IndexController extends Controller
 
     public function ourJourney()
     {
-        return view('our-journey');
+        return view('our-journey',['image'=>asset('images/banner/journey.jpg')]);
     }
 
     public function companyProfile()
@@ -43,22 +43,22 @@ class IndexController extends Controller
 
     public function missionAndvission()
     {
-        return view('mission-and-vission');
+        return view('mission-and-vission',['image'=>asset('images/banner/mnv.jpg')]);
     }
 
     public function corporateVideo()
     {
-        return view('corporate-video');
+        return view('corporate-video',['image'=>asset('images/banner/cv.jpeg')]);
     }
 
     public function quality()
     {
-        return view('quality');
+        return view('quality',['image'=>asset('images/banner/qa1.jpeg')]);
     }
 
     public function career()
     {
-        return view('career');
+        return view('career',['image'=>asset('images/banner/carrer.jpeg')]);
     }
 
     public function subsidiaries()
