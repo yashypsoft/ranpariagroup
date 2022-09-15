@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('title', __('About us'))
+@section('cover', __('images/banner/page-header.jpg'))
 
 @section('content')
     @include('layouts.partials.page-header')

@@ -63,30 +63,6 @@
                 </div>
             </div>
         </section>
-
-        <section>
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-md-12">
-                        <h3>{{ __('View map') }}:</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="map">
-                <div class="map-responsive">
-                    <iframe src="https://maps.google.com/maps?q=Ranparia&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="container">
-                <div class="text-center">
-                    <a href="https://g.page/ranparia-engineering-co?share" class="btn btn-primary btn-m-r"
-                        target="_blank">{{ __('Get derection') }}</a>
-                    <a href="https://g.page/ranparia-engineering-co?share" class="btn btn-border"
-                        target="_blank">{{ __('Google Map') }}</a>
-                </div>
-            </div>
-        </section>
-
+        <iframe src="https://maps.google.com/maps?q=Ranparia&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="650" style="margin-bottom: -6px;border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 @endsection
