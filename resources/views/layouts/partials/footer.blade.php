@@ -1,3 +1,4 @@
+<div id="totop" class="tra" style=""><i class="fa fa-angle-up fa-lg"></i></div>
 <footer id="site-footer" class="site-footer bg-footer">
     <div class="main-footer">
         <div class="container-custom">
@@ -102,7 +103,7 @@
                         <li onclick="location.href='tel:+919723918607';"><i class="icon ion-md-call"></i>+91 97239 18607</li>
                         <li onclick="location.href='mailto:info@ranpariagroup.in';"><i class="icon ion-md-mail"></i>info@ranpariagroup.in</li>
                     </ul>
-                    <a id="back-to-top" href="#" class="btn btn-back-to-top pull-right">{{__('Back to top')}}<i class="icon ion-ios-arrow-dropup-circle"></i></a>
+                    {{-- <a id="back-to-top" href="#" class="btn btn-back-to-top pull-right">{{__('Back to top')}}<i class="icon ion-ios-arrow-dropup-circle"></i></a> --}}
                 </div>
             </div>
         </div>

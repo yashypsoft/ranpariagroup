@@ -6127,3 +6127,29 @@ img.indus-image{
 .logo-brand{
     max-width: 85%;
 }
+
+.page-header:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(90,90,90,0.45);
+}
+
+#totop {
+    bottom: -60px;
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #0095cb;
+    z-index: 9;
+    text-align: center;
+    box-shadow: 2px 1px 10px 0px rgb(0 0 0 / 20%);
+}

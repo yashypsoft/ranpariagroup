@@ -674,6 +674,25 @@
         }
         )
     }
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 10) {
+            $("#totop").stop(true, false).animate({
+                "bottom": "60",
+                "opacity": "1"
+            }, 500);
+        } else {
+            $("#totop").stop(true, false).animate({
+                "bottom": "-60",
+                "opacity": "0"
+            }, 500);
+        }
+    });
+    $('#totop').click(function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
 })(jQuery);
 
 jQuery(document).ready(function () {
