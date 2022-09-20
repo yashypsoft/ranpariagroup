@@ -162,7 +162,7 @@
             slidesToScroll: 1,
             arrows: $arr,
             autoplay: true,
-            autoplaySpeed: 1000,
+            autoplaySpeed: 2000,
             adaptiveHeight: true,
             prevArrow: '<button type="button" class="prev-nav"><i class="icon ion-ios-arrow-dropleft"></i></button>',
             nextArrow: '<button type="button" class="next-nav"><i class="icon ion-ios-arrow-dropright"></i></button>',
