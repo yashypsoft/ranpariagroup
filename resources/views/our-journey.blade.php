@@ -5,7 +5,7 @@
 @section('content')
   @include('layouts.partials.page-header')
   <section>
-  <div class="container">
+  <div class="container-custom-page">
     <ul class="timeline">
         <!-- Timeline item 1 : 1934 -->
         <li>

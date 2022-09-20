@@ -5,7 +5,7 @@
 @section('content')
   @include('layouts.partials.page-header')
   <section>
-    <div class="container">
+    <div class="container-custom-page">
       <div class="row">
         <div class="col-md-6 col-sm-12">
           <h2>{{__('Quality Assurance')}}</h2>
@@ -40,7 +40,7 @@
         </div>
       </div>
     </div> --}}
-    <div class="container gallery-images">
+    <div class="container-custom-page gallery-images">
       @for ($i = 1; $i < 10; $i++)
           @if ($i%3 == 1)
           <div class="row text-center">

@@ -8,7 +8,7 @@
     <div>
         <div class="slider-item">
             <img class="slider-image" src="{{asset('images/banner/Slider1.png')}}" alt="" class="">
-            <div class="container">
+            <div class="container-custom-page">
                 <div class="row">
                     <div class="col-md-9">
                         <div class="slider-content">
@@ -37,7 +37,7 @@
     <div class="industris-space-90"></div>
     <h3 class="text-center h2">{{__('Our Corporate Video')}}</h3>
     <div class="">
-        <div class="container">
+        <div class="container-custom-page">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="col-lg-2"></div>
