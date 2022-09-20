@@ -36,16 +36,20 @@
                     <div class="career-box">
                         <h3>{{ __('Business Development Manager') }}</h3>
                         <h4>{{ __('Responsibility:') }}</h4>
-                        <p> - {{ __('Act as a representative of the company for business development and client servicing') }}<br>
-                             - {{ __('Generation of prospects data from various sources') }}<br>
-                             - {{ __('Emailing, personal meeting with the prospects') }}<br>
-                             - {{ __('Prepare and deliver presentations before the prospect/client/stakeholder explaining services offered by the company along with portfolio and strengths') }}<br>
-                             - {{ __('Prepare quotations (if required, in consultation with the head) and send it to the prospect/client') }}<br>
-                             - {{ __('Manage project costs, budgets and client expectations') }}</p>
+                        <p> -
+                            {{ __('Act as a representative of the company for business development and client servicing') }}<br>
+                            - {{ __('Generation of prospects data from various sources') }}<br>
+                            - {{ __('Emailing, personal meeting with the prospects') }}<br>
+                            -
+                            {{ __('Prepare and deliver presentations before the prospect/client/stakeholder explaining services offered by the company along with portfolio and strengths') }}<br>
+                            -
+                            {{ __('Prepare quotations (if required, in consultation with the head) and send it to the prospect/client') }}<br>
+                            - {{ __('Manage project costs, budgets and client expectations') }}</p>
                         <h4>{{ __('Skills:') }}</h4>
                         <p>
                             - {{ __('Thorough understanding of Sales and Marketing') }}<br>
-                            - {{ __('Understanding of various services in the advertising, branding and event areas') }}<br>
+                            -
+                            {{ __('Understanding of various services in the advertising, branding and event areas') }}<br>
                             - {{ __('Excellent negotiation skills') }}
                             - {{ __('Proficiency in presentations: Preparation and delivery of presentations') }}
                             - {{ __('Proficient in written and spoken English - Excellent communication skills') }}
@@ -60,16 +64,20 @@
                     <div class="career-box">
                         <h3>{{ __('Post Production Manager') }}</h3>
                         <h4>{{ __('Responsibility:') }}</h4>
-                        <p> - {{ __('Act as a representative of the company for business development and client servicing') }}<br>
-                             - {{ __('Generation of prospects data from various sources') }}<br>
-                             - {{ __('Emailing, personal meeting with the prospects') }}<br>
-                             - {{ __('Prepare and deliver presentations before the prospect/client/stakeholder explaining services offered by the company along with portfolio and strengths') }}<br>
-                             - {{ __('Prepare quotations (if required, in consultation with the head) and send it to the prospect/client') }}<br>
-                             - {{ __('Manage project costs, budgets and client expectations') }}</p>
+                        <p> -
+                            {{ __('Act as a representative of the company for business development and client servicing') }}<br>
+                            - {{ __('Generation of prospects data from various sources') }}<br>
+                            - {{ __('Emailing, personal meeting with the prospects') }}<br>
+                            -
+                            {{ __('Prepare and deliver presentations before the prospect/client/stakeholder explaining services offered by the company along with portfolio and strengths') }}<br>
+                            -
+                            {{ __('Prepare quotations (if required, in consultation with the head) and send it to the prospect/client') }}<br>
+                            - {{ __('Manage project costs, budgets and client expectations') }}</p>
                         <h4>{{ __('Skills:') }}</h4>
                         <p>
                             - {{ __('Thorough understanding of Sales and Marketing') }}<br>
-                            - {{ __('Understanding of various services in the advertising, branding and event areas') }}<br>
+                            -
+                            {{ __('Understanding of various services in the advertising, branding and event areas') }}<br>
                             - {{ __('Excellent negotiation skills') }}
                             - {{ __('Proficiency in presentations: Preparation and delivery of presentations') }}
                             - {{ __('Proficient in written and spoken English - Excellent communication skills') }}
@@ -78,6 +86,29 @@
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#applyModel">Apply
                             Now</button>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-12 col-lg-10">
+                    <h2 class="title no-border text-center"><small>Don't see the right fit for you</small><br>Submit your CV for
+                        future opening.</h2>
+                    <div id="upload_success" class="upload_success alert alert-success" style="display: none;"></div>
+                    <form method="POST" action="{{ route('carrier.store') }}" enctype="multipart/form-data"
+                        class="resume-block upload-form">
+                        {{ csrf_field() }}
+                        <div class="form-group carrier-form-group">
+                            <div class="browse">
+                                <div class="custom-file">
+                                    <input type="file" name="cvfile" class="custom-file-input" id="inputGroupFile01">
+                                    <label class="custom-file-label carrier-file-label" for="inputGroupFile01">Attach yout CV (PDF/Doc)</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-cust btn-apply-carrier">Submit</button>
+                            <div class="error text-danger"></div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
