@@ -6,7 +6,7 @@
 @section('content')
     @include('layouts.partials.page-header')
     <section>
-        <div class="container">
+        <div class="container-custom-page">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
                     <h4 class="text-primary">{{ __('OUR STORY') }}</h4>
@@ -42,7 +42,7 @@
             </div>
         </div>
 
-        <div class="container ">
+        <div class="container-custom-page ">
             <div class="row text-center">
                 <div class="col-sm"></div>
                 <div class="col-sm">

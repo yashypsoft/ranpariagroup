@@ -53,7 +53,7 @@ class IndexController extends Controller
 
     public function quality()
     {
-        return view('quality',['image'=>asset('images/banner/qa1.jpeg')]);
+        return view('quality',['image'=>asset('images/banner/qa2.jpeg')]);
     }
 
     public function career()

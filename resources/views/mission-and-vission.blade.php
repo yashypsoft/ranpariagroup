@@ -5,7 +5,7 @@
 @section('content')
   @include('layouts.partials.page-header')
   <section>
-    <div class="container">
+    <div class="container-custom-page">
         <div class="row">
             <div class="col-md-7 col-sm-12">
                 <h2>{{__('Mission & Vision')}}</h2>

@@ -5,7 +5,7 @@
 @section('content')
     @include('layouts.partials.page-header')
     <section class="padding-bottom-medium">
-        <div class="container">
+        <div class="container-custom-page">
             @php
                 $i=0;
             @endphp

@@ -5,7 +5,7 @@
 @section('content')
   @include('layouts.partials.page-header')
   <section>
-    <div class="container">
+    <div class="container-custom-page">
         <div class="row text-center">
             <h2>Pipemaster</h2>
             <br><br>

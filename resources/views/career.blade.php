@@ -9,7 +9,7 @@
 @section('content')
     @include('layouts.partials.page-header')
     <section>
-        <div class="container">
+        <div class="container-custom-page">
             <div class="industris-space"></div>
             <div class="row flex-row">
                 <div class="col-sm-8 col-xs-12">

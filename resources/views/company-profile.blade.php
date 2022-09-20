@@ -5,7 +5,7 @@
 @section('content')
   @include('layouts.partials.page-header')
   <section>
-    <div class="container">
+    <div class="container-custom-page">
       <div class="row">
         <div class="col-md-6 col-sm-12">
           <h2>{{__('Company Profile')}}</h2>
@@ -25,7 +25,7 @@
     <br>
     <hr>
     <br>
-    <div class="container">
+    <div class="container-custom-page">
       <div class="row">
           <h2>Infrastructure</h2>
           <p>{{__("Our industries are experiencing basic challenges. From climate change and geopolitics to the energy market, we are facing new reality. Some people consider them a threat. At Industris, we believe our job is to turn them into opportunities.")}}
@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="industris-space-90"></div>
-    <div class="container">
+    <div class="container-custom-page">
       <div class="row">
         <div class="col-md-2 col-sm-12 sm-center"></div>
         <div class="col-md-8 col-sm-12 sm-center">
@@ -54,7 +54,7 @@
     <br>
     <hr>
     <br>
-    <div class="container">
+    <div class="container-custom-page">
       <div class="row">
         <h2 class="text-center">Our Units</h2>
           <div class="col-md-6 col-sm-12 sm-center">

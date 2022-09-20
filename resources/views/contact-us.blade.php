@@ -6,7 +6,7 @@
     @include('layouts.partials.page-header')
     <div>
         <section class="bg-contact-info">
-            <div class="container">
+            <div class="container-custom-page">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <h4 class="text-primary">{{ __('CONTACT INFO') }}</h4>
