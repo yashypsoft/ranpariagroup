@@ -56,7 +56,7 @@
     <br>
     <div class="container-custom-page">
       <div class="row">
-        <h2 class="text-center">Our Units</h2>
+        <h2>Our Units</h2>
           <div class="col-md-6 col-sm-12 sm-center">
             <div class="industris-space-sm"></div>
               <div class="slider" data-show="1" data-arrow="true">
@@ -139,14 +139,14 @@
             <div class="slider" data-show="1" data-arrow="true">
               <div>
                   <div class="slider-item">
-                    <img class="unit-image" src="{{asset('images/unit/U4.jpg')}}" alt="">
+                    <img class="unit-image" src="{{asset('images/unit/lab.png')}}" alt="">
                   </div>
               </div>
               <div>
-                  <div class="slider-item">
-                    <img class="unit-image" src="{{asset('images/unit/U4.jpg')}}" alt="">
-                  </div>
-              </div>
+                <div class="slider-item">
+                  <img class="unit-image" src="{{asset('images/unit/lab.png')}}" alt="">
+                </div>
+            </div>
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
