@@ -74,7 +74,7 @@
                     <div class="widget-footer">
                         <div class="widget bg-white">
                             <div class="map-responsive">
-                                <iframe src="https://maps.google.com/maps?q=Ranparia&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7383.39272197208!2d70.826502!3d22.289489!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x998624e3ab14c579!2sRanparia%20engineering%20Co!5e0!3m2!1sen!2sin!4v1634717012615!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                             </div>
                         </div>
 
