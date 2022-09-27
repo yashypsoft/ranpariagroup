@@ -33,7 +33,7 @@
     </div>
 </div>
 
-<section class="bg-primary no-padding">
+<section class="no-padding" style="background-color: #f2f4f6">
     <div class="industris-space-90"></div>
     <h3 class="text-center h2">{{__('Our Corporate Video')}}</h3>
     <div class="">
