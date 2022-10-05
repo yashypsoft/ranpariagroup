@@ -99,7 +99,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="topbar-left">
-                        <li onclick="location.href='https://g.page/ranparia-engineering-co?share';"><i class="icon ion-md-pin"></i>Bhagyalaxmi Industrial Estate,St. no 2, Bhavnagar Rd, Rajkot</li>
+                        <li onclick="location.href='https://g.page/ranparia-engineering-co?share';"><i class="icon ion-md-pin"></i>BHAGYALAXMI INDUSTRIAL ESTATE,ST. NO 2, BHAVNAGAR RD, RAJKOT</li>
                         <li onclick="location.href='tel:+919723918607';"><i class="icon ion-md-call"></i>+91 97239 18607</li>
                         <li onclick="location.href='mailto:info@ranpariagroup.in';"><i class="icon ion-md-mail"></i>info@ranpariagroup.in</li>
                     </ul>
