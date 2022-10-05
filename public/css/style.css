@@ -6315,7 +6315,7 @@ form .browse {
 }
 
 .site-header{
-    overflow: hidden;
+    overflow: initial;
     z-index:1;
     background-color: white;
 }
@@ -6330,4 +6330,8 @@ form .browse {
     font-weight: bold;
     text-align: center;
     letter-spacing: 6px;
+}
+
+body{
+    background-color: #f2f2f2;
 }
