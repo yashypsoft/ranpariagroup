@@ -25,9 +25,9 @@
                         <div class="inner product-block">
                             <a href="{{  str_replace(public_path(), '', $image)  }}" class="image-link imghvr-shutter-out-vert"
                                 title="{{$productName}} ">
-                                <img class="product-image" src="{{  str_replace(public_path(), '', $image)  }}">
+                                <img class="product-image" loading="lazy"  src="{{  str_replace(public_path(), '', $image)  }}">
+                                <strong class="product-title">{{$productName}}</strong>
                             </a>
-                            <strong class="product-title">{{$productName}}</strong>
                         </div>
                     </div>
                 @endforeach
