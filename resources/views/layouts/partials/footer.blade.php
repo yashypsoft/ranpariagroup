@@ -79,7 +79,6 @@
                         </div>
 
                         <div class="footer-social ot-socials">
-                            {{__('follow us')}}:
                             <a target="_blank" href="#" rel="noopener noreferrer"><i class="icon ion-logo-facebook"></i></a>
                             <a target="_blank" href="#" rel="noopener noreferrer"><i class="icon ion-logo-instagram"></i></a>
                             <a target="_blank" href="#" rel="noopener noreferrer"><i class="icon ion-logo-skype"></i></a>
