@@ -6199,6 +6199,7 @@ form .browse {
     cursor: pointer;
     width: 100%;
     cursor: pointer;
+    z-index: 0;
 }
 
 .resume-block .form-group .btn-cust {
