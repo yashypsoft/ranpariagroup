@@ -31,10 +31,11 @@
         <link rel="shortcut icon" href="{{ asset('favicon.ico')}}">
     </head>
     <body class="antialiased">
-        @include('layouts.partials.navbar')
         <div id="bussness-inquiry" onclick="location.href='https://api.whatsapp.com/send?phone=919723918607';" aria-label="Business Enquiry" style="opacity: 1;">{{__('Business Enquiry')}}</div>
+        @include('layouts.partials.navbar')
+        <div class="content">
         @yield('content')
-
+        </div>
         @include('layouts.partials.footer')
 
 
