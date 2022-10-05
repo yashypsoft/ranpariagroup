@@ -470,7 +470,7 @@ h6 {
 p {
     margin: 0 0 20px;
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
 }
 
@@ -1406,7 +1406,7 @@ select.form-control {
 }
 
 .main-navigation ul li a {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1;
     padding: 52px 25px;
@@ -1477,7 +1477,7 @@ select.form-control {
 }
 
 .main-navigation ul ul li a {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 20px;
     font-weight: 500;
     color: #272023;
@@ -1699,7 +1699,7 @@ select.form-control {
 .main-footer ul li a,
 .main-footer-2 ul li a {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     font-weight: 500;
 }
@@ -1737,7 +1737,7 @@ select.form-control {
 
 .footer-social a {
     color: #b7b7b7;
-    margin-left: 15px;
+    margin-left: 27px;
 }
 
 .footer-social a:hover {
@@ -1745,7 +1745,7 @@ select.form-control {
 }
 
 .footer-social a i {
-    font-size: 21px;
+    font-size: 40px;
     line-height: 26px;
 }
 
@@ -5653,7 +5653,7 @@ blockquote {
 .timeline>li>.timeline-panel {
     width: 46%;
     float: left;
-    background: white;
+    background: gainsboro;
     border: 1px solid #d4d4d4;
     border-radius: 2px;
     padding: 20px;
@@ -6113,7 +6113,6 @@ img.indus-image {
     bottom: 12px;
     font-size: 20px;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .product-block:hover .product-title {
@@ -6324,4 +6323,11 @@ form .browse {
 @font-face {
     font-family: ProximaNova;
     src: url('../fonts/ProximaNova.otf');
+}
+.title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 6px;
 }

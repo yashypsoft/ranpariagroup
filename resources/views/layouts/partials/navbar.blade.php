@@ -12,7 +12,7 @@
         </div>
     </div>
     <!-- Top bar close -->
-    <div class="main-header md-hidden sm-hidden">
+    <div class="main-header md-hidden sm-hidden navbar  navbar-fixed-top">
         <div class="container-custom">
             <div class="row">
                 <div class="col-md-3">

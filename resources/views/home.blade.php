@@ -60,7 +60,7 @@
     <div class="container-fluid">
         <div class="row text-center">
             <div class="col-md-12">
-                <h4 class="text-primary">{{__('OUR SERVICES')}}</h4>
+                <span class="text-primary title">{{__('OUR SERVICES')}}</span>
                 <h2>{{__('Industries We Serve')}}</h2>
                 <div class="industris-space-30"></div>
 
