@@ -8,7 +8,7 @@
         <div class="container-custom-page">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <h2>{{ __('Company Profile') }}</h2>
+                    <h2 class="text-primary">{{ __('Company Profile') }}</h2>
                     <p><b>Ranparia Engineering co. </b>
                         {{ __('is an ISO certified company located in rajkot (gujarat-india) and spread over 15000 square-metres of area with highly innovative and upgraded technologies. It was established in the year 2007 and is a subsidiary company of ranparia brothers which is engaged in the feild of manufacturing of flexible hose assemblies, high pressure and low pressure pipes, metal tube assemblies, injection pipe assemblies and many more since 1967.') }}
                         <br><b>Ranparia Engineering co. </b>
@@ -30,7 +30,7 @@
         <br>
         <div class="container-custom-page">
             <div class="row">
-                <h2>Infrastructure</h2>
+                <h2 class="text-primary">Infrastructure</h2>
                 <p>{{ __('Our industries are experiencing basic challenges. From climate change and geopolitics to the energy market, we are facing new reality. Some people consider them a threat. At Industris, we believe our job is to turn them into opportunities.') }}
                     <br>{{ __("That's why we look for new ways to use our expertise in the energy industry, discover new opportunities and promote innovation around the world. Our ambition is to become the world's most efficient industrial solutions and services provider.") }}
                 </p>
@@ -60,7 +60,7 @@
         <br>
         <div class="container-custom-page">
             <div class="row">
-                <h2>Our Units</h2>
+                <h2 class="text-primary">Our Units</h2>
                 <div class="col-md-6 col-sm-12 sm-center">
                     <div class="industris-space-sm"></div>
                     <div class="slider" data-show="1" data-arrow="true">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <h3>{{ __('Casting') }}</h3>
+                    <h3 class="title">{{ __('Casting') }}</h3>
                     <ul>
                         <li>{{ __('Graded Cast Iron and Alloy CI casting') }}</li>
                         <li>{{ __('SG Iron Casting and Ductile Cast Iron') }}</li>
@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <h3>{{ __('Forging') }}</h3>
+                    <h3 class="title">{{ __('Forging') }}</h3>
                     <ul>
                         <li>{{ __('Hot Forging') }}</li>
                         <li>{{ __('Cold Forging') }}</li>
@@ -129,7 +129,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <h3>{{ __('Machining') }}</h3>
+                    <h3 class="title">{{ __('Machining') }}</h3>
                     <ul>
                         <li>{{ __('CNC Machine') }}</li>
                         <li>{{ __('VMC Machine') }}</li>
@@ -144,18 +144,18 @@
                     <div class="slider" data-show="1" data-arrow="true">
                         <div>
                             <div class="slider-item">
-                                <img class="unit-image" src="{{ asset('images/unit/U4.jpg') }}" alt="">
+                                <img class="unit-image" src="{{ asset('images/unit/lab.png') }}" alt="">
                             </div>
                         </div>
                         <div>
                             <div class="slider-item">
-                                <img class="unit-image" src="{{ asset('images/unit/U4.jpg') }}" alt="">
+                                <img class="unit-image" src="{{ asset('images/unit/lab.png') }}" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
-                    <h3>{{ __('Laboratory') }}</h3>
+                    <h3 class="title">{{ __('Laboratory') }}</h3>
                     <ul>
                         <li>{{ __('Ravalue Tester, Hardness Tester and Tensile Tester') }}</li>
                         <li>{{ __('Vision Measuring Machine') }}</li>

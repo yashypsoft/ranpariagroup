@@ -13,7 +13,7 @@
             <div class="industris-space"></div>
             <div class="row flex-row">
                 <div class="col-sm-8 col-xs-12">
-                    <h4 class="text-primary">{{ __('Find job') }}</h4>
+                    <span class="title text-primary">{{ __('Find job') }}</span>
                     <h2 class="no-margin-bottom">{{ __('Industris Job') }}</h2>
                 </div>
                 <div class="col-sm-4 col-xs-12 text-right align-self-end">
@@ -92,7 +92,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-12 col-lg-10">
-                    <h2 class="title no-border text-center"><small>Don't see the right fit for you</small><br>Submit your CV for
+                    <h2 class="no-border text-center"><small>Don't see the right fit for you</small><br>Submit your CV for
                         future opening.</h2>
                     <div id="upload_success" class="upload_success alert alert-success" style="display: none;"></div>
                     <form method="POST" action="{{ route('carrier.store') }}" enctype="multipart/form-data"

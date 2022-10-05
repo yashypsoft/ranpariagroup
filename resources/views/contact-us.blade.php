@@ -9,9 +9,9 @@
             <div class="container-custom-page">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <h4 class="text-primary">{{ __('CONTACT INFO') }}</h4>
+                        <span class="text-primary title">{{ __('CONTACT INFO') }}</span>
                         <div class="contact-info">
-                            <h2>{{ __('Hotline') }} : <span class="text-primary"
+                            <h2>{{ __('Telephone') }} : <span class="text-primary"
                                     onclick="location.href='tel:+919723918607';">+91 9723918607</span> </h2>
                             <p onclick="location.href='mailto:info@ranpariagroup.in';"><i class="icon ion-md-mail"></i>
                                 info@ranpariagroup.in</p>

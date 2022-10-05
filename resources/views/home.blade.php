@@ -35,7 +35,7 @@
 
 <section class="no-padding" style="background-color: #f2f4f6">
     <div class="industris-space-90"></div>
-    <h3 class="text-center h2">{{__('Our Corporate Video')}}</h3>
+    <h3 class="text-center text-primary title">{{__('Our Corporate Video')}}</h3>
     <div class="">
         <div class="container-custom-page">
             <div class="row">

@@ -9,7 +9,7 @@
         <div class="container-custom-page">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <h4 class="text-primary">{{ __('OUR STORY') }}</h4>
+                    <span class="text-primary title">{{ __('OUR STORY') }}</span>
                     <h2>Ranparia Engineering co.</h2>
                     <p><b>Ranparia Engineering Co </b>{{ __('has a highly qualified staff which includes technicians, engineers, quality inspectors, admin staff, skilled and semi skilled workers around 120 people in strength. our team is having profound knowledge in the feild of casting, forging and machining.') }}
                     </p>
@@ -38,7 +38,7 @@
     <section>
         <div class="row">
             <div class="col-12 text-center">
-                <h2>{{ __('Our Business Minds') }}</h2>
+                <h2 class="text-primary">{{ __('Our Business Minds') }}</h2>
             </div>
         </div>
 

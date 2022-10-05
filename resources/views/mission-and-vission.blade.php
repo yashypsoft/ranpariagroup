@@ -8,7 +8,7 @@
     <div class="container-custom-page">
         <div class="row">
             <div class="col-md-7 col-sm-12">
-                <h2>{{__('Mission & Vision')}}</h2>
+                <h2 class="text-primary">{{__('Mission & Vision')}}</h2>
 
                 <p> <strong> {{__('Mission:')}} </strong> {{__('To be the foremost manufacturer and supplier of various component by maintaining consistency in quality through continuous improvements in process by upgrading technology for offering at competitive price.')}}</p>
                 <br>

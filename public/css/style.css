@@ -417,7 +417,7 @@ optgroup,
 textarea {
     color: #252525;
     font-family: "ProximaNova", sans-serif;
-    font-size: 16px;
+    font-size: 23px;
     line-height: 1.5714285714;
     font-weight: 400;
     -ms-word-wrap: break-word;
@@ -5620,9 +5620,9 @@ blockquote {
     position: absolute;
     content: " ";
     width: 3px;
-    background-color: #eeeeee;
+    background-color: #0095cb;
     left: 50%;
-    margin-left: -1.5px;
+    margin-left: -3.5px;
 }
 
 .timeline>li {
@@ -5691,7 +5691,6 @@ blockquote {
     width: 60px;
     height: 60px;
     line-height: 59px;
-    font-size: 1.4em;
     text-align: center;
     position: absolute;
     top: 16px;
@@ -6328,7 +6327,6 @@ form .browse {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    text-align: center;
     letter-spacing: 6px;
 }
 
