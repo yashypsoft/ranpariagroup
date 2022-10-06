@@ -743,7 +743,8 @@ window.onscroll = function () { stickyNavbar() };
 function stickyNavbar() {
     var navbar = document.getElementById("site-header");
     var sticky = navbar.offsetTop;
-    if (window.pageYOffset >= sticky) {
+    console.log([window.pageYOffset,sticky]);
+    if (window.pageYOffset && window.pageYOffset >= sticky) {
         navbar.classList.add("sticky")
     } else {
         navbar.classList.remove("sticky");
