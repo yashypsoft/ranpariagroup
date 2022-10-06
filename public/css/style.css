@@ -6113,6 +6113,7 @@ img.indus-image {
     bottom: 12px;
     font-size: 20px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .product-block:hover .product-title {
