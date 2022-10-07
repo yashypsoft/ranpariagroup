@@ -30,8 +30,8 @@
         <br>
         <div class="container-custom-page">
             <div class="row">
-                <h2 class="text-primary">Infrastructure</h2>
-                <p>{{ __('Our industries are experiencing basic challenges. From climate change and geopolitics to the energy market, we are facing new reality. Some people consider them a threat. At Industris, we believe our job is to turn them into opportunities.') }}
+                <h2 class="text-primary" style="margin-left:10px">Infrastructure</h2>
+                <p style="margin-left:10px">{{ __('Our industries are experiencing basic challenges. From climate change and geopolitics to the energy market, we are facing new reality. Some people consider them a threat. At Industris, we believe our job is to turn them into opportunities.') }}
                     <br>{{ __("That's why we look for new ways to use our expertise in the energy industry, discover new opportunities and promote innovation around the world. Our ambition is to become the world's most efficient industrial solutions and services provider.") }}
                 </p>
             </div>
