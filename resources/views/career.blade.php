@@ -97,6 +97,8 @@
                     <div id="upload_success" class="upload_success alert alert-success" style="display: none;"></div>
                     <form method="POST" action="{{ route('carrier.store') }}" enctype="multipart/form-data"
                         class="resume-block upload-form">
+                        <input type="hidden" name="onlyfile" value="true">
+
                         {{ csrf_field() }}
                         <div class="form-group carrier-form-group">
                             <div class="browse">

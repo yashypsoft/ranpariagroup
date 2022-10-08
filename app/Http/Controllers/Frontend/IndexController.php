@@ -96,13 +96,15 @@ class IndexController extends Controller
 
     public function sendCarrierMail(Request $request) {
         try{
-            $this->validate($request, [
-                'name' => 'required',
-                'email' => 'required|email',
-                // 'subject' => 'required',
-                'cvfile' => 'required|mimes:doc,docx,pdf',
-                'message' => 'required'
-            ]);
+            if(!$request->onlyfile){
+                $this->validate($request, [
+                    'name' => 'required',
+                    'email' => 'required|email',
+                    // 'subject' => 'required',
+                    'cvfile' => 'required|mimes:doc,docx,pdf',
+                    'message' => 'required'
+                ]);
+            }
 
             $path = public_path('uploads');
             $attachment = $request->file('cvfile');
