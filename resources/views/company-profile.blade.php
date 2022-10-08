@@ -60,8 +60,8 @@
         <br>
         <div class="container-custom-page">
             <div class="row">
-                <h2 class="text-primary">Our Units</h2>
-                <div class="col-md-6 col-sm-12 sm-center">
+                <h2 class="text-primary" style="margin-left:10px">Inhouse Facilities</h2>
+                <div class="col-md-4 col-sm-12 sm-center">
                     <div class="industris-space-sm"></div>
                     <div class="slider" data-show="1" data-arrow="true">
                         <div>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-8 col-sm-12">
                     <h3 class="title">{{ __('Casting') }}</h3>
                     <ul>
                         <li>{{ __('Graded Cast Iron and Alloy CI casting') }}</li>
@@ -88,7 +88,7 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-md-6 col-sm-12 sm-center">
+                <div class="col-md-4 col-sm-12 sm-center">
                     <div class="industris-space-sm"></div>
                     <div class="slider" data-show="1" data-arrow="true">
                         <div>
@@ -103,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-8 col-sm-12">
                     <h3 class="title">{{ __('Forging') }}</h3>
                     <ul>
                         <li>{{ __('Hot Forging') }}</li>
@@ -113,7 +113,7 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-md-6 col-sm-12 sm-center">
+                <div class="col-md-4 col-sm-12 sm-center">
                     <div class="industris-space-sm"></div>
                     <div class="slider" data-show="1" data-arrow="true">
                         <div>
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-8 col-sm-12">
                     <h3 class="title">{{ __('Machining') }}</h3>
                     <ul>
                         <li>{{ __('CNC Machine') }}</li>
@@ -139,22 +139,27 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-md-6 col-sm-12 sm-center">
+                <div class="col-md-4 col-sm-12 sm-center">
                     <div class="industris-space-sm"></div>
                     <div class="slider" data-show="1" data-arrow="true">
                         <div>
                             <div class="slider-item">
-                                <img class="unit-image" src="{{ asset('images/unit/lab.png') }}" alt="">
+                                <img class="unit-image" src="{{ asset('images/unit/Lab1.png') }}" alt="">
                             </div>
                         </div>
                         <div>
                             <div class="slider-item">
-                                <img class="unit-image" src="{{ asset('images/unit/lab.png') }}" alt="">
+                                <img class="unit-image" src="{{ asset('images/unit/Lab2.png') }}" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider-item">
+                                <img class="unit-image" src="{{ asset('images/unit/Lab3.png') }}" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-8 col-sm-12">
                     <h3 class="title">{{ __('Laboratory') }}</h3>
                     <ul>
                         <li>{{ __('Ravalue Tester, Hardness Tester and Tensile Tester') }}</li>

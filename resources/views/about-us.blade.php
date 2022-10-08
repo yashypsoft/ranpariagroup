@@ -35,7 +35,7 @@
             </div>
         </div>
     </section>
-    <section>
+    {{-- <section>
         <div class="row">
             <div class="col-12 text-center">
                 <h2 class="text-primary">{{ __('Our Business Minds') }}</h2>
@@ -112,5 +112,5 @@
         </div>
 
 
-    </section>
+    </section> --}}
 @endsection
