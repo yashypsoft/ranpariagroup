@@ -37,23 +37,25 @@
             </div>
         </div>
         <div class="industris-space-90"></div>
-        <div class="container-custom-page">
-            <div class="row">
-                <div class="col-md-2 col-sm-12 sm-center"></div>
-                <div class="col-md-8 col-sm-12 sm-center">
-                    <div class="industris-space-sm"></div>
-                    <div class="slider" data-show="1" data-arrow="true">
-                        @for ($i = 1; $i <= 3; $i++)
-                            <div>
-                                <div class="slider-item">
-                                    <img src="{{ asset('images/infra/I' . $i . '.jpg') }}" alt="">
-                                </div>
-                            </div>
-                        @endfor
+        <div class="container-custom-page gallery-images">
+            @for ($i = 1; $i < 4; $i++)
+                @if ($i%3 == 1)
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div id="projects" class="project-grid gallery row ">
+                @endif
+                <div class="project-item events col-lg-4 col-sm-6">
+                    <div class="inner product-block">
+                            <img src="{{asset('images/infra/I'.$i.'.jpg')}}" >
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-12 sm-center"></div>
-            </div>
+                @if ($i%3 == 0)
+                    </div>
+                    </div>
+                    </div>
+                @endif
+            @endfor
         </div>
         <br>
         <hr>
