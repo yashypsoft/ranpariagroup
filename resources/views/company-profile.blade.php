@@ -193,6 +193,11 @@
                                 <img class="unit-image" src="{{ asset('images/unit/Lab4.png') }}" alt="">
                             </div>
                         </div>
+                        <div>
+                            <div class="slider-item">
+                                <img class="unit-image" src="{{ asset('images/unit/Lab5.png') }}" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-12">
