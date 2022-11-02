@@ -30,7 +30,7 @@
                     {{ Session::get('error') }}
                 </div>
             @endif
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-md-12">
                     <div class="industris-space-50"></div>
                     <div class="career-box">
@@ -87,12 +87,14 @@
                             Now</button>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
         <div class="container">
-            <div class="row justify-content-center">
+            <section class="row justify-content-center">
                 <div class="col-sm-12 col-md-12 col-lg-10">
-                    <h2 class="no-border text-center"><small>Don't see the right fit for you</small><br>Submit your CV for
+                    <h2 class="no-border text-center">
+                        <small>Evolving your career with Ranparia Group</small>
+                        <br>Submit your CV for
                         future opening.</h2>
                     <div id="upload_success" class="upload_success alert alert-success" style="display: none;"></div>
                     <form method="POST" action="{{ route('carrier.store') }}" enctype="multipart/form-data"
@@ -112,7 +114,7 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </section>
         </div>
     </section>
 
