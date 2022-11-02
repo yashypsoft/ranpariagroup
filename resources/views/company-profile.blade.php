@@ -151,7 +151,7 @@
                         </div>
                         <div>
                             <div class="slider-item">
-                                <img class="unit-image" src="{{ asset('images/unit/grinding.png') }}" alt="">
+                                <img class="unit-image" src="{{ asset('images/unit/Grinding.png') }}" alt="">
                             </div>
                         </div>
                     </div>
