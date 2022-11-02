@@ -73,7 +73,13 @@
                         </div>
                         <div>
                             <div class="slider-item">
-                                <img class="unit-image" class="unit-image" src="{{ asset('images/unit/Casting2.jpg') }}"
+                                <img class="unit-image" src="{{ asset('images/unit/Casting2.png') }}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider-item">
+                                <img class="unit-image" src="{{ asset('images/unit/Casting3.png') }}"
                                     alt="">
                             </div>
                         </div>
@@ -103,6 +109,16 @@
                                 <img class="unit-image" src="{{ asset('images/unit/Forging2.jpg') }}" alt="">
                             </div>
                         </div>
+                        <div>
+                            <div class="slider-item">
+                                <img class="unit-image" src="{{ asset('images/unit/Forging2.png') }}" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider-item">
+                                <img class="unit-image" src="{{ asset('images/unit/Forging3.png') }}" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-12">
@@ -128,6 +144,16 @@
                                 <img class="unit-image" src="{{ asset('images/unit/VMC.jpg') }}" alt="">
                             </div>
                         </div>
+                        <div>
+                            <div class="slider-item">
+                                <img class="unit-image" src="{{ asset('images/unit/Drilling.jpg') }}" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider-item">
+                                <img class="unit-image" src="{{ asset('images/unit/grinding.png') }}" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-12">
@@ -136,6 +162,9 @@
                         <li>{{ __('CNC Machine') }}</li>
                         <li>{{ __('VMC Machine') }}</li>
                         <li>{{ __('Drilling Machine') }}</li>
+                        <li>{{ __('Grinding Machine') }}</li>
+                        <li>{{ __('Cutting Machine') }}</li>
+                        <li>{{ __('Fettling Machine') }}</li>
                     </ul>
                 </div>
             </div>
@@ -157,6 +186,11 @@
                         <div>
                             <div class="slider-item">
                                 <img class="unit-image" src="{{ asset('images/unit/Lab3.png') }}" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider-item">
+                                <img class="unit-image" src="{{ asset('images/unit/Lab4.png') }}" alt="">
                             </div>
                         </div>
                     </div>
