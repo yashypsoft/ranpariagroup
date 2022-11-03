@@ -14,7 +14,7 @@
             <div class="row flex-row">
                 <div class="col-sm-8 col-xs-12">
                     <span class="title text-primary">{{ __('Find job') }}</span>
-                    <h2 class="no-margin-bottom">{{ __('Industris Job') }}</h2>
+                    <h2 class="no-margin-bottom">{{ __('Industries Job') }}</h2>
                 </div>
                 <div class="col-sm-4 col-xs-12 text-right align-self-end">
                     <a class="text-primary" href="#">{{ __('Career FAQs') }} <i class="icon ion-md-help"></i></a>
