@@ -11,8 +11,8 @@
             <div class="container-custom-page">
                 <div class="row">
                     <div class="col-md-9">
-                        <div class="slider-content">
-                            <h1>The leading provider  of Industrial</h1>
+                        <div class="slider-content text-primary">
+                            <h1 class="">WELCOME TO <br> RANPARIA GROUP</h1>
                         </div>
                     </div>
                 </div>
